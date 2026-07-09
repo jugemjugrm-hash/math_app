@@ -8,12 +8,17 @@ class QuizProgress {
   QuizProgress({required this.currentIndex, required this.score});
 }
 
-/// Persists where the user left off in the full drill, and which question
+/// Persists where the user left off in a unit's drill, and which question
 /// ids they have ever answered incorrectly (the review list). Answering a
-/// wrong-list question correctly removes it from the list.
+/// wrong-list question correctly removes it from the list. Keys are scoped
+/// per unitId so progress in one unit doesn't clobber another's.
 class ProgressRepository {
-  static const _progressKey = 'seifu_progress_v1';
-  static const _wrongIdsKey = 'seifu_wrong_ids_v1';
+  final String unitId;
+
+  ProgressRepository(this.unitId);
+
+  String get _progressKey => 'progress_v1_$unitId';
+  String get _wrongIdsKey => 'wrong_ids_v1_$unitId';
 
   Future<void> saveProgress(QuizProgress progress) async {
     final prefs = await SharedPreferences.getInstance();

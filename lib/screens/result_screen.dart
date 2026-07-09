@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'start_screen.dart';
+import 'unit_list_screen.dart';
 
 class ResultScreen extends StatelessWidget {
   final int score;
@@ -29,13 +29,13 @@ class ResultScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).pushAndRemoveUntil(
-                    MaterialPageRoute(builder: (_) => const StartScreen()),
+                    MaterialPageRoute(builder: (_) => const UnitListScreen()),
                     (route) => false,
                   );
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                  child: Text('スタート画面に戻る'),
+                  child: Text('単元選択に戻る'),
                 ),
               ),
             ],

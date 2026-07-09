@@ -1,0 +1,378 @@
+{
+  "unit": "比例と反比例",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "hirei-001",
+      "subunit": "関数と変域",
+      "type": "choice",
+      "question": "次のうち、y が x の関数であるものはどれか。",
+      "choices": [
+        "面積が x cm² の長方形のたての長さ y cm",
+        "1辺が x cm の正方形の面積 y cm²",
+        "身長が x cm の人の体重 y kg",
+        "絶対値が x である数 y"
+      ],
+      "answer": "1辺が x cm の正方形の面積 y cm²",
+      "explanation": "x の値を1つ決めると y の値がただ1つに決まるとき、y は x の関数。正方形の面積は1辺で1つに決まる。",
+      "difficulty": 1,
+      "tags": ["関数"]
+    },
+    {
+      "id": "hirei-002",
+      "subunit": "関数と変域",
+      "type": "choice",
+      "question": "「x の値が -2 より大きく 4 以下」を不等式で表したものはどれか。",
+      "choices": [
+        "-2<x≦4",
+        "-2≦x<4",
+        "-2≦x≦4",
+        "-2<x<4"
+      ],
+      "answer": "-2<x≦4",
+      "explanation": "「より大きい」は < で等号なし、「以下」は ≦ で等号あり。よって -2<x≦4。",
+      "difficulty": 1,
+      "tags": ["変域"]
+    },
+    {
+      "id": "hirei-003",
+      "subunit": "関数と変域",
+      "type": "numeric",
+      "question": "関数 y=3x について、x=4 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "12",
+      "explanation": "y=3×4=12。",
+      "difficulty": 1,
+      "tags": ["関数", "代入"]
+    },
+    {
+      "id": "hirei-004",
+      "subunit": "関数と変域",
+      "type": "numeric",
+      "question": "関数 y=-3x について、x の変域が -2≦x≦1 のとき、y の最小値を求めなさい。",
+      "choices": null,
+      "answer": "-3",
+      "explanation": "y=-3x は x が増えると y が減る。x=1 のとき y=-3 が最小。",
+      "difficulty": 2,
+      "tags": ["変域", "最小値"]
+    },
+    {
+      "id": "hirei-005",
+      "subunit": "関数と変域",
+      "type": "choice",
+      "question": "関数 y=2x について、x の変域が -1≦x≦3 のときの y の変域を求めなさい。",
+      "choices": [
+        "-2≦y≦6",
+        "-1≦y≦3",
+        "0≦y≦6",
+        "-2≦y≦3"
+      ],
+      "answer": "-2≦y≦6",
+      "explanation": "x=-1 のとき y=-2、x=3 のとき y=6。よって -2≦y≦6。",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "hirei-006",
+      "subunit": "比例の式 y=ax",
+      "type": "choice",
+      "question": "y は x に比例し、x=2 のとき y=6 である。y を x の式で表しなさい。",
+      "choices": [
+        "y=3x",
+        "y=2x",
+        "y=6x",
+        "y=x+4"
+      ],
+      "answer": "y=3x",
+      "explanation": "a=y÷x=6÷2=3。よって y=3x。",
+      "difficulty": 1,
+      "tags": ["比例", "式"]
+    },
+    {
+      "id": "hirei-007",
+      "subunit": "比例の式 y=ax",
+      "type": "choice",
+      "question": "y は x に比例し、比例定数が -4 である。y を x の式で表しなさい。",
+      "choices": [
+        "y=-4x",
+        "y=4x",
+        "y=-4/x",
+        "y=x-4"
+      ],
+      "answer": "y=-4x",
+      "explanation": "比例の式は y=ax。a=-4 だから y=-4x。",
+      "difficulty": 1,
+      "tags": ["比例", "式"]
+    },
+    {
+      "id": "hirei-008",
+      "subunit": "比例の式 y=ax",
+      "type": "numeric",
+      "question": "比例の式 y=5x について、x=3 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "15",
+      "explanation": "y=5×3=15。",
+      "difficulty": 1,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-009",
+      "subunit": "比例の式 y=ax",
+      "type": "numeric",
+      "question": "y は x に比例し、x=4 のとき y=20 である。x=7 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "35",
+      "explanation": "a=20÷4=5 で y=5x。x=7 のとき y=5×7=35。",
+      "difficulty": 2,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-010",
+      "subunit": "比例の式 y=ax",
+      "type": "numeric",
+      "question": "y は x に比例し、x=3 のとき y=-12 である。x=-2 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "8",
+      "explanation": "a=-12÷3=-4 で y=-4x。x=-2 のとき y=-4×(-2)=8。",
+      "difficulty": 2,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-011",
+      "subunit": "比例の式 y=ax",
+      "type": "choice",
+      "question": "y は x に比例し、x=-6 のとき y=8 である。比例定数 a を求めなさい。",
+      "choices": [
+        "-4/3",
+        "4/3",
+        "-3/4",
+        "3/4"
+      ],
+      "answer": "-4/3",
+      "explanation": "a=y÷x=8÷(-6)=-4/3。",
+      "difficulty": 3,
+      "tags": ["比例", "比例定数"]
+    },
+    {
+      "id": "hirei-012",
+      "subunit": "比例のグラフ",
+      "type": "choice",
+      "question": "比例 y=2x のグラフについて、正しいものはどれか。",
+      "choices": [
+        "原点を通る右上がりの直線",
+        "原点を通る右下がりの直線",
+        "双曲線",
+        "y軸に平行な直線"
+      ],
+      "answer": "原点を通る右上がりの直線",
+      "explanation": "y=ax のグラフは原点を通る直線。a=2>0 なので右上がり。",
+      "difficulty": 1,
+      "tags": ["比例", "グラフ"]
+    },
+    {
+      "id": "hirei-013",
+      "subunit": "比例のグラフ",
+      "type": "choice",
+      "question": "比例 y=-3x のグラフについて、正しいものはどれか。",
+      "choices": [
+        "右下がりの直線で、x が増加すると y は減少する",
+        "右上がりの直線で、x が増加すると y は増加する",
+        "双曲線で、x が増加すると y は減少する",
+        "原点を通らない直線"
+      ],
+      "answer": "右下がりの直線で、x が増加すると y は減少する",
+      "explanation": "a=-3<0 なので原点を通る右下がりの直線。x が増えると y は減る。",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "増減"]
+    },
+    {
+      "id": "hirei-014",
+      "subunit": "比例のグラフ",
+      "type": "choice",
+      "question": "原点と点 (3, -6) を通る比例のグラフの式を求めなさい。",
+      "choices": [
+        "y=-2x",
+        "y=2x",
+        "y=-6x",
+        "y=-2/x"
+      ],
+      "answer": "y=-2x",
+      "explanation": "a=y÷x=-6÷3=-2。よって y=-2x。",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "式"]
+    },
+    {
+      "id": "hirei-015",
+      "subunit": "比例のグラフ",
+      "type": "numeric",
+      "question": "比例 y=4x のグラフが点 (a, 12) を通るとき、a の値を求めなさい。",
+      "choices": null,
+      "answer": "3",
+      "explanation": "12=4×a より a=12÷4=3。",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "代入"]
+    },
+    {
+      "id": "hirei-016",
+      "subunit": "反比例の式 y=a/x",
+      "type": "choice",
+      "question": "y は x に反比例し、x=3 のとき y=4 である。y を x の式で表しなさい。",
+      "choices": [
+        "y=12/x",
+        "y=x/12",
+        "y=12x",
+        "y=4/x"
+      ],
+      "answer": "y=12/x",
+      "explanation": "反比例の式は y=a/x で a=xy=3×4=12。よって y=12/x。",
+      "difficulty": 1,
+      "tags": ["反比例", "式"]
+    },
+    {
+      "id": "hirei-017",
+      "subunit": "反比例の式 y=a/x",
+      "type": "choice",
+      "question": "y は x に反比例し、比例定数が -8 である。y を x の式で表しなさい。",
+      "choices": [
+        "y=-8/x",
+        "y=8/x",
+        "y=-8x",
+        "y=8x"
+      ],
+      "answer": "y=-8/x",
+      "explanation": "反比例の式は y=a/x。a=-8 だから y=-8/x。",
+      "difficulty": 1,
+      "tags": ["反比例", "式"]
+    },
+    {
+      "id": "hirei-018",
+      "subunit": "反比例の式 y=a/x",
+      "type": "numeric",
+      "question": "y は x に反比例し、x=2 のとき y=9 である。x=3 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "6",
+      "explanation": "a=xy=2×9=18 で y=18/x。x=3 のとき y=18÷3=6。",
+      "difficulty": 2,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-019",
+      "subunit": "反比例の式 y=a/x",
+      "type": "numeric",
+      "question": "y は x に反比例し、x=4 のとき y=-6 である。x=-3 のときの y の値を求めなさい。",
+      "choices": null,
+      "answer": "8",
+      "explanation": "a=xy=4×(-6)=-24 で y=-24/x。x=-3 のとき y=-24÷(-3)=8。",
+      "difficulty": 2,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-020",
+      "subunit": "反比例の式 y=a/x",
+      "type": "numeric",
+      "question": "y は x に反比例し、x=5 のとき y=6 である。y=10 のときの x の値を求めなさい。",
+      "choices": null,
+      "answer": "3",
+      "explanation": "a=xy=5×6=30 で y=30/x。y=10 のとき 10=30/x より x=30÷10=3。",
+      "difficulty": 3,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-021",
+      "subunit": "反比例の式 y=a/x",
+      "type": "choice",
+      "question": "y は x に反比例し、x=6 のとき y=4 である。比例定数を求めなさい。",
+      "choices": [
+        "24",
+        "10",
+        "2/3",
+        "12"
+      ],
+      "answer": "24",
+      "explanation": "反比例の比例定数は a=xy=6×4=24。",
+      "difficulty": 3,
+      "tags": ["反比例", "比例定数"]
+    },
+    {
+      "id": "hirei-022",
+      "subunit": "反比例のグラフ",
+      "type": "choice",
+      "question": "反比例 y=6/x のグラフについて、正しいものはどれか。",
+      "choices": [
+        "双曲線で、x>0 の部分では x が増加すると y は減少する",
+        "原点を通る右上がりの直線",
+        "放物線",
+        "原点を通る右下がりの直線"
+      ],
+      "answer": "双曲線で、x>0 の部分では x が増加すると y は減少する",
+      "explanation": "反比例のグラフは双曲線。a=6>0 なので x>0 の部分では x が増えると y は減る。",
+      "difficulty": 2,
+      "tags": ["反比例", "グラフ"]
+    },
+    {
+      "id": "hirei-023",
+      "subunit": "反比例のグラフ",
+      "type": "choice",
+      "question": "反比例 y=-12/x のグラフが通る点はどれか。",
+      "choices": [
+        "(3, -4)",
+        "(2, 6)",
+        "(4, 3)",
+        "(6, 2)"
+      ],
+      "answer": "(3, -4)",
+      "explanation": "x=3 のとき y=-12÷3=-4 で (3, -4) を通る。他の点は式を満たさない。",
+      "difficulty": 3,
+      "tags": ["反比例", "グラフ", "通る点"]
+    },
+    {
+      "id": "hirei-024",
+      "subunit": "反比例のグラフ",
+      "type": "choice",
+      "question": "反比例のグラフが点 (2, 10) を通るとき、その式を求めなさい。",
+      "choices": [
+        "y=20/x",
+        "y=5/x",
+        "y=20x",
+        "y=x/20"
+      ],
+      "answer": "y=20/x",
+      "explanation": "a=xy=2×10=20。よって y=20/x。",
+      "difficulty": 2,
+      "tags": ["反比例", "グラフ", "式"]
+    },
+    {
+      "id": "hirei-025",
+      "subunit": "比例反比例の利用",
+      "type": "numeric",
+      "question": "分速 70 m で進むとき、x 分間に進む道のり y m は y=70x と表せる。6 分間で進む道のりは何 m か求めなさい。",
+      "choices": null,
+      "answer": "420",
+      "explanation": "y=70×6=420 (m)。",
+      "difficulty": 2,
+      "tags": ["利用", "比例", "速さ"]
+    },
+    {
+      "id": "hirei-026",
+      "subunit": "比例反比例の利用",
+      "type": "numeric",
+      "question": "面積が 24 cm² の長方形で、たての長さを x cm、横の長さを y cm とする。たてが 6 cm のとき、横は何 cm か求めなさい。",
+      "choices": null,
+      "answer": "4",
+      "explanation": "xy=24 より y=24/x。x=6 のとき y=24÷6=4 (cm)。",
+      "difficulty": 3,
+      "tags": ["利用", "反比例", "面積"]
+    },
+    {
+      "id": "hirei-027",
+      "subunit": "比例反比例の利用",
+      "type": "numeric",
+      "question": "かみ合う2つの歯車がある。歯数 20 の歯車が1分間に 15 回転するとき、かみ合う歯数 25 の歯車は1分間に何回転するか求めなさい。",
+      "choices": null,
+      "answer": "12",
+      "explanation": "回転数は歯数に反比例し a=20×15=300。歯数 25 では 300÷25=12 回転。",
+      "difficulty": 3,
+      "tags": ["利用", "反比例", "歯車"]
+    }
+  ]
+}

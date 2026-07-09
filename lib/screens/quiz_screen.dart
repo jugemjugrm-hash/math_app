@@ -6,6 +6,7 @@ import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
+  final ProgressRepository progressRepository;
   final int initialIndex;
   final int initialScore;
 
@@ -17,6 +18,7 @@ class QuizScreen extends StatefulWidget {
   const QuizScreen({
     super.key,
     required this.questions,
+    required this.progressRepository,
     this.initialIndex = 0,
     this.initialScore = 0,
     this.saveResumeState = false,
@@ -28,7 +30,7 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   final _numericController = TextEditingController();
-  final _progressRepository = ProgressRepository();
+  late final _progressRepository = widget.progressRepository;
   late int _currentIndex = widget.initialIndex;
   late int _score = widget.initialScore;
   bool _answered = false;

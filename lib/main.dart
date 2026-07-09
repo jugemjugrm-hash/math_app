@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/start_screen.dart';
+import 'screens/unit_list_screen.dart';
 
 void main() {
   runApp(const MathApp());
@@ -16,7 +16,7 @@ class MathApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StartScreen(),
+      home: const UnitListScreen(),
     );
   }
 }

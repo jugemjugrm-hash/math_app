@@ -63,6 +63,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/questions/grade1/seifu_no_kazu.json
+    - assets/questions/grade1/moji_shiki.json
+    - assets/questions/grade1/houteishiki.json
+    - assets/questions/grade1/heimen_zukei.json
+    - assets/questions/grade1/kukan_zukei.json
+    - assets/questions/grade1/hirei_hanpirei.json
+    - assets/questions/grade1/data_bunpu.json
+    - assets/questions/grade1/kakuritsu.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

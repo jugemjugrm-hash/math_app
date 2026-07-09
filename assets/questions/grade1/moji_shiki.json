@@ -1,0 +1,281 @@
+{
+  "unit": "文字式",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "moji-001",
+      "subunit": "文字式の表し方",
+      "type": "choice",
+      "question": "a×5 を文字式の表し方にしたがって表しなさい。",
+      "choices": ["5a", "a5", "5×a", "a+5"],
+      "answer": "5a",
+      "explanation": "文字式では乗法の記号×を省略し、数は文字の前に書く。よってa×5=5a。",
+      "difficulty": 1,
+      "tags": ["表し方"]
+    },
+    {
+      "id": "moji-002",
+      "subunit": "文字式の表し方",
+      "type": "choice",
+      "question": "x×x×x を表しなさい。",
+      "choices": ["3x", "x³", "x+3", "³x"],
+      "answer": "x³",
+      "explanation": "同じ文字の積は累乗の形で表す。x×x×x = x³。",
+      "difficulty": 2,
+      "tags": ["表し方", "累乗"]
+    },
+    {
+      "id": "moji-003",
+      "subunit": "文字式の表し方",
+      "type": "choice",
+      "question": "a÷4 を分数の形で表しなさい。",
+      "choices": ["a/4", "4/a", "4a", "a-4"],
+      "answer": "a/4",
+      "explanation": "文字式では除法は分数の形で表す。a÷4 = a/4。",
+      "difficulty": 1,
+      "tags": ["表し方", "除法"]
+    },
+    {
+      "id": "moji-004",
+      "subunit": "文字式の表し方",
+      "type": "choice",
+      "question": "(-1)×x を表しなさい。",
+      "choices": ["-x", "x-1", "-1x", "1x"],
+      "answer": "-x",
+      "explanation": "係数が1または-1のときは1を省略する。(-1)×x = -x。",
+      "difficulty": 2,
+      "tags": ["表し方", "係数の省略"]
+    },
+    {
+      "id": "moji-005",
+      "subunit": "文字式の表し方",
+      "type": "choice",
+      "question": "x×y×(-2) を表しなさい。",
+      "choices": ["-2xy", "2xy", "xy-2", "-2/xy"],
+      "answer": "-2xy",
+      "explanation": "数を前に、文字はアルファベット順に並べて書く。x×y×(-2) = -2xy。",
+      "difficulty": 2,
+      "tags": ["表し方"]
+    },
+    {
+      "id": "moji-006",
+      "subunit": "項と係数",
+      "type": "choice",
+      "question": "3x-5 の項を答えなさい。",
+      "choices": ["3xと-5", "3xと5", "xと-5", "3と-5"],
+      "answer": "3xと-5",
+      "explanation": "3x-5 は 3x+(-5) と考えられるので、項は3xと-5。",
+      "difficulty": 1,
+      "tags": ["項", "係数"]
+    },
+    {
+      "id": "moji-007",
+      "subunit": "項と係数",
+      "type": "choice",
+      "question": "3x-5 における xの係数を答えなさい。",
+      "choices": ["3", "-5", "-3", "5"],
+      "answer": "3",
+      "explanation": "項3xの、文字xにかけられている数3が係数。",
+      "difficulty": 1,
+      "tags": ["係数"]
+    },
+    {
+      "id": "moji-008",
+      "subunit": "項と係数",
+      "type": "choice",
+      "question": "-2a+7 における aの係数を答えなさい。",
+      "choices": ["-2", "2", "7", "-7"],
+      "answer": "-2",
+      "explanation": "項-2aの係数は-2。符号を含めて答える。",
+      "difficulty": 1,
+      "tags": ["係数"]
+    },
+    {
+      "id": "moji-009",
+      "subunit": "項と係数",
+      "type": "choice",
+      "question": "x-4 の項の数はいくつか。",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
+      "explanation": "x-4 = x+(-4) なので、項はxと-4の2つ。",
+      "difficulty": 1,
+      "tags": ["項"]
+    },
+    {
+      "id": "moji-010",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "x=3のとき、2x+1の値を求めなさい。",
+      "choices": null,
+      "answer": "7",
+      "explanation": "xに3を代入する。2×3+1=7。",
+      "difficulty": 1,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-011",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "x=-2のとき、3x+5の値を求めなさい。",
+      "choices": null,
+      "answer": "-1",
+      "explanation": "xに-2を代入する。3×(-2)+5=-6+5=-1。",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-012",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "a=4のとき、-a+6の値を求めなさい。",
+      "choices": null,
+      "answer": "2",
+      "explanation": "aに4を代入する。-4+6=2。",
+      "difficulty": 1,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-013",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "x=-3のとき、x²の値を求めなさい。",
+      "choices": null,
+      "answer": "9",
+      "explanation": "xに-3を代入する。(-3)² = (-3)×(-3) = 9。",
+      "difficulty": 2,
+      "tags": ["式の値", "累乗"]
+    },
+    {
+      "id": "moji-014",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "a=2, b=-3のとき、a+2bの値を求めなさい。",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "a=2, b=-3を代入する。2+2×(-3)=2-6=-4。",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-015",
+      "subunit": "式の値",
+      "type": "numeric",
+      "question": "x=-1のとき、5-3xの値を求めなさい。",
+      "choices": null,
+      "answer": "8",
+      "explanation": "xに-1を代入する。5-3×(-1)=5+3=8。",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-016",
+      "subunit": "一次式の加法・減法",
+      "type": "choice",
+      "question": "(2x+3)+(4x-1) を計算しなさい。",
+      "choices": ["6x+2", "6x+4", "2x+2", "6x-2"],
+      "answer": "6x+2",
+      "explanation": "xの項どうし、数の項どうしをまとめる。(2x+4x)+(3-1)=6x+2。",
+      "difficulty": 2,
+      "tags": ["加法"]
+    },
+    {
+      "id": "moji-017",
+      "subunit": "一次式の加法・減法",
+      "type": "choice",
+      "question": "(5x-2)-(3x-6) を計算しなさい。",
+      "choices": ["2x+4", "2x-4", "8x+4", "2x-8"],
+      "answer": "2x+4",
+      "explanation": "かっこを外すと符号が変わる。5x-2-3x+6=2x+4。",
+      "difficulty": 3,
+      "tags": ["減法"]
+    },
+    {
+      "id": "moji-018",
+      "subunit": "一次式の加法・減法",
+      "type": "choice",
+      "question": "(-3x+4)+(x-7) を計算しなさい。",
+      "choices": ["-2x-3", "-2x+3", "-4x-3", "2x-3"],
+      "answer": "-2x-3",
+      "explanation": "xの項どうし、数の項どうしをまとめる。(-3x+x)+(4-7)=-2x-3。",
+      "difficulty": 2,
+      "tags": ["加法"]
+    },
+    {
+      "id": "moji-019",
+      "subunit": "一次式の加法・減法",
+      "type": "choice",
+      "question": "(6x-5)-(2x-5) を計算しなさい。",
+      "choices": ["4x", "4x-10", "8x", "4x-5"],
+      "answer": "4x",
+      "explanation": "かっこを外すと6x-5-2x+5=4x。",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "moji-020",
+      "subunit": "一次式と数の乗法・除法",
+      "type": "choice",
+      "question": "3(2x-5) を計算しなさい。",
+      "choices": ["6x-15", "6x-5", "5x-15", "6x-8"],
+      "answer": "6x-15",
+      "explanation": "分配法則を使う。3×2x-3×5=6x-15。",
+      "difficulty": 2,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "moji-021",
+      "subunit": "一次式と数の乗法・除法",
+      "type": "choice",
+      "question": "-2(x-4) を計算しなさい。",
+      "choices": ["-2x+8", "-2x-8", "-2x+4", "2x-8"],
+      "answer": "-2x+8",
+      "explanation": "分配法則を使う。-2×x+(-2)×(-4)=-2x+8。",
+      "difficulty": 2,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "moji-022",
+      "subunit": "一次式と数の乗法・除法",
+      "type": "choice",
+      "question": "(8x-12)÷4 を計算しなさい。",
+      "choices": ["2x-3", "2x-12", "8x-3", "2x-4"],
+      "answer": "2x-3",
+      "explanation": "各項を4でわる。8x÷4=2x、-12÷4=-3。",
+      "difficulty": 2,
+      "tags": ["除法"]
+    },
+    {
+      "id": "moji-023",
+      "subunit": "一次式と数の乗法・除法",
+      "type": "choice",
+      "question": "(-15x+9)÷(-3) を計算しなさい。",
+      "choices": ["5x-3", "5x-9", "-5x+3", "5x+3"],
+      "answer": "5x-3",
+      "explanation": "各項を-3でわる。-15x÷(-3)=5x、9÷(-3)=-3。",
+      "difficulty": 3,
+      "tags": ["除法"]
+    },
+    {
+      "id": "moji-024",
+      "subunit": "四則混合",
+      "type": "choice",
+      "question": "2(x+3)-(x-5) を計算しなさい。",
+      "choices": ["x+11", "x+1", "3x+11", "x-11"],
+      "answer": "x+11",
+      "explanation": "かっこを外して整理する。2x+6-x+5=x+11。",
+      "difficulty": 3,
+      "tags": ["四則混合"]
+    },
+    {
+      "id": "moji-025",
+      "subunit": "四則混合",
+      "type": "choice",
+      "question": "4(2x-1)+3(x+2) を計算しなさい。",
+      "choices": ["11x+2", "11x-2", "7x+2", "8x+5"],
+      "answer": "11x+2",
+      "explanation": "かっこを外して整理する。8x-4+3x+6=11x+2。",
+      "difficulty": 3,
+      "tags": ["四則混合"]
+    }
+  ]
+}

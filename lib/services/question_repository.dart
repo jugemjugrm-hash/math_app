@@ -3,9 +3,8 @@ import 'package:flutter/services.dart' show rootBundle;
 import '../models/question.dart';
 
 class QuestionRepository {
-  Future<List<Question>> loadGrade1Seifu() async {
-    final raw = await rootBundle
-        .loadString('assets/questions/grade1/seifu_no_kazu.json');
+  Future<List<Question>> loadQuestions(String assetPath) async {
+    final raw = await rootBundle.loadString(assetPath);
     final data = json.decode(raw) as Map<String, dynamic>;
     final list = data['questions'] as List<dynamic>;
     return list

@@ -1,0 +1,341 @@
+{
+  "unit": "正負の数",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "seifu-001",
+      "subunit": "符号・絶対値・数直線",
+      "type": "choice",
+      "question": "-7 の絶対値はどれか。",
+      "choices": ["-7", "0", "7", "1/7"],
+      "answer": "7",
+      "explanation": "絶対値とは数直線上での0からの距離。-7は0から7の距離にあるので、絶対値は7。",
+      "difficulty": 1,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-002",
+      "subunit": "符号・絶対値・数直線",
+      "type": "numeric",
+      "question": "|-12| を計算しなさい。",
+      "choices": null,
+      "answer": "12",
+      "explanation": "絶対値は符号を除いた数の大きさなので、|-12| = 12。",
+      "difficulty": 1,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-003",
+      "subunit": "符号・絶対値・数直線",
+      "type": "choice",
+      "question": "絶対値が5である数をすべて選ぶとしたら、正しい組み合わせはどれか。",
+      "choices": ["5だけ", "-5だけ", "5と-5", "存在しない"],
+      "answer": "5と-5",
+      "explanation": "0からの距離が5である数は、正の方向に5(=5)と負の方向に5(=-5)の2つ。",
+      "difficulty": 2,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-004",
+      "subunit": "大小比較",
+      "type": "choice",
+      "question": "次のうち最も小さい数はどれか。",
+      "choices": ["-5", "-2", "0", "3"],
+      "answer": "-5",
+      "explanation": "負の数は絶対値が大きいほど小さい。-5, -2, 0, 3を数直線上に並べると-5が最も左(小さい)。",
+      "difficulty": 1,
+      "tags": ["大小比較"]
+    },
+    {
+      "id": "seifu-005",
+      "subunit": "大小比較",
+      "type": "choice",
+      "question": "-3 と -8 では、どちらが大きいか。",
+      "choices": ["-3", "-8", "等しい", "比較できない"],
+      "answer": "-3",
+      "explanation": "負の数は絶対値が小さいほど大きい。|-3|=3, |-8|=8で3<8なので、-3の方が大きい。",
+      "difficulty": 1,
+      "tags": ["大小比較"]
+    },
+    {
+      "id": "seifu-006",
+      "subunit": "大小比較",
+      "type": "numeric",
+      "question": "-4 より2大きい数を答えなさい。",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "-4に2を加えると、-4+2=-2。",
+      "difficulty": 2,
+      "tags": ["大小比較", "加法"]
+    },
+    {
+      "id": "seifu-007",
+      "subunit": "加法",
+      "type": "numeric",
+      "question": "(+3) + (+5) を計算しなさい。",
+      "choices": null,
+      "answer": "8",
+      "explanation": "同符号の加法は、絶対値の和に共通の符号をつける。3+5=8、符号は+なので答えは8。",
+      "difficulty": 1,
+      "tags": ["加法", "同符号"]
+    },
+    {
+      "id": "seifu-008",
+      "subunit": "加法",
+      "type": "numeric",
+      "question": "(-4) + (-6) を計算しなさい。",
+      "choices": null,
+      "answer": "-10",
+      "explanation": "同符号の加法は、絶対値の和に共通の符号をつける。4+6=10、符号は-なので答えは-10。",
+      "difficulty": 1,
+      "tags": ["加法", "同符号"]
+    },
+    {
+      "id": "seifu-009",
+      "subunit": "加法",
+      "type": "numeric",
+      "question": "(-3) + (+5) を計算しなさい。",
+      "choices": null,
+      "answer": "2",
+      "explanation": "異符号の加法は、絶対値の差に絶対値の大きい方の符号をつける。5-3=2、5の方が大きく符号は+なので答えは2。",
+      "difficulty": 2,
+      "tags": ["加法", "異符号"]
+    },
+    {
+      "id": "seifu-010",
+      "subunit": "加法",
+      "type": "numeric",
+      "question": "(+4) + (-9) を計算しなさい。",
+      "choices": null,
+      "answer": "-5",
+      "explanation": "異符号の加法は、絶対値の差に絶対値の大きい方の符号をつける。9-4=5、9の方が大きく符号は-なので答えは-5。",
+      "difficulty": 2,
+      "tags": ["加法", "異符号"]
+    },
+    {
+      "id": "seifu-011",
+      "subunit": "減法",
+      "type": "numeric",
+      "question": "(+8) - (+3) を計算しなさい。",
+      "choices": null,
+      "answer": "5",
+      "explanation": "引く数の符号を変えて加法に直す。(+8) - (+3) = (+8) + (-3) = 5。",
+      "difficulty": 1,
+      "tags": ["減法"]
+    },
+    {
+      "id": "seifu-012",
+      "subunit": "減法",
+      "type": "numeric",
+      "question": "(-5) - (+2) を計算しなさい。",
+      "choices": null,
+      "answer": "-7",
+      "explanation": "引く数の符号を変えて加法に直す。(-5) - (+2) = (-5) + (-2) = -7。",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "seifu-013",
+      "subunit": "減法",
+      "type": "numeric",
+      "question": "(-6) - (-9) を計算しなさい。",
+      "choices": null,
+      "answer": "3",
+      "explanation": "引く数の符号を変えて加法に直す。(-6) - (-9) = (-6) + (+9) = 3。",
+      "difficulty": 2,
+      "tags": ["減法", "マイナスの引き算"]
+    },
+    {
+      "id": "seifu-014",
+      "subunit": "加減混合",
+      "type": "numeric",
+      "question": "3 - 8 + 5 を計算しなさい。",
+      "choices": null,
+      "answer": "0",
+      "explanation": "左から順に計算する。3-8=-5、-5+5=0。",
+      "difficulty": 2,
+      "tags": ["加減混合"]
+    },
+    {
+      "id": "seifu-015",
+      "subunit": "加減混合",
+      "type": "numeric",
+      "question": "-2 - 4 - (-7) を計算しなさい。",
+      "choices": null,
+      "answer": "1",
+      "explanation": "-(-7)は+7に直せる。-2-4+7 = -6+7 = 1。",
+      "difficulty": 3,
+      "tags": ["加減混合"]
+    },
+    {
+      "id": "seifu-016",
+      "subunit": "乗法",
+      "type": "numeric",
+      "question": "(+4) × (-3) を計算しなさい。",
+      "choices": null,
+      "answer": "-12",
+      "explanation": "異符号の積は負になる。4×3=12なので答えは-12。",
+      "difficulty": 1,
+      "tags": ["乗法", "異符号"]
+    },
+    {
+      "id": "seifu-017",
+      "subunit": "乗法",
+      "type": "numeric",
+      "question": "(-5) × (-6) を計算しなさい。",
+      "choices": null,
+      "answer": "30",
+      "explanation": "同符号の積は正になる。5×6=30なので答えは30。",
+      "difficulty": 1,
+      "tags": ["乗法", "同符号"]
+    },
+    {
+      "id": "seifu-018",
+      "subunit": "乗法",
+      "type": "choice",
+      "question": "負の数を3個かけ合わせると、積の符号はどうなるか。",
+      "choices": ["必ず正", "必ず負", "0になる", "個数によって変わる"],
+      "answer": "必ず負",
+      "explanation": "負の数を偶数個かければ正、奇数個かければ負になる。3個(奇数)なので必ず負。",
+      "difficulty": 3,
+      "tags": ["乗法", "符号の規則"]
+    },
+    {
+      "id": "seifu-019",
+      "subunit": "除法",
+      "type": "numeric",
+      "question": "(-24) ÷ (+6) を計算しなさい。",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "異符号の商は負になる。24÷6=4なので答えは-4。",
+      "difficulty": 1,
+      "tags": ["除法", "異符号"]
+    },
+    {
+      "id": "seifu-020",
+      "subunit": "除法",
+      "type": "numeric",
+      "question": "(-18) ÷ (-3) を計算しなさい。",
+      "choices": null,
+      "answer": "6",
+      "explanation": "同符号の商は正になる。18÷3=6なので答えは6。",
+      "difficulty": 1,
+      "tags": ["除法", "同符号"]
+    },
+    {
+      "id": "seifu-021",
+      "subunit": "乗除混合",
+      "type": "numeric",
+      "question": "(-2) × (-3) × (-4) を計算しなさい。",
+      "choices": null,
+      "answer": "-24",
+      "explanation": "負の数が3個(奇数個)なので積の符号は負。2×3×4=24なので答えは-24。",
+      "difficulty": 2,
+      "tags": ["乗除混合"]
+    },
+    {
+      "id": "seifu-022",
+      "subunit": "乗除混合",
+      "type": "numeric",
+      "question": "12 ÷ (-4) × (-2) を計算しなさい。",
+      "choices": null,
+      "answer": "6",
+      "explanation": "左から順に計算する。12÷(-4)=-3、-3×(-2)=6。",
+      "difficulty": 3,
+      "tags": ["乗除混合"]
+    },
+    {
+      "id": "seifu-023",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "(-3)^2 を計算しなさい。",
+      "choices": null,
+      "answer": "9",
+      "explanation": "(-3)^2 は (-3)×(-3) を意味する。同符号の積なので正になり、3×3=9。",
+      "difficulty": 2,
+      "tags": ["累乗"]
+    },
+    {
+      "id": "seifu-024",
+      "subunit": "四則混合",
+      "type": "choice",
+      "question": "-3^2 を計算するとどうなるか。",
+      "choices": ["9", "-9", "6", "-6"],
+      "answer": "-9",
+      "explanation": "-3^2 は -(3^2) の意味で、(-3)^2とは異なる。3^2=9なので、答えは-9。かっこの有無に注意。",
+      "difficulty": 3,
+      "tags": ["累乗", "ひっかけ"]
+    },
+    {
+      "id": "seifu-025",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "2 + 3 × (-4) を計算しなさい。",
+      "choices": null,
+      "answer": "-10",
+      "explanation": "乗法を先に計算する。3×(-4)=-12、2+(-12)=-10。",
+      "difficulty": 2,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-026",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "(-6 + 2) × (-3) を計算しなさい。",
+      "choices": null,
+      "answer": "12",
+      "explanation": "かっこの中を先に計算する。-6+2=-4、(-4)×(-3)=12。",
+      "difficulty": 2,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-027",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "18 ÷ (-3) - (-2) × 5 を計算しなさい。",
+      "choices": null,
+      "answer": "4",
+      "explanation": "乗除を先に計算する。18÷(-3)=-6、(-2)×5=-10。-6-(-10) = -6+10 = 4。",
+      "difficulty": 3,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-028",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "(-2)^3 + 4 を計算しなさい。",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "(-2)^3 = (-2)×(-2)×(-2) = -8。-8+4=-4。",
+      "difficulty": 3,
+      "tags": ["累乗", "四則混合"]
+    },
+    {
+      "id": "seifu-029",
+      "subunit": "四則混合",
+      "type": "choice",
+      "question": "計算の順序として正しいものはどれか。",
+      "choices": [
+        "左から順にすべて計算する",
+        "かっこの中→累乗→乗除→加減の順",
+        "加減→乗除→累乗→かっこの順",
+        "常に加法から計算する"
+      ],
+      "answer": "かっこの中→累乗→乗除→加減の順",
+      "explanation": "四則混合の計算順序は、かっこの中を最優先し、次に累乗、その後乗除、最後に加減の順で行う。",
+      "difficulty": 2,
+      "tags": ["計算順序", "ルール確認"]
+    },
+    {
+      "id": "seifu-030",
+      "subunit": "四則混合",
+      "type": "numeric",
+      "question": "-5 + (-3)^2 ÷ 3 を計算しなさい。",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "累乗を先に計算する。(-3)^2=9。次に乗除、9÷3=3。最後に加減、-5+3=-2。",
+      "difficulty": 3,
+      "tags": ["累乗", "計算順序"]
+    }
+  ]
+}

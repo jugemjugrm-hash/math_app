@@ -1,12 +1,26 @@
 import 'package:flutter/material.dart';
 import '../models/question.dart';
+import '../services/progress_repository.dart';
 import '../utils/answer_checker.dart';
 import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
+  final int initialIndex;
+  final int initialScore;
 
-  const QuizScreen({super.key, required this.questions});
+  /// Whether to persist resume state (currentIndex/score) as the user
+  /// progresses. Review sessions (a filtered subset of wrong questions)
+  /// don't need a resume point, only the full drill does.
+  final bool saveResumeState;
+
+  const QuizScreen({
+    super.key,
+    required this.questions,
+    this.initialIndex = 0,
+    this.initialScore = 0,
+    this.saveResumeState = false,
+  });
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -14,8 +28,9 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   final _numericController = TextEditingController();
-  int _currentIndex = 0;
-  int _score = 0;
+  final _progressRepository = ProgressRepository();
+  late int _currentIndex = widget.initialIndex;
+  late int _score = widget.initialScore;
   bool _answered = false;
   bool _isCorrect = false;
   String? _selectedChoice;
@@ -42,10 +57,18 @@ class _QuizScreenState extends State<QuizScreen> {
       _isCorrect = correct;
       if (correct) _score++;
     });
+    if (correct) {
+      _progressRepository.markCorrect(_current.id);
+    } else {
+      _progressRepository.markWrong(_current.id);
+    }
   }
 
   void _goNext() {
     if (_currentIndex + 1 >= widget.questions.length) {
+      if (widget.saveResumeState) {
+        _progressRepository.clearProgress();
+      }
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultScreen(
@@ -63,6 +86,11 @@ class _QuizScreenState extends State<QuizScreen> {
       _selectedChoice = null;
       _numericController.clear();
     });
+    if (widget.saveResumeState) {
+      _progressRepository.saveProgress(
+        QuizProgress(currentIndex: _currentIndex, score: _score),
+      );
+    }
   }
 
   @override

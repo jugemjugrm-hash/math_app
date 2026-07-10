@@ -75,4 +75,27 @@ const units = <Unit>[
     description: '全18問(相対度数と確率)',
     assetPath: 'assets/questions/grade1/kakuritsu.json',
   ),
+  // 中2 A 数と式
+  Unit(
+    id: 'shiki2',
+    grade: 2,
+    title: '式の計算',
+    description: '全26問(多項式・単項式の計算・式の値・等式変形)',
+    assetPath: 'assets/questions/grade2/shiki_no_keisan.json',
+  ),
+  Unit(
+    id: 'renritsu',
+    grade: 2,
+    title: '連立方程式',
+    description: '全26問(加減法・代入法・文章題)',
+    assetPath: 'assets/questions/grade2/renritsu_houteishiki.json',
+  ),
+  // 中2 C 関数
+  Unit(
+    id: 'ichiji',
+    grade: 2,
+    title: '一次関数',
+    description: '全28問(変化の割合・グラフ・式・利用)',
+    assetPath: 'assets/questions/grade2/ichiji_kansu.json',
+  ),
 ];

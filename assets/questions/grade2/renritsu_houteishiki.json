@@ -1,0 +1,292 @@
+{
+  "unit": "連立方程式",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "renritsu-001",
+      "subunit": "連立方程式と解",
+      "type": "choice",
+      "question": "次の(x, y)の組のうち、連立方程式 x+y=5, x−y=3 の解はどれか。",
+      "choices": ["x=4, y=1", "x=1, y=4", "x=4, y=-1", "x=3, y=2"],
+      "answer": "x=4, y=1",
+      "explanation": "2式をたすと 2x=8 で x=4。x+y=5 に代入して y=1。両方の式を満たすのは x=4, y=1。",
+      "difficulty": 1,
+      "tags": ["連立方程式", "解の意味"]
+    },
+    {
+      "id": "renritsu-002",
+      "subunit": "連立方程式と解",
+      "type": "choice",
+      "question": "連立方程式 3x+y=10, x+y=6 の解を求めよ。",
+      "choices": ["x=2, y=4", "x=4, y=2", "x=2, y=-4", "x=3, y=3"],
+      "answer": "x=2, y=4",
+      "explanation": "上の式から下の式をひくと 2x=4 で x=2。x+y=6 より y=4。",
+      "difficulty": 1,
+      "tags": ["連立方程式", "解を求める"]
+    },
+    {
+      "id": "renritsu-003",
+      "subunit": "連立方程式と解",
+      "type": "choice",
+      "question": "x=3, y=-1 が連立方程式 2x+ay=4, bx−y=7 の解であるとき、a, b の値を求めよ。",
+      "choices": ["a=2, b=2", "a=2, b=-2", "a=10, b=2", "a=2, b=3"],
+      "answer": "a=2, b=2",
+      "explanation": "2·3+a·(−1)=4 より 6−a=4 で a=2。b·3−(−1)=7 より 3b+1=7 で b=2。",
+      "difficulty": 2,
+      "tags": ["連立方程式", "係数決定"]
+    },
+    {
+      "id": "renritsu-004",
+      "subunit": "加減法",
+      "type": "choice",
+      "question": "連立方程式 x+y=7, x−y=1 を加減法で解け。",
+      "choices": ["x=4, y=3", "x=3, y=4", "x=4, y=-3", "x=5, y=2"],
+      "answer": "x=4, y=3",
+      "explanation": "2式をたすと 2x=8 で x=4。x+y=7 より y=3。",
+      "difficulty": 1,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-005",
+      "subunit": "加減法",
+      "type": "choice",
+      "question": "連立方程式 2x+y=8, x+y=5 を解け。",
+      "choices": ["x=3, y=2", "x=2, y=3", "x=3, y=-2", "x=1, y=4"],
+      "answer": "x=3, y=2",
+      "explanation": "上の式から下の式をひくと x=3。x+y=5 より y=2。",
+      "difficulty": 1,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-006",
+      "subunit": "加減法",
+      "type": "choice",
+      "question": "連立方程式 3x+2y=12, x−2y=4 を解け。",
+      "choices": ["x=4, y=0", "x=0, y=4", "x=4, y=1", "x=2, y=3"],
+      "answer": "x=4, y=0",
+      "explanation": "2式をたすと 4x=16 で x=4。x−2y=4 に代入して y=0。",
+      "difficulty": 2,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-007",
+      "subunit": "加減法",
+      "type": "choice",
+      "question": "連立方程式 2x+3y=7, 3x+2y=8 を解け。",
+      "choices": ["x=2, y=1", "x=1, y=2", "x=2, y=-1", "x=3, y=1"],
+      "answer": "x=2, y=1",
+      "explanation": "上を3倍 6x+9y=21、下を2倍 6x+4y=16。ひくと 5y=5 で y=1、x=2。",
+      "difficulty": 2,
+      "tags": ["加減法", "係数をそろえる"]
+    },
+    {
+      "id": "renritsu-008",
+      "subunit": "加減法",
+      "type": "choice",
+      "question": "連立方程式 4x+3y=−1, 3x−2y=12 を解け。",
+      "choices": ["x=2, y=-3", "x=-3, y=2", "x=2, y=3", "x=-2, y=3"],
+      "answer": "x=2, y=-3",
+      "explanation": "上を2倍 8x+6y=−2、下を3倍 9x−6y=36。たすと 17x=34 で x=2、y=−3。",
+      "difficulty": 3,
+      "tags": ["加減法", "負の数"]
+    },
+    {
+      "id": "renritsu-009",
+      "subunit": "代入法",
+      "type": "choice",
+      "question": "連立方程式 y=2x, x+y=9 を代入法で解け。",
+      "choices": ["x=3, y=6", "x=6, y=3", "x=3, y=3", "x=2, y=4"],
+      "answer": "x=3, y=6",
+      "explanation": "x+y=9 に y=2x を代入すると 3x=9 で x=3、y=6。",
+      "difficulty": 1,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-010",
+      "subunit": "代入法",
+      "type": "choice",
+      "question": "連立方程式 y=x+1, 2x+y=7 を解け。",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=1, y=2"],
+      "answer": "x=2, y=3",
+      "explanation": "2x+y=7 に y=x+1 を代入すると 3x+1=7 で x=2、y=3。",
+      "difficulty": 1,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-011",
+      "subunit": "代入法",
+      "type": "choice",
+      "question": "連立方程式 x=2y−3, 3x+y=5 を解け。",
+      "choices": ["x=1, y=2", "x=2, y=1", "x=-1, y=2", "x=1, y=-2"],
+      "answer": "x=1, y=2",
+      "explanation": "3x+y=5 に x=2y−3 を代入すると 6y−9+y=5 で 7y=14、y=2、x=1。",
+      "difficulty": 2,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-012",
+      "subunit": "代入法",
+      "type": "choice",
+      "question": "連立方程式 y=3x−4, 2x+3y=10 を解け。",
+      "choices": ["x=2, y=2", "x=2, y=-2", "x=1, y=-1", "x=3, y=5"],
+      "answer": "x=2, y=2",
+      "explanation": "2x+3y=10 に y=3x−4 を代入すると 2x+9x−12=10 で 11x=22、x=2、y=2。",
+      "difficulty": 2,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-013",
+      "subunit": "代入法",
+      "type": "choice",
+      "question": "連立方程式 x+2y=8, 3x−y=3 を代入法で解け。",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=4, y=2"],
+      "answer": "x=2, y=3",
+      "explanation": "x=8−2y として 3(8−2y)−y=3 より 24−7y=3、y=3、x=2。",
+      "difficulty": 3,
+      "tags": ["代入法", "式変形"]
+    },
+    {
+      "id": "renritsu-014",
+      "subunit": "かっこや分数・小数を含む連立方程式",
+      "type": "choice",
+      "question": "連立方程式 2(x+y)+x=7, 3x−y=1 を解け。",
+      "choices": ["x=1, y=2", "x=2, y=1", "x=1, y=-2", "x=-1, y=2"],
+      "answer": "x=1, y=2",
+      "explanation": "かっこを外すと 3x+2y=7。3x−y=1 との差から 3y=6 で y=2、x=1。",
+      "difficulty": 2,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "renritsu-015",
+      "subunit": "かっこや分数・小数を含む連立方程式",
+      "type": "choice",
+      "question": "連立方程式 0.2x+0.3y=1.3, x+y=5 を解け。",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=4, y=1"],
+      "answer": "x=2, y=3",
+      "explanation": "上の式を10倍して 2x+3y=13。x=5−y を代入すると 10+y=13 で y=3、x=2。",
+      "difficulty": 2,
+      "tags": ["小数"]
+    },
+    {
+      "id": "renritsu-016",
+      "subunit": "かっこや分数・小数を含む連立方程式",
+      "type": "choice",
+      "question": "連立方程式 0.3x−0.1y=0.7, x+y=1 を解け。",
+      "choices": ["x=2, y=-1", "x=-1, y=2", "x=2, y=1", "x=1, y=0"],
+      "answer": "x=2, y=-1",
+      "explanation": "上の式を10倍して 3x−y=7。x+y=1 とたすと 4x=8 で x=2、y=−1。",
+      "difficulty": 2,
+      "tags": ["小数", "負の数"]
+    },
+    {
+      "id": "renritsu-017",
+      "subunit": "かっこや分数・小数を含む連立方程式",
+      "type": "choice",
+      "question": "連立方程式 x/2 + y/3 = 4, x+y=9 を解け。",
+      "choices": ["x=6, y=3", "x=3, y=6", "x=6, y=-3", "x=5, y=4"],
+      "answer": "x=6, y=3",
+      "explanation": "上の式を6倍して 3x+2y=24。x=9−y を代入すると 27−y=24 で y=3、x=6。",
+      "difficulty": 3,
+      "tags": ["分数"]
+    },
+    {
+      "id": "renritsu-018",
+      "subunit": "かっこや分数・小数を含む連立方程式",
+      "type": "choice",
+      "question": "連立方程式 x/3 − y/4 = 1, x−y=1 を解け。",
+      "choices": ["x=9, y=8", "x=8, y=9", "x=9, y=-8", "x=3, y=2"],
+      "answer": "x=9, y=8",
+      "explanation": "上の式を12倍して 4x−3y=12。x=y+1 を代入すると 4y+4−3y=12 で y=8、x=9。",
+      "difficulty": 3,
+      "tags": ["分数"]
+    },
+    {
+      "id": "renritsu-019",
+      "subunit": "A=B=Cの形",
+      "type": "choice",
+      "question": "連立方程式 x+y = 3x−y = 8 を解け。",
+      "choices": ["x=4, y=4", "x=4, y=-4", "x=2, y=6", "x=6, y=2"],
+      "answer": "x=4, y=4",
+      "explanation": "x+y=8 と 3x−y=8 に分ける。たすと 4x=16 で x=4、y=4。",
+      "difficulty": 2,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-020",
+      "subunit": "A=B=Cの形",
+      "type": "choice",
+      "question": "連立方程式 2x+y = x+3y = 5 を解け。",
+      "choices": ["x=2, y=1", "x=1, y=2", "x=5, y=0", "x=2, y=-1"],
+      "answer": "x=2, y=1",
+      "explanation": "2x+y=5 と x+3y=5 に分ける。差から x−2y=0 で x=2y、代入して y=1、x=2。",
+      "difficulty": 2,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-021",
+      "subunit": "A=B=Cの形",
+      "type": "choice",
+      "question": "連立方程式 2x−y = x+y = x−y+4 を解け。",
+      "choices": ["x=4, y=2", "x=2, y=4", "x=4, y=-2", "x=6, y=2"],
+      "answer": "x=4, y=2",
+      "explanation": "2x−y=x+y より x=2y。x+y=x−y+4 より 2y=4 で y=2、x=4。",
+      "difficulty": 3,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-022",
+      "subunit": "連立方程式の利用",
+      "type": "numeric",
+      "question": "1個120円のりんごと1個80円のみかんを合わせて10個買ったところ、代金は1080円だった。買ったりんごの個数を求めよ。",
+      "choices": null,
+      "answer": "7",
+      "explanation": "りんご x 個、みかん y 個とすると x+y=10、120x+80y=1080。解くと x=7、y=3。",
+      "difficulty": 2,
+      "tags": ["利用", "個数と代金"]
+    },
+    {
+      "id": "renritsu-023",
+      "subunit": "連立方程式の利用",
+      "type": "numeric",
+      "question": "大人1人500円、子ども1人300円の入場料で、合わせて8人が入場し、料金の合計は3000円だった。大人の人数を求めよ。",
+      "choices": null,
+      "answer": "3",
+      "explanation": "大人 x 人、子ども y 人とすると x+y=8、500x+300y=3000。解くと x=3、y=5。",
+      "difficulty": 2,
+      "tags": ["利用", "個数と代金"]
+    },
+    {
+      "id": "renritsu-024",
+      "subunit": "連立方程式の利用",
+      "type": "numeric",
+      "question": "2けたの整数がある。十の位の数と一の位の数の和は12で、十の位と一の位を入れかえてできる数はもとの数より18大きい。もとの整数を求めよ。",
+      "choices": null,
+      "answer": "57",
+      "explanation": "十の位 x、一の位 y とすると x+y=12、10y+x=(10x+y)+18 より y−x=2。解くと x=5、y=7 で 57。",
+      "difficulty": 3,
+      "tags": ["利用", "整数の位"]
+    },
+    {
+      "id": "renritsu-025",
+      "subunit": "連立方程式の利用",
+      "type": "choice",
+      "question": "A地点からB地点までの20kmを移動するのに、はじめは時速4kmで歩き、途中から時速12kmで走ったところ、全体で3時間かかった。歩いた道のりと走った道のりを求めよ。",
+      "choices": ["歩き8km, 走り12km", "歩き12km, 走り8km", "歩き6km, 走り14km", "歩き10km, 走り10km"],
+      "answer": "歩き8km, 走り12km",
+      "explanation": "歩き x km、走り y km とすると x+y=20、x/4+y/12=3。後者を12倍して 3x+y=36。差から 2x=16 で x=8、y=12。",
+      "difficulty": 3,
+      "tags": ["利用", "速さ"]
+    },
+    {
+      "id": "renritsu-026",
+      "subunit": "連立方程式の利用",
+      "type": "numeric",
+      "question": "ある中学校の昨年の生徒数は男女合わせて500人だった。今年は男子が5%増え、女子が10%減ったので、全体の生徒数は昨年より5人減った。昨年の男子の生徒数を求めよ。",
+      "choices": null,
+      "answer": "300",
+      "explanation": "昨年の男子 x 人、女子 y 人とすると x+y=500、0.05x−0.10y=−5 すなわち x−2y=−100。解くと x=300、y=200。",
+      "difficulty": 3,
+      "tags": ["利用", "割合"]
+    }
+  ]
+}

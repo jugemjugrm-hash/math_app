@@ -1,0 +1,292 @@
+{
+  "unit": "関数y=ax²",
+  "grade": 3,
+  "questions": [
+    {
+      "id": "niji-kansu-001",
+      "subunit": "y=ax²の式",
+      "type": "numeric",
+      "question": "関数y=3x²について、x=2のときのyの値を求めなさい。",
+      "choices": null,
+      "answer": "12",
+      "explanation": "y=3x²にx=2を代入すると、y=3×2²=3×4=12。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "代入"]
+    },
+    {
+      "id": "niji-kansu-002",
+      "subunit": "y=ax²の式",
+      "type": "numeric",
+      "question": "関数y=-2x²について、x=3のときのyの値を求めなさい。",
+      "choices": null,
+      "answer": "-18",
+      "explanation": "y=-2x²にx=3を代入すると、y=-2×3²=-2×9=-18。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "代入"]
+    },
+    {
+      "id": "niji-kansu-003",
+      "subunit": "y=ax²の式",
+      "type": "numeric",
+      "question": "yはxの2乗に比例し、x=2のときy=8です。比例定数aの値を求めなさい。",
+      "choices": null,
+      "answer": "2",
+      "explanation": "y=ax²にx=2、y=8を代入すると、8=a×4。よってa=2。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "比例定数"]
+    },
+    {
+      "id": "niji-kansu-004",
+      "subunit": "y=ax²の式",
+      "type": "choice",
+      "question": "yはxの2乗に比例し、x=3のときy=18です。yをxの式で表しなさい。",
+      "choices": ["y=2x²", "y=6x²", "y=3x²", "y=9x²"],
+      "answer": "y=2x²",
+      "explanation": "y=ax²にx=3、y=18を代入すると、18=9a。よってa=2で、y=2x²。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "式を求める"]
+    },
+    {
+      "id": "niji-kansu-005",
+      "subunit": "y=ax²の式",
+      "type": "choice",
+      "question": "yはxの2乗に比例し、x=2のときy=-12です。yをxの式で表しなさい。",
+      "choices": ["y=-3x²", "y=-6x²", "y=3x²", "y=-4x²"],
+      "answer": "y=-3x²",
+      "explanation": "y=ax²にx=2、y=-12を代入すると、-12=4a。よってa=-3で、y=-3x²。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "式を求める"]
+    },
+    {
+      "id": "niji-kansu-006",
+      "subunit": "y=ax²の式",
+      "type": "numeric",
+      "question": "関数y=ax²のグラフが点(-2, -8)を通るとき、aの値を求めなさい。",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "x=-2、y=-8を代入すると、-8=a×(-2)²=4a。よってa=-2。",
+      "difficulty": 1,
+      "tags": ["y=ax²", "比例定数", "グラフ"]
+    },
+    {
+      "id": "niji-kansu-007",
+      "subunit": "グラフ(放物線)の特徴",
+      "type": "choice",
+      "question": "関数y=2x²のグラフの頂点はどこですか。",
+      "choices": ["原点", "点(0, 2)", "点(2, 0)", "点(1, 2)"],
+      "answer": "原点",
+      "explanation": "y=ax²のグラフは必ず原点(0, 0)を頂点とする放物線になる。",
+      "difficulty": 1,
+      "tags": ["放物線", "頂点"]
+    },
+    {
+      "id": "niji-kansu-008",
+      "subunit": "グラフ(放物線)の特徴",
+      "type": "choice",
+      "question": "関数y=-3x²のグラフはどちらに開いた放物線ですか。",
+      "choices": ["下に開く", "上に開く", "右に開く", "左に開く"],
+      "answer": "下に開く",
+      "explanation": "y=ax²のグラフは、a>0のとき上に開き、a<0のとき下に開く。a=-3<0なので下に開く。",
+      "difficulty": 1,
+      "tags": ["放物線", "開く向き"]
+    },
+    {
+      "id": "niji-kansu-009",
+      "subunit": "グラフ(放物線)の特徴",
+      "type": "choice",
+      "question": "放物線y=ax²の対称の軸はどれですか。",
+      "choices": ["y軸", "x軸", "直線y=x", "直線x=1"],
+      "answer": "y軸",
+      "explanation": "y=ax²のグラフはy軸について線対称な放物線である。",
+      "difficulty": 1,
+      "tags": ["放物線", "対称の軸"]
+    },
+    {
+      "id": "niji-kansu-010",
+      "subunit": "グラフ(放物線)の特徴",
+      "type": "choice",
+      "question": "次の関数のうち、グラフの開き方が最も大きい(幅が広い)ものはどれですか。",
+      "choices": ["y=(1/3)x²", "y=x²", "y=2x²", "y=3x²"],
+      "answer": "y=(1/3)x²",
+      "explanation": "y=ax²では、aの絶対値が小さいほどグラフの開き方は大きくなる。絶対値が最も小さいのは1/3。",
+      "difficulty": 2,
+      "tags": ["放物線", "開き方"]
+    },
+    {
+      "id": "niji-kansu-011",
+      "subunit": "グラフ(放物線)の特徴",
+      "type": "choice",
+      "question": "y=2x²のグラフとy=-2x²のグラフはどのような関係にありますか。",
+      "choices": ["x軸について対称", "y軸について対称", "原点について対称", "同じグラフ"],
+      "answer": "x軸について対称",
+      "explanation": "aの符号だけが異なるy=ax²とy=-ax²のグラフは、x軸について対称である。",
+      "difficulty": 2,
+      "tags": ["放物線", "対称"]
+    },
+    {
+      "id": "niji-kansu-012",
+      "subunit": "変域",
+      "type": "choice",
+      "question": "関数y=2x²について、xの変域が1≦x≦3のときのyの変域を求めなさい。",
+      "choices": ["2≦y≦18", "0≦y≦18", "1≦y≦3", "6≦y≦18"],
+      "answer": "2≦y≦18",
+      "explanation": "xの変域に0を含まないので、x=1のときy=2が最小、x=3のときy=18が最大。よって2≦y≦18。",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "niji-kansu-013",
+      "subunit": "変域",
+      "type": "choice",
+      "question": "関数y=x²について、xの変域が-2≦x≦3のときのyの変域を求めなさい。",
+      "choices": ["0≦y≦9", "4≦y≦9", "-4≦y≦9", "0≦y≦4"],
+      "answer": "0≦y≦9",
+      "explanation": "xの変域に0を含むので最小値はy=0。最大値はx=3のときy=9。よって0≦y≦9。",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "niji-kansu-014",
+      "subunit": "変域",
+      "type": "choice",
+      "question": "関数y=-2x²について、xの変域が-1≦x≦2のときのyの変域を求めなさい。",
+      "choices": ["-8≦y≦0", "-8≦y≦-2", "-2≦y≦0", "0≦y≦8"],
+      "answer": "-8≦y≦0",
+      "explanation": "a<0でxの変域に0を含むので最大値はy=0。最小値はx=2のときy=-2×4=-8。よって-8≦y≦0。",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "niji-kansu-015",
+      "subunit": "変域",
+      "type": "choice",
+      "question": "関数y=3x²について、xの変域が-2≦x≦1のときのyの変域を求めなさい。",
+      "choices": ["0≦y≦12", "3≦y≦12", "0≦y≦3", "-12≦y≦3"],
+      "answer": "0≦y≦12",
+      "explanation": "xの変域に0を含むので最小値はy=0。最大値は絶対値の大きいx=-2のときy=3×4=12。よって0≦y≦12。",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "niji-kansu-016",
+      "subunit": "変域",
+      "type": "numeric",
+      "question": "関数y=ax²について、xの変域が-3≦x≦1のとき、yの変域は0≦y≦18になりました。aの値を求めなさい。",
+      "choices": null,
+      "answer": "2",
+      "explanation": "yの最小値が0なのでa>0。最大値は絶対値の大きいx=-3のときで、9a=18。よってa=2。",
+      "difficulty": 3,
+      "tags": ["変域", "比例定数"]
+    },
+    {
+      "id": "niji-kansu-017",
+      "subunit": "変化の割合",
+      "type": "numeric",
+      "question": "関数y=2x²について、xの値が1から3まで増加するときの変化の割合を求めなさい。",
+      "choices": null,
+      "answer": "8",
+      "explanation": "x=1のときy=2、x=3のときy=18。変化の割合は(18-2)÷(3-1)=16÷2=8。y=ax²ではa(p+q)=2×(1+3)=8とも計算できる。",
+      "difficulty": 2,
+      "tags": ["変化の割合"]
+    },
+    {
+      "id": "niji-kansu-018",
+      "subunit": "変化の割合",
+      "type": "numeric",
+      "question": "関数y=3x²について、xの値が-4から-2まで増加するときの変化の割合を求めなさい。",
+      "choices": null,
+      "answer": "-18",
+      "explanation": "x=-4のときy=48、x=-2のときy=12。変化の割合は(12-48)÷(-2-(-4))=-36÷2=-18。a(p+q)=3×(-4+(-2))=-18。",
+      "difficulty": 2,
+      "tags": ["変化の割合"]
+    },
+    {
+      "id": "niji-kansu-019",
+      "subunit": "変化の割合",
+      "type": "numeric",
+      "question": "関数y=(1/2)x²について、xの値が2から6まで増加するときの変化の割合を求めなさい。",
+      "choices": null,
+      "answer": "4",
+      "explanation": "x=2のときy=2、x=6のときy=18。変化の割合は(18-2)÷(6-2)=16÷4=4。a(p+q)=(1/2)×(2+6)=4。",
+      "difficulty": 2,
+      "tags": ["変化の割合"]
+    },
+    {
+      "id": "niji-kansu-020",
+      "subunit": "変化の割合",
+      "type": "numeric",
+      "question": "関数y=ax²について、xの値が1から4まで増加するときの変化の割合が10でした。aの値を求めなさい。",
+      "choices": null,
+      "answer": "2",
+      "explanation": "y=ax²の変化の割合はa(1+4)=5a。5a=10より、a=2。",
+      "difficulty": 3,
+      "tags": ["変化の割合", "比例定数"]
+    },
+    {
+      "id": "niji-kansu-021",
+      "subunit": "変化の割合",
+      "type": "numeric",
+      "question": "関数y=ax²について、xの値が2から4まで増加するときの変化の割合が、一次関数y=6x+1の変化の割合と等しくなりました。aの値を求めなさい。",
+      "choices": null,
+      "answer": "1",
+      "explanation": "一次関数y=6x+1の変化の割合は6。y=ax²の変化の割合はa(2+4)=6a。6a=6より、a=1。",
+      "difficulty": 3,
+      "tags": ["変化の割合", "一次関数"]
+    },
+    {
+      "id": "niji-kansu-022",
+      "subunit": "y=ax²の利用",
+      "type": "numeric",
+      "question": "物が落下し始めてからx秒間に落ちる距離をymとすると、y=5x²の関係があります。落下し始めてから3秒間に落ちる距離は何mですか。",
+      "choices": null,
+      "answer": "45",
+      "explanation": "y=5x²にx=3を代入すると、y=5×9=45。よって45m。",
+      "difficulty": 2,
+      "tags": ["利用", "落下"]
+    },
+    {
+      "id": "niji-kansu-023",
+      "subunit": "y=ax²の利用",
+      "type": "numeric",
+      "question": "物が落下し始めてからx秒間に落ちる距離をymとすると、y=5x²の関係があります。80m落下するのにかかる時間は何秒ですか。",
+      "choices": null,
+      "answer": "4",
+      "explanation": "80=5x²より、x²=16。x>0だからx=4。よって4秒。",
+      "difficulty": 3,
+      "tags": ["利用", "落下"]
+    },
+    {
+      "id": "niji-kansu-024",
+      "subunit": "y=ax²の利用",
+      "type": "numeric",
+      "question": "時速xkmで走る自動車の制動距離(ブレーキがきき始めてから止まるまでの距離)をymとすると、y=0.01x²の関係があります。時速60kmで走るときの制動距離は何mですか。",
+      "choices": null,
+      "answer": "36",
+      "explanation": "y=0.01x²にx=60を代入すると、y=0.01×3600=36。よって36m。",
+      "difficulty": 3,
+      "tags": ["利用", "制動距離"]
+    },
+    {
+      "id": "niji-kansu-025",
+      "subunit": "y=ax²の利用",
+      "type": "choice",
+      "question": "自動車の制動距離ymは速さxkmに対してy=0.01x²で表されます。速さが2倍になると、制動距離は何倍になりますか。",
+      "choices": ["4倍", "2倍", "8倍", "√2倍"],
+      "answer": "4倍",
+      "explanation": "yはxの2乗に比例するので、xが2倍になるとyは2²=4倍になる。",
+      "difficulty": 3,
+      "tags": ["利用", "制動距離", "2乗に比例"]
+    },
+    {
+      "id": "niji-kansu-026",
+      "subunit": "y=ax²の利用",
+      "type": "numeric",
+      "question": "ボールが転がり始めてからx秒間に進む距離をymとすると、y=5x²の関係があります。転がり始めて2秒後から4秒後までの間の平均の速さは毎秒何mですか。",
+      "choices": null,
+      "answer": "30",
+      "explanation": "x=2のときy=20、x=4のときy=80。平均の速さは(80-20)÷(4-2)=60÷2=30。よって毎秒30m。",
+      "difficulty": 3,
+      "tags": ["利用", "平均の速さ", "変化の割合"]
+    }
+  ]
+}

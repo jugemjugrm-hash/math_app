@@ -1,0 +1,292 @@
+{
+  "unit": "三平方の定理",
+  "grade": 3,
+  "questions": [
+    {
+      "id": "sanheihou-001",
+      "subunit": "三平方の定理",
+      "type": "choice",
+      "question": "直角三角形で、直角をはさむ2辺の長さをa、b、斜辺の長さをcとするとき、三平方の定理を表す式はどれですか。",
+      "choices": ["a²+b²=c²", "a+b=c", "a²-b²=c²", "a²+c²=b²"],
+      "answer": "a²+b²=c²",
+      "explanation": "三平方の定理は、直角をはさむ2辺の2乗の和が斜辺の2乗に等しいことを表す。よって a²+b²=c²。",
+      "difficulty": 1,
+      "tags": ["三平方の定理", "公式"]
+    },
+    {
+      "id": "sanheihou-002",
+      "subunit": "三平方の定理",
+      "type": "numeric",
+      "question": "直角をはさむ2辺の長さが3cmと4cmの直角三角形があります。斜辺の長さをc cmとするとき、c²の値を求めなさい。",
+      "choices": null,
+      "answer": "25",
+      "explanation": "三平方の定理より c²=3²+4²=9+16=25。",
+      "difficulty": 1,
+      "tags": ["三平方の定理", "斜辺"]
+    },
+    {
+      "id": "sanheihou-003",
+      "subunit": "三平方の定理",
+      "type": "numeric",
+      "question": "斜辺の長さが10cm、他の1辺の長さが6cmの直角三角形があります。残りの辺の長さをb cmとするとき、b²の値を求めなさい。",
+      "choices": null,
+      "answer": "64",
+      "explanation": "三平方の定理より b²=10²-6²=100-36=64。",
+      "difficulty": 1,
+      "tags": ["三平方の定理", "辺の2乗"]
+    },
+    {
+      "id": "sanheihou-004",
+      "subunit": "辺の長さを求める(整数になる場合)",
+      "type": "numeric",
+      "question": "直角をはさむ2辺の長さが3cmと4cmの直角三角形の斜辺の長さは何cmですか。",
+      "choices": null,
+      "answer": "5",
+      "explanation": "斜辺をcとすると c²=3²+4²=25。c>0 より c=5cm。",
+      "difficulty": 1,
+      "tags": ["三平方の定理", "整数の辺", "3:4:5"]
+    },
+    {
+      "id": "sanheihou-005",
+      "subunit": "辺の長さを求める(整数になる場合)",
+      "type": "numeric",
+      "question": "直角をはさむ2辺の長さが5cmと12cmの直角三角形の斜辺の長さは何cmですか。",
+      "choices": null,
+      "answer": "13",
+      "explanation": "斜辺をcとすると c²=5²+12²=25+144=169。c>0 より c=13cm。",
+      "difficulty": 1,
+      "tags": ["三平方の定理", "整数の辺", "5:12:13"]
+    },
+    {
+      "id": "sanheihou-006",
+      "subunit": "辺の長さを求める(整数になる場合)",
+      "type": "numeric",
+      "question": "斜辺の長さが17cm、他の1辺の長さが8cmの直角三角形の残りの辺の長さは何cmですか。",
+      "choices": null,
+      "answer": "15",
+      "explanation": "残りの辺をbとすると b²=17²-8²=289-64=225。b>0 より b=15cm。",
+      "difficulty": 2,
+      "tags": ["三平方の定理", "整数の辺", "8:15:17"]
+    },
+    {
+      "id": "sanheihou-007",
+      "subunit": "辺の長さを求める(整数になる場合)",
+      "type": "numeric",
+      "question": "斜辺の長さが25cm、他の1辺の長さが7cmの直角三角形の残りの辺の長さは何cmですか。",
+      "choices": null,
+      "answer": "24",
+      "explanation": "残りの辺をbとすると b²=25²-7²=625-49=576。b>0 より b=24cm。",
+      "difficulty": 2,
+      "tags": ["三平方の定理", "整数の辺", "7:24:25"]
+    },
+    {
+      "id": "sanheihou-008",
+      "subunit": "√になる場合",
+      "type": "choice",
+      "question": "直角をはさむ2辺の長さが2cmと3cmの直角三角形の斜辺の長さは何cmですか。",
+      "choices": ["√13", "√5", "5", "√6"],
+      "answer": "√13",
+      "explanation": "斜辺をcとすると c²=2²+3²=4+9=13。c>0 より c=√13cm。",
+      "difficulty": 2,
+      "tags": ["三平方の定理", "無理数の辺"]
+    },
+    {
+      "id": "sanheihou-009",
+      "subunit": "√になる場合",
+      "type": "choice",
+      "question": "直角をはさむ2辺の長さがどちらも4cmの直角三角形の斜辺の長さは何cmですか。",
+      "choices": ["4√2", "8", "2√2", "4√3"],
+      "answer": "4√2",
+      "explanation": "斜辺をcとすると c²=4²+4²=32。c>0 より c=√32=4√2cm。",
+      "difficulty": 2,
+      "tags": ["三平方の定理", "無理数の辺"]
+    },
+    {
+      "id": "sanheihou-010",
+      "subunit": "√になる場合",
+      "type": "choice",
+      "question": "斜辺の長さが6cm、他の1辺の長さが4cmの直角三角形の残りの辺の長さは何cmですか。",
+      "choices": ["2√5", "2√13", "√10", "10"],
+      "answer": "2√5",
+      "explanation": "残りの辺をbとすると b²=6²-4²=36-16=20。b>0 より b=√20=2√5cm。斜辺の2乗から引くことに注意。",
+      "difficulty": 2,
+      "tags": ["三平方の定理", "無理数の辺"]
+    },
+    {
+      "id": "sanheihou-011",
+      "subunit": "三平方の定理の逆(直角三角形の判定)",
+      "type": "choice",
+      "question": "次の3つの長さを3辺とする三角形のうち、直角三角形になるものはどれですか。",
+      "choices": ["5cm、12cm、13cm", "4cm、5cm、6cm", "6cm、7cm、8cm", "2cm、3cm、4cm"],
+      "answer": "5cm、12cm、13cm",
+      "explanation": "最も長い辺の2乗と他の2辺の2乗の和を比べる。5²+12²=25+144=169=13² が成り立つので、5cm、12cm、13cmは直角三角形になる。",
+      "difficulty": 2,
+      "tags": ["三平方の定理の逆", "判定"]
+    },
+    {
+      "id": "sanheihou-012",
+      "subunit": "三平方の定理の逆(直角三角形の判定)",
+      "type": "choice",
+      "question": "3辺の長さが9cm、12cm、15cmの三角形は直角三角形といえますか。正しいものを選びなさい。",
+      "choices": ["直角三角形である", "直角三角形ではない", "3辺の長さだけでは判定できない", "三角形をつくることができない"],
+      "answer": "直角三角形である",
+      "explanation": "最も長い辺15について 15²=225。9²+12²=81+144=225 で等しいので、三平方の定理の逆より直角三角形である。",
+      "difficulty": 2,
+      "tags": ["三平方の定理の逆", "判定"]
+    },
+    {
+      "id": "sanheihou-013",
+      "subunit": "三平方の定理の逆(直角三角形の判定)",
+      "type": "choice",
+      "question": "3辺の長さが4cm、5cm、6cmの三角形は直角三角形といえますか。正しいものを選びなさい。",
+      "choices": ["直角三角形ではない", "直角三角形である", "3辺の長さだけでは判定できない", "三角形をつくることができない"],
+      "answer": "直角三角形ではない",
+      "explanation": "最も長い辺6について 6²=36。4²+5²=16+25=41 で等しくないので、直角三角形ではない。",
+      "difficulty": 2,
+      "tags": ["三平方の定理の逆", "判定"]
+    },
+    {
+      "id": "sanheihou-014",
+      "subunit": "三平方の定理の逆(直角三角形の判定)",
+      "type": "choice",
+      "question": "次の3つの長さを3辺とする三角形のうち、直角三角形になるものはどれですか。",
+      "choices": ["8cm、15cm、17cm", "7cm、9cm、11cm", "6cm、7cm、10cm", "5cm、10cm、12cm"],
+      "answer": "8cm、15cm、17cm",
+      "explanation": "8²+15²=64+225=289=17² が成り立つので、8cm、15cm、17cmは直角三角形になる。他の組は最長辺の2乗と一致しない。",
+      "difficulty": 2,
+      "tags": ["三平方の定理の逆", "判定", "8:15:17"]
+    },
+    {
+      "id": "sanheihou-015",
+      "subunit": "特別な直角三角形(45°45°90°、30°60°90°)",
+      "type": "choice",
+      "question": "直角二等辺三角形(45°、45°、90°)で、直角をはさむ辺の長さが5cmのとき、斜辺の長さは何cmですか。",
+      "choices": ["5√2", "5√3", "10", "2√5"],
+      "answer": "5√2",
+      "explanation": "45°、45°、90°の三角形の辺の比は 1:1:√2。斜辺は 5×√2=5√2cm。",
+      "difficulty": 2,
+      "tags": ["特別な直角三角形", "45度", "辺の比"]
+    },
+    {
+      "id": "sanheihou-016",
+      "subunit": "特別な直角三角形(45°45°90°、30°60°90°)",
+      "type": "choice",
+      "question": "直角二等辺三角形(45°、45°、90°)で、斜辺の長さが8cmのとき、直角をはさむ辺の長さは何cmですか。",
+      "choices": ["4√2", "8√2", "4", "2√2"],
+      "answer": "4√2",
+      "explanation": "辺の比 1:1:√2 より、直角をはさむ辺=8÷√2=8√2/2=4√2cm。",
+      "difficulty": 2,
+      "tags": ["特別な直角三角形", "45度", "辺の比"]
+    },
+    {
+      "id": "sanheihou-017",
+      "subunit": "特別な直角三角形(45°45°90°、30°60°90°)",
+      "type": "numeric",
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが10cmのとき、30°の角と向かい合う辺(最も短い辺)の長さは何cmですか。",
+      "choices": null,
+      "answer": "5",
+      "explanation": "30°、60°、90°の三角形の辺の比は 1:√3:2。最も短い辺は斜辺の半分なので 10÷2=5cm。",
+      "difficulty": 2,
+      "tags": ["特別な直角三角形", "30度60度", "辺の比"]
+    },
+    {
+      "id": "sanheihou-018",
+      "subunit": "特別な直角三角形(45°45°90°、30°60°90°)",
+      "type": "choice",
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが12cmのとき、60°の角と向かい合う辺の長さは何cmですか。",
+      "choices": ["6√3", "6", "6√2", "4√3"],
+      "answer": "6√3",
+      "explanation": "辺の比 1:√3:2 より、60°の角と向かい合う辺は 12×√3/2=6√3cm。",
+      "difficulty": 2,
+      "tags": ["特別な直角三角形", "30度60度", "辺の比"]
+    },
+    {
+      "id": "sanheihou-019",
+      "subunit": "平面図形への利用(対角線・高さ)",
+      "type": "numeric",
+      "question": "縦6cm、横8cmの長方形の対角線の長さは何cmですか。",
+      "choices": null,
+      "answer": "10",
+      "explanation": "対角線をdとすると d²=6²+8²=36+64=100。d>0 より d=10cm。",
+      "difficulty": 2,
+      "tags": ["平面図形", "長方形", "対角線"]
+    },
+    {
+      "id": "sanheihou-020",
+      "subunit": "平面図形への利用(対角線・高さ)",
+      "type": "choice",
+      "question": "1辺の長さが8cmの正方形の対角線の長さは何cmですか。",
+      "choices": ["8√2", "4√2", "16", "8√3"],
+      "answer": "8√2",
+      "explanation": "正方形の対角線は1辺の√2倍。8×√2=8√2cm。(d²=8²+8²=128、d=√128=8√2)",
+      "difficulty": 3,
+      "tags": ["平面図形", "正方形", "対角線"]
+    },
+    {
+      "id": "sanheihou-021",
+      "subunit": "平面図形への利用(対角線・高さ)",
+      "type": "choice",
+      "question": "1辺の長さが6cmの正三角形の高さは何cmですか。",
+      "choices": ["3√3", "3√2", "6√3", "3"],
+      "answer": "3√3",
+      "explanation": "頂点から底辺に垂線を引くと、底辺の半分は3cm。高さをhとすると h²=6²-3²=36-9=27。h>0 より h=√27=3√3cm。",
+      "difficulty": 3,
+      "tags": ["平面図形", "正三角形", "高さ"]
+    },
+    {
+      "id": "sanheihou-022",
+      "subunit": "平面図形への利用(対角線・高さ)",
+      "type": "numeric",
+      "question": "座標平面上の2点A(1、2)、B(4、6)の間の距離を求めなさい。",
+      "choices": null,
+      "answer": "5",
+      "explanation": "x座標の差は 4-1=3、y座標の差は 6-2=4。AB²=3²+4²=25 より AB=5。",
+      "difficulty": 3,
+      "tags": ["平面図形", "2点間の距離", "座標"]
+    },
+    {
+      "id": "sanheihou-023",
+      "subunit": "空間図形への利用(直方体の対角線)",
+      "type": "numeric",
+      "question": "縦3cm、横4cm、高さ12cmの直方体の対角線の長さは何cmですか。",
+      "choices": null,
+      "answer": "13",
+      "explanation": "直方体の対角線をdとすると d²=3²+4²+12²=9+16+144=169。d>0 より d=13cm。",
+      "difficulty": 3,
+      "tags": ["空間図形", "直方体", "対角線"]
+    },
+    {
+      "id": "sanheihou-024",
+      "subunit": "空間図形への利用(直方体の対角線)",
+      "type": "choice",
+      "question": "1辺の長さが4cmの立方体の対角線の長さは何cmですか。",
+      "choices": ["4√3", "4√2", "12", "8√2"],
+      "answer": "4√3",
+      "explanation": "立方体の対角線は1辺の√3倍。d²=4²+4²+4²=48 より d=√48=4√3cm。",
+      "difficulty": 3,
+      "tags": ["空間図形", "立方体", "対角線"]
+    },
+    {
+      "id": "sanheihou-025",
+      "subunit": "空間図形への利用(直方体の対角線)",
+      "type": "choice",
+      "question": "縦4cm、横5cm、高さ6cmの直方体の対角線の長さは何cmですか。",
+      "choices": ["√77", "√41", "15", "5√3"],
+      "answer": "√77",
+      "explanation": "対角線をdとすると d²=4²+5²+6²=16+25+36=77。d>0 より d=√77cm。3辺すべての2乗を加えることに注意。",
+      "difficulty": 3,
+      "tags": ["空間図形", "直方体", "対角線"]
+    },
+    {
+      "id": "sanheihou-026",
+      "subunit": "空間図形への利用(直方体の対角線)",
+      "type": "numeric",
+      "question": "底面の半径が3cm、母線の長さが5cmの円錐があります。この円錐の高さは何cmですか。",
+      "choices": null,
+      "answer": "4",
+      "explanation": "高さ、半径、母線は直角三角形をつくる。高さをhとすると h²=5²-3²=25-9=16。h>0 より h=4cm。",
+      "difficulty": 3,
+      "tags": ["空間図形", "円錐", "高さ"]
+    }
+  ]
+}

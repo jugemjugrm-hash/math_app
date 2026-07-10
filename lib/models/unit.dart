@@ -128,4 +128,64 @@ const units = <Unit>[
     description: '全24問(場合の数・確率の求め方)',
     assetPath: 'assets/questions/grade2/kakuritsu_baai.json',
   ),
+  // 中3 A 数と式
+  Unit(
+    id: 'tenkai',
+    grade: 3,
+    title: '展開と因数分解',
+    description: '全28問(乗法公式・因数分解・計算の工夫)',
+    assetPath: 'assets/questions/grade3/tenkai_insu.json',
+  ),
+  Unit(
+    id: 'heihoukon',
+    grade: 3,
+    title: '平方根',
+    description: '全28問(√の意味・変形・有理化・四則)',
+    assetPath: 'assets/questions/grade3/heihoukon.json',
+  ),
+  Unit(
+    id: 'niji',
+    grade: 3,
+    title: '二次方程式',
+    description: '全28問(因数分解・解の公式・文章題)',
+    assetPath: 'assets/questions/grade3/niji_houteishiki.json',
+  ),
+  // 中3 C 関数
+  Unit(
+    id: 'nijikansu',
+    grade: 3,
+    title: '関数y=ax²',
+    description: '全26問(式・グラフ・変域・変化の割合)',
+    assetPath: 'assets/questions/grade3/kansu_ax2.json',
+  ),
+  // 中3 B 図形
+  Unit(
+    id: 'souji',
+    grade: 3,
+    title: '相似な図形',
+    description: '全26問(相似条件・線分の比・面積比体積比)',
+    assetPath: 'assets/questions/grade3/souji.json',
+  ),
+  Unit(
+    id: 'enshukaku',
+    grade: 3,
+    title: '円周角',
+    description: '全24問(円周角の定理・内接四角形・接線)',
+    assetPath: 'assets/questions/grade3/enshukaku.json',
+  ),
+  Unit(
+    id: 'sanheihou',
+    grade: 3,
+    title: '三平方の定理',
+    description: '全26問(辺の計算・判定・平面空間への利用)',
+    assetPath: 'assets/questions/grade3/sanheihou.json',
+  ),
+  // 中3 D データの活用
+  Unit(
+    id: 'hyouhon',
+    grade: 3,
+    title: '標本調査',
+    description: '全20問(母集団と標本・無作為抽出・推定)',
+    assetPath: 'assets/questions/grade3/hyouhon.json',
+  ),
 ];

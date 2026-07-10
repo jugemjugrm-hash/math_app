@@ -18,6 +18,19 @@ void main() {
     expect(find.text('比例と反比例'), findsOneWidget);
   });
 
+  testWidgets('Unit list includes grade 2 and grade 3 sections',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const MathApp());
+
+    // Headers for all three grades exist (grade 2/3 tiles may need scrolling,
+    // so just verify the units are registered via scrolling to the end).
+    expect(find.text('中1'), findsOneWidget);
+
+    await tester.scrollUntilVisible(find.text('三平方の定理'), 200);
+    expect(find.text('三平方の定理'), findsOneWidget);
+    expect(find.text('標本調査'), findsOneWidget);
+  });
+
   testWidgets('Tapping a unit navigates to its start screen',
       (WidgetTester tester) async {
     await tester.pumpWidget(const MathApp());

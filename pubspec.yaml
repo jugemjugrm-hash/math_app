@@ -77,6 +77,14 @@ flutter:
     - assets/questions/grade2/sankaku_shikaku.json
     - assets/questions/grade2/hakohige.json
     - assets/questions/grade2/kakuritsu_baai.json
+    - assets/questions/grade3/tenkai_insu.json
+    - assets/questions/grade3/heihoukon.json
+    - assets/questions/grade3/niji_houteishiki.json
+    - assets/questions/grade3/kansu_ax2.json
+    - assets/questions/grade3/souji.json
+    - assets/questions/grade3/enshukaku.json
+    - assets/questions/grade3/sanheihou.json
+    - assets/questions/grade3/hyouhon.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

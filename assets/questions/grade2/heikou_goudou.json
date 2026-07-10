@@ -1,0 +1,317 @@
+{
+  "unit": "平行と合同",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "heikou-001",
+      "subunit": "対頂角・同位角・錯角",
+      "type": "numeric",
+      "question": "2直線が交わっていて、できた角の1つが 65° のとき、その対頂角の大きさは何度か。",
+      "choices": null,
+      "answer": "65",
+      "explanation": "対頂角は等しいので 65°。",
+      "difficulty": 1,
+      "tags": ["対頂角"]
+    },
+    {
+      "id": "heikou-002",
+      "subunit": "対頂角・同位角・錯角",
+      "type": "numeric",
+      "question": "2直線が1点で交わり、できた角の1つが 110° のとき、その隣にある角の大きさは何度か。",
+      "choices": null,
+      "answer": "70",
+      "explanation": "隣り合う角の和は一直線で 180°。180°-110°=70°。",
+      "difficulty": 1,
+      "tags": ["対頂角", "一直線の角"]
+    },
+    {
+      "id": "heikou-003",
+      "subunit": "対頂角・同位角・錯角",
+      "type": "choice",
+      "question": "2つの直線に1つの直線が交わってできる角のうち、交わる直線の同じ側にあって対応する位置にある角を何というか。",
+      "choices": ["同位角", "錯角", "対頂角", "補角"],
+      "answer": "同位角",
+      "explanation": "対応する位置にある角が同位角。ななめ向かいの位置にあるのが錯角。",
+      "difficulty": 1,
+      "tags": ["同位角", "用語"]
+    },
+    {
+      "id": "heikou-004",
+      "subunit": "平行線と角",
+      "type": "numeric",
+      "question": "平行な2直線に1つの直線が交わっている。同位角の一方が 72° のとき、もう一方の同位角の大きさは何度か。",
+      "choices": null,
+      "answer": "72",
+      "explanation": "平行線の同位角は等しいので 72°。",
+      "difficulty": 1,
+      "tags": ["平行線", "同位角"]
+    },
+    {
+      "id": "heikou-005",
+      "subunit": "平行線と角",
+      "type": "numeric",
+      "question": "平行な2直線に1つの直線が交わっている。錯角の一方が 55° のとき、もう一方の錯角の大きさは何度か。",
+      "choices": null,
+      "answer": "55",
+      "explanation": "平行線の錯角は等しいので 55°。",
+      "difficulty": 1,
+      "tags": ["平行線", "錯角"]
+    },
+    {
+      "id": "heikou-006",
+      "subunit": "平行線と角",
+      "type": "numeric",
+      "question": "平行な2直線 ℓ、m に直線が交わり、ℓ 側にできた角が 120° のとき、m 側の同じ側の内角(同側内角)の大きさは何度か。",
+      "choices": null,
+      "answer": "60",
+      "explanation": "平行線では同じ側の内角の和が 180°。180°-120°=60°。",
+      "difficulty": 2,
+      "tags": ["平行線", "同側内角"]
+    },
+    {
+      "id": "heikou-007",
+      "subunit": "平行線と角",
+      "type": "choice",
+      "question": "2直線に1つの直線が交わっていて、同位角が等しいとき、2直線についていえることはどれか。",
+      "choices": ["平行である", "垂直である", "必ず交わる", "何もいえない"],
+      "answer": "平行である",
+      "explanation": "同位角(または錯角)が等しければ2直線は平行。平行線になるための条件。",
+      "difficulty": 2,
+      "tags": ["平行線になる条件"]
+    },
+    {
+      "id": "heikou-008",
+      "subunit": "三角形の内角と外角",
+      "type": "numeric",
+      "question": "三角形の2つの内角が 50°、60° のとき、残りの内角の大きさは何度か。",
+      "choices": null,
+      "answer": "70",
+      "explanation": "三角形の内角の和は 180°。180°-50°-60°=70°。",
+      "difficulty": 1,
+      "tags": ["内角の和"]
+    },
+    {
+      "id": "heikou-009",
+      "subunit": "三角形の内角と外角",
+      "type": "numeric",
+      "question": "三角形の2つの内角が 45°、75° のとき、残りの内角のとなりにできる外角の大きさは何度か。",
+      "choices": null,
+      "answer": "120",
+      "explanation": "外角はそれととなり合わない2つの内角の和に等しい。45°+75°=120°。",
+      "difficulty": 2,
+      "tags": ["外角"]
+    },
+    {
+      "id": "heikou-010",
+      "subunit": "三角形の内角と外角",
+      "type": "numeric",
+      "question": "ある三角形の外角の1つが 130° で、それととなり合わない内角の1つが 55° のとき、となり合わないもう1つの内角の大きさは何度か。",
+      "choices": null,
+      "answer": "75",
+      "explanation": "外角=となり合わない2つの内角の和。130°-55°=75°。",
+      "difficulty": 2,
+      "tags": ["外角"]
+    },
+    {
+      "id": "heikou-011",
+      "subunit": "三角形の内角と外角",
+      "type": "choice",
+      "question": "3つの内角がすべて鋭角(90°より小さい角)である三角形を何というか。",
+      "choices": ["鋭角三角形", "直角三角形", "鈍角三角形", "正三角形"],
+      "answer": "鋭角三角形",
+      "explanation": "すべて鋭角なら鋭角三角形。1つが直角なら直角三角形、1つが鈍角なら鈍角三角形。",
+      "difficulty": 1,
+      "tags": ["三角形の分類"]
+    },
+    {
+      "id": "heikou-012",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "五角形の内角の和は何度か。",
+      "choices": null,
+      "answer": "540",
+      "explanation": "n角形の内角の和は 180°×(n-2)。180°×3=540°。",
+      "difficulty": 1,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-013",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "八角形の内角の和は何度か。",
+      "choices": null,
+      "answer": "1080",
+      "explanation": "180°×(8-2)=180°×6=1080°。",
+      "difficulty": 2,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-014",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "多角形の外角の和は何度か(どんな多角形でも同じ値になる)。",
+      "choices": null,
+      "answer": "360",
+      "explanation": "多角形の外角の和はつねに 360°。",
+      "difficulty": 1,
+      "tags": ["多角形", "外角の和"]
+    },
+    {
+      "id": "heikou-015",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "正六角形の1つの内角の大きさは何度か。",
+      "choices": null,
+      "answer": "120",
+      "explanation": "内角の和は 180°×4=720°。正六角形は等分なので 720°÷6=120°。",
+      "difficulty": 2,
+      "tags": ["正多角形", "内角"]
+    },
+    {
+      "id": "heikou-016",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "正十二角形の1つの外角の大きさは何度か。",
+      "choices": null,
+      "answer": "30",
+      "explanation": "外角の和は 360°。正十二角形は等分なので 360°÷12=30°。",
+      "difficulty": 2,
+      "tags": ["正多角形", "外角"]
+    },
+    {
+      "id": "heikou-017",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "1つの外角が 40° である正多角形は正何角形か。数だけで答えなさい。",
+      "choices": null,
+      "answer": "9",
+      "explanation": "360°÷40°=9 なので正九角形。",
+      "difficulty": 3,
+      "tags": ["正多角形", "外角"]
+    },
+    {
+      "id": "heikou-018",
+      "subunit": "多角形の内角の和と外角の和",
+      "type": "numeric",
+      "question": "内角の和が 1440° である多角形は何角形か。数だけで答えなさい。",
+      "choices": null,
+      "answer": "10",
+      "explanation": "180°×(n-2)=1440° より n-2=8、n=10。十角形。",
+      "difficulty": 3,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-019",
+      "subunit": "三角形の合同条件",
+      "type": "choice",
+      "question": "三角形の合同条件として正しくないものはどれか。",
+      "choices": [
+        "3組の角がそれぞれ等しい",
+        "3組の辺がそれぞれ等しい",
+        "2組の辺とその間の角がそれぞれ等しい",
+        "1組の辺とその両端の角がそれぞれ等しい"
+      ],
+      "answer": "3組の角がそれぞれ等しい",
+      "explanation": "3組の角が等しくても大きさの違う相似な三角形になることがあり、合同条件ではない。",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-020",
+      "subunit": "三角形の合同条件",
+      "type": "choice",
+      "question": "△ABCと△DEFで、AB=DE、BC=EF、∠B=∠E がわかっているとき、使う合同条件はどれか。",
+      "choices": [
+        "2組の辺とその間の角がそれぞれ等しい",
+        "3組の辺がそれぞれ等しい",
+        "1組の辺とその両端の角がそれぞれ等しい",
+        "斜辺と他の1辺がそれぞれ等しい"
+      ],
+      "answer": "2組の辺とその間の角がそれぞれ等しい",
+      "explanation": "∠BはABとBCの間の角なので、「2組の辺とその間の角」の条件が使える。",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-021",
+      "subunit": "三角形の合同条件",
+      "type": "choice",
+      "question": "△ABCと△DEFで、BC=EF、∠B=∠E、∠C=∠F がわかっているとき、使う合同条件はどれか。",
+      "choices": [
+        "1組の辺とその両端の角がそれぞれ等しい",
+        "2組の辺とその間の角がそれぞれ等しい",
+        "3組の辺がそれぞれ等しい",
+        "2組の角がそれぞれ等しい"
+      ],
+      "answer": "1組の辺とその両端の角がそれぞれ等しい",
+      "explanation": "∠Bと∠Cは辺BCの両端の角なので、「1組の辺とその両端の角」の条件が使える。",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-022",
+      "subunit": "合同の記号と対応",
+      "type": "choice",
+      "question": "△ABC≡△DEF のとき、∠A に対応する角はどれか。",
+      "choices": ["∠D", "∠E", "∠F", "∠B"],
+      "answer": "∠D",
+      "explanation": "合同の記号では対応する頂点を同じ順に書く。A↔D、B↔E、C↔F。",
+      "difficulty": 1,
+      "tags": ["合同", "対応"]
+    },
+    {
+      "id": "heikou-023",
+      "subunit": "合同の記号と対応",
+      "type": "choice",
+      "question": "△ABC≡△DEF で、AB=5cm のとき、長さが 5cm である辺はどれか。",
+      "choices": ["辺DE", "辺EF", "辺DF", "辺BC"],
+      "answer": "辺DE",
+      "explanation": "対応する辺は等しい。AB の対応は DE(A↔D、B↔E)。",
+      "difficulty": 2,
+      "tags": ["合同", "対応"]
+    },
+    {
+      "id": "heikou-024",
+      "subunit": "証明のしくみ",
+      "type": "choice",
+      "question": "「AB=CD ならば AB+EF=CD+EF である」という文で、「AB=CD」の部分を何というか。",
+      "choices": ["仮定", "結論", "定理", "証明"],
+      "answer": "仮定",
+      "explanation": "「ならば」の前が仮定、後が結論。",
+      "difficulty": 1,
+      "tags": ["証明", "仮定と結論"]
+    },
+    {
+      "id": "heikou-025",
+      "subunit": "証明のしくみ",
+      "type": "choice",
+      "question": "証明のなかで、正しいことがすでに認められていて、根拠として使えるものはどれか。",
+      "choices": [
+        "対頂角は等しい",
+        "証明したいことがら",
+        "予想",
+        "たまたま測って等しかった角"
+      ],
+      "answer": "対頂角は等しい",
+      "explanation": "すでに正しいと認められた性質(定理)は根拠に使える。証明したいこと自体や実測・予想は根拠にできない。",
+      "difficulty": 2,
+      "tags": ["証明", "根拠"]
+    },
+    {
+      "id": "heikou-026",
+      "subunit": "証明のしくみ",
+      "type": "choice",
+      "question": "2つの三角形が合同であることを証明したあと、対応する角が等しいと結論づけるときの根拠はどれか。",
+      "choices": [
+        "合同な図形では対応する角は等しい",
+        "三角形の内角の和は180°である",
+        "対頂角は等しい",
+        "平行線の錯角は等しい"
+      ],
+      "answer": "合同な図形では対応する角は等しい",
+      "explanation": "合同な図形の性質(対応する辺・角は等しい)を根拠として結論を導く。",
+      "difficulty": 3,
+      "tags": ["証明", "合同の性質"]
+    }
+  ]
+}

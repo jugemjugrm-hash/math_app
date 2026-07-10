@@ -98,4 +98,34 @@ const units = <Unit>[
     description: '全28問(変化の割合・グラフ・式・利用)',
     assetPath: 'assets/questions/grade2/ichiji_kansu.json',
   ),
+  // 中2 B 図形
+  Unit(
+    id: 'heikou',
+    grade: 2,
+    title: '平行と合同',
+    description: '全26問(平行線と角・多角形・合同条件・証明)',
+    assetPath: 'assets/questions/grade2/heikou_goudou.json',
+  ),
+  Unit(
+    id: 'sankaku',
+    grade: 2,
+    title: '三角形と四角形',
+    description: '全26問(二等辺三角形・平行四辺形・特別な四角形)',
+    assetPath: 'assets/questions/grade2/sankaku_shikaku.json',
+  ),
+  // 中2 D データの活用
+  Unit(
+    id: 'hakohige',
+    grade: 2,
+    title: 'データの比較(箱ひげ図)',
+    description: '全20問(四分位数・四分位範囲・箱ひげ図)',
+    assetPath: 'assets/questions/grade2/hakohige.json',
+  ),
+  Unit(
+    id: 'kakuritsu2',
+    grade: 2,
+    title: '確率',
+    description: '全24問(場合の数・確率の求め方)',
+    assetPath: 'assets/questions/grade2/kakuritsu_baai.json',
+  ),
 ];

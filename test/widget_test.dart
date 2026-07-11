@@ -42,5 +42,6 @@ void main() {
     // headline, so expect at least one (not exactly one).
     expect(find.text('中1「正負の数」'), findsWidgets);
     expect(find.text('はじめる'), findsOneWidget);
+    expect(find.text('ランダム10問'), findsOneWidget);
   });
 }

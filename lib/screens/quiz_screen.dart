@@ -7,22 +7,27 @@ import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
-  final ProgressRepository progressRepository;
+
+  /// Called once per answered question. Handles the review list, the
+  /// spaced-repetition schedule, and lifetime counters — kept as a callback
+  /// so mixed-unit sessions can route each question to its own unit's
+  /// repository.
+  final Future<void> Function(Question question, bool correct) onAnswer;
+
+  /// When set, the drill position (currentIndex/score) is persisted here so
+  /// the user can resume later. Review and random sessions leave it null.
+  final ProgressRepository? resumeRepository;
+
   final int initialIndex;
   final int initialScore;
-
-  /// Whether to persist resume state (currentIndex/score) as the user
-  /// progresses. Review sessions (a filtered subset of wrong questions)
-  /// don't need a resume point, only the full drill does.
-  final bool saveResumeState;
 
   const QuizScreen({
     super.key,
     required this.questions,
-    required this.progressRepository,
+    required this.onAnswer,
+    this.resumeRepository,
     this.initialIndex = 0,
     this.initialScore = 0,
-    this.saveResumeState = false,
   });
 
   @override
@@ -31,14 +36,27 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   final _numericController = TextEditingController();
-  late final _progressRepository = widget.progressRepository;
   late int _currentIndex = widget.initialIndex;
   late int _score = widget.initialScore;
   bool _answered = false;
   bool _isCorrect = false;
   String? _selectedChoice;
+  List<String>? _shuffledChoices;
 
   Question get _current => widget.questions[_currentIndex];
+
+  @override
+  void initState() {
+    super.initState();
+    _prepareChoices();
+  }
+
+  /// Shuffles the current question's choices so the answer position isn't
+  /// memorized between sessions. Shuffled once per question, not per build.
+  void _prepareChoices() {
+    final choices = _current.choices;
+    _shuffledChoices = choices == null ? null : ([...choices]..shuffle());
+  }
 
   void _submitNumeric() {
     if (_answered) return;
@@ -60,18 +78,12 @@ class _QuizScreenState extends State<QuizScreen> {
       _isCorrect = correct;
       if (correct) _score++;
     });
-    if (correct) {
-      _progressRepository.markCorrect(_current.id);
-    } else {
-      _progressRepository.markWrong(_current.id);
-    }
+    widget.onAnswer(_current, correct);
   }
 
   void _goNext() {
     if (_currentIndex + 1 >= widget.questions.length) {
-      if (widget.saveResumeState) {
-        _progressRepository.clearProgress();
-      }
+      widget.resumeRepository?.clearProgress();
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultScreen(
@@ -88,12 +100,11 @@ class _QuizScreenState extends State<QuizScreen> {
       _isCorrect = false;
       _selectedChoice = null;
       _numericController.clear();
+      _prepareChoices();
     });
-    if (widget.saveResumeState) {
-      _progressRepository.saveProgress(
-        QuizProgress(currentIndex: _currentIndex, score: _score),
-      );
-    }
+    widget.resumeRepository?.saveProgress(
+      QuizProgress(currentIndex: _currentIndex, score: _score),
+    );
   }
 
   @override
@@ -120,7 +131,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 24),
             if (q.type == 'numeric') _buildNumericInput(),
-            if (q.type == 'choice') _buildChoices(q),
+            if (q.type == 'choice') _buildChoices(),
             const SizedBox(height: 24),
             if (_answered) _buildFeedback(q),
           ],
@@ -154,9 +165,9 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  Widget _buildChoices(Question q) {
+  Widget _buildChoices() {
     return Column(
-      children: q.choices!.map((choice) {
+      children: (_shuffledChoices ?? const []).map((choice) {
         final isSelected = _selectedChoice == choice;
         Color? color;
         if (_answered && isSelected) {

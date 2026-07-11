@@ -97,7 +97,7 @@
       "question": "-2(3a-5b) を計算せよ。",
       "choices": ["-6a+10b", "-6a-10b", "-6a+5b", "6a+10b"],
       "answer": "-6a+10b",
-      "explanation": "-2を各項にかける。-2×3a=-6a、-2×(-5b)=+10b。よって-6a+10b。",
+      "explanation": "-2を各項にかける。-2×3a=-6a、-2×(-5b)=10b。よって-6a+10b。",
       "difficulty": 2,
       "tags": ["乗法", "分配法則"]
     },
@@ -271,9 +271,9 @@
       "subunit": "等式の変形",
       "type": "choice",
       "question": "L=2(a+b) を b について解いた式はどれか。",
-      "choices": ["b=L/2-a", "b=L-a", "b=L/2+a", "b=2L-a"],
-      "answer": "b=L/2-a",
-      "explanation": "両辺を2でわると L/2=a+b。a を移項して b=L/2-a。",
+      "choices": ["b={{L}}/{{2}}-a", "b=L-a", "b={{L}}/{{2}}+a", "b=2L-a"],
+      "answer": "b={{L}}/{{2}}-a",
+      "explanation": "両辺を2でわると {{L}}/{{2}}=a+b。a を移項して b={{L}}/{{2}}-a。",
       "difficulty": 3,
       "tags": ["等式の変形"]
     },
@@ -282,9 +282,9 @@
       "subunit": "等式の変形",
       "type": "choice",
       "question": "3x+2y=6 を y について解いた式はどれか。",
-      "choices": ["y=(6-3x)/2", "y=6-3x", "y=(6-3x)/3", "y=3-3x"],
-      "answer": "y=(6-3x)/2",
-      "explanation": "3xを移項して2y=6-3x。両辺を2でわって y=(6-3x)/2。",
+      "choices": ["y={{6-3x}}/{{2}}", "y=6-3x", "y={{6-3x}}/{{3}}", "y=3-3x"],
+      "answer": "y={{6-3x}}/{{2}}",
+      "explanation": "3xを移項して2y=6-3x。両辺を2でわって y={{6-3x}}/{{2}}。",
       "difficulty": 3,
       "tags": ["等式の変形"]
     }

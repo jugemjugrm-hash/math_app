@@ -96,7 +96,7 @@
       "choices": [
         "y=-4x",
         "y=4x",
-        "y=-4/x",
+        "y={{-4}}/{{x}}",
         "y=x-4"
       ],
       "answer": "y=-4x",
@@ -143,13 +143,13 @@
       "type": "choice",
       "question": "y は x に比例し、x=-6 のとき y=8 である。比例定数 a を求めなさい。",
       "choices": [
-        "-4/3",
-        "4/3",
-        "-3/4",
-        "3/4"
+        "{{-4}}/{{3}}",
+        "{{4}}/{{3}}",
+        "{{-3}}/{{4}}",
+        "{{3}}/{{4}}"
       ],
-      "answer": "-4/3",
-      "explanation": "a=y÷x=8÷(-6)=-4/3。",
+      "answer": "{{-4}}/{{3}}",
+      "explanation": "a=y÷x=8÷(-6)={{-4}}/{{3}}。",
       "difficulty": 3,
       "tags": ["比例", "比例定数"]
     },
@@ -194,7 +194,7 @@
         "y=-2x",
         "y=2x",
         "y=-6x",
-        "y=-2/x"
+        "y={{-2}}/{{x}}"
       ],
       "answer": "y=-2x",
       "explanation": "a=y÷x=-6÷3=-2。よって y=-2x。",
@@ -214,78 +214,78 @@
     },
     {
       "id": "hirei-016",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "choice",
       "question": "y は x に反比例し、x=3 のとき y=4 である。y を x の式で表しなさい。",
       "choices": [
-        "y=12/x",
-        "y=x/12",
+        "y={{12}}/{{x}}",
+        "y={{x}}/{{12}}",
         "y=12x",
-        "y=4/x"
+        "y={{4}}/{{x}}"
       ],
-      "answer": "y=12/x",
-      "explanation": "反比例の式は y=a/x で a=xy=3×4=12。よって y=12/x。",
+      "answer": "y={{12}}/{{x}}",
+      "explanation": "反比例の式は y={{a}}/{{x}} で a=xy=3×4=12。よって y={{12}}/{{x}}。",
       "difficulty": 1,
       "tags": ["反比例", "式"]
     },
     {
       "id": "hirei-017",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "choice",
       "question": "y は x に反比例し、比例定数が -8 である。y を x の式で表しなさい。",
       "choices": [
-        "y=-8/x",
-        "y=8/x",
+        "y={{-8}}/{{x}}",
+        "y={{8}}/{{x}}",
         "y=-8x",
         "y=8x"
       ],
-      "answer": "y=-8/x",
-      "explanation": "反比例の式は y=a/x。a=-8 だから y=-8/x。",
+      "answer": "y={{-8}}/{{x}}",
+      "explanation": "反比例の式は y={{a}}/{{x}}。a=-8 だから y={{-8}}/{{x}}。",
       "difficulty": 1,
       "tags": ["反比例", "式"]
     },
     {
       "id": "hirei-018",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "numeric",
       "question": "y は x に反比例し、x=2 のとき y=9 である。x=3 のときの y の値を求めなさい。",
       "choices": null,
       "answer": "6",
-      "explanation": "a=xy=2×9=18 で y=18/x。x=3 のとき y=18÷3=6。",
+      "explanation": "a=xy=2×9=18 で y={{18}}/{{x}}。x=3 のとき y=18÷3=6。",
       "difficulty": 2,
       "tags": ["反比例", "代入"]
     },
     {
       "id": "hirei-019",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "numeric",
       "question": "y は x に反比例し、x=4 のとき y=-6 である。x=-3 のときの y の値を求めなさい。",
       "choices": null,
       "answer": "8",
-      "explanation": "a=xy=4×(-6)=-24 で y=-24/x。x=-3 のとき y=-24÷(-3)=8。",
+      "explanation": "a=xy=4×(-6)=-24 で y={{-24}}/{{x}}。x=-3 のとき y=-24÷(-3)=8。",
       "difficulty": 2,
       "tags": ["反比例", "代入"]
     },
     {
       "id": "hirei-020",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "numeric",
       "question": "y は x に反比例し、x=5 のとき y=6 である。y=10 のときの x の値を求めなさい。",
       "choices": null,
       "answer": "3",
-      "explanation": "a=xy=5×6=30 で y=30/x。y=10 のとき 10=30/x より x=30÷10=3。",
+      "explanation": "a=xy=5×6=30 で y={{30}}/{{x}}。y=10 のとき 10={{30}}/{{x}} より x=30÷10=3。",
       "difficulty": 3,
       "tags": ["反比例", "代入"]
     },
     {
       "id": "hirei-021",
-      "subunit": "反比例の式 y=a/x",
+      "subunit": "反比例の式 y={{a}}/{{x}}",
       "type": "choice",
       "question": "y は x に反比例し、x=6 のとき y=4 である。比例定数を求めなさい。",
       "choices": [
         "24",
         "10",
-        "2/3",
+        "{{2}}/{{3}}",
         "12"
       ],
       "answer": "24",
@@ -297,7 +297,7 @@
       "id": "hirei-022",
       "subunit": "反比例のグラフ",
       "type": "choice",
-      "question": "反比例 y=6/x のグラフについて、正しいものはどれか。",
+      "question": "反比例 y={{6}}/{{x}} のグラフについて、正しいものはどれか。",
       "choices": [
         "双曲線で、x>0 の部分では x が増加すると y は減少する",
         "原点を通る右上がりの直線",
@@ -313,7 +313,7 @@
       "id": "hirei-023",
       "subunit": "反比例のグラフ",
       "type": "choice",
-      "question": "反比例 y=-12/x のグラフが通る点はどれか。",
+      "question": "反比例 y={{-12}}/{{x}} のグラフが通る点はどれか。",
       "choices": [
         "(3, -4)",
         "(2, 6)",
@@ -331,13 +331,13 @@
       "type": "choice",
       "question": "反比例のグラフが点 (2, 10) を通るとき、その式を求めなさい。",
       "choices": [
-        "y=20/x",
-        "y=5/x",
+        "y={{20}}/{{x}}",
+        "y={{5}}/{{x}}",
         "y=20x",
-        "y=x/20"
+        "y={{x}}/{{20}}"
       ],
-      "answer": "y=20/x",
-      "explanation": "a=xy=2×10=20。よって y=20/x。",
+      "answer": "y={{20}}/{{x}}",
+      "explanation": "a=xy=2×10=20。よって y={{20}}/{{x}}。",
       "difficulty": 2,
       "tags": ["反比例", "グラフ", "式"]
     },
@@ -359,7 +359,7 @@
       "question": "面積が 24 cm² の長方形で、たての長さを x cm、横の長さを y cm とする。たてが 6 cm のとき、横は何 cm か求めなさい。",
       "choices": null,
       "answer": "4",
-      "explanation": "xy=24 より y=24/x。x=6 のとき y=24÷6=4 (cm)。",
+      "explanation": "xy=24 より y={{24}}/{{x}}。x=6 のとき y=24÷6=4 (cm)。",
       "difficulty": 3,
       "tags": ["利用", "反比例", "面積"]
     },

@@ -15,6 +15,9 @@ class MathApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        // Math-style serif for Latin letters and digits; kanji/kana fall
+        // back to the platform's default Japanese font.
+        fontFamily: 'STIXTwoText',
       ),
       home: const UnitListScreen(),
     );

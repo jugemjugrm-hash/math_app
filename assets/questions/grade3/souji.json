@@ -22,10 +22,10 @@
       "id": "souji-002",
       "subunit": "相似の意味と相似比",
       "type": "choice",
-      "question": "△ABC∽△DEFで、AB＝4cm、DE＝8cmです。△ABCと△DEFの相似比を求めなさい。",
+      "question": "△ABC∽△DEFで、AB=4cm、DE=8cmです。△ABCと△DEFの相似比を求めなさい。",
       "choices": ["1:2", "2:1", "1:4", "4:1"],
       "answer": "1:2",
-      "explanation": "相似比は対応する辺の比。AB:DE＝4:8＝1:2。",
+      "explanation": "相似比は対応する辺の比。AB:DE=4:8=1:2。",
       "difficulty": 1,
       "tags": ["相似", "相似比"]
     },
@@ -33,10 +33,10 @@
       "id": "souji-003",
       "subunit": "相似の意味と相似比",
       "type": "numeric",
-      "question": "△ABC∽△DEFで、相似比は2:3です。AB＝6cmのとき、対応する辺DEの長さは何cmですか。",
+      "question": "△ABC∽△DEFで、相似比は2:3です。AB=6cmのとき、対応する辺DEの長さは何cmですか。",
       "choices": null,
       "answer": "9",
-      "explanation": "AB:DE＝2:3より、6:DE＝2:3。DE＝6×3÷2＝9cm。",
+      "explanation": "AB:DE=2:3より、6:DE=2:3。DE=6×3÷2=9cm。",
       "difficulty": 1,
       "tags": ["相似", "相似比", "辺の長さ"]
     },
@@ -44,10 +44,10 @@
       "id": "souji-004",
       "subunit": "相似の意味と相似比",
       "type": "numeric",
-      "question": "四角形ABCD∽四角形EFGHで、相似比は2:5です。AB＝4cmのとき、対応する辺EFの長さは何cmですか。",
+      "question": "四角形ABCD∽四角形EFGHで、相似比は2:5です。AB=4cmのとき、対応する辺EFの長さは何cmですか。",
       "choices": null,
       "answer": "10",
-      "explanation": "AB:EF＝2:5より、4:EF＝2:5。EF＝4×5÷2＝10cm。",
+      "explanation": "AB:EF=2:5より、4:EF=2:5。EF=4×5÷2=10cm。",
       "difficulty": 1,
       "tags": ["相似", "相似比", "辺の長さ"]
     },
@@ -71,7 +71,7 @@
       "id": "souji-006",
       "subunit": "三角形の相似条件",
       "type": "choice",
-      "question": "△ABCで∠A＝60°、∠B＝70°、△DEFで∠D＝60°、∠E＝70°のとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
+      "question": "△ABCで∠A=60°、∠B=70°、△DEFで∠D=60°、∠E=70°のとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
       "choices": [
         "2組の角がそれぞれ等しい",
         "3組の辺の比がすべて等しい",
@@ -79,7 +79,7 @@
         "3組の辺がそれぞれ等しい"
       ],
       "answer": "2組の角がそれぞれ等しい",
-      "explanation": "∠A＝∠D＝60°、∠B＝∠E＝70°と2組の角がそれぞれ等しいので相似といえる。",
+      "explanation": "∠A=∠D=60°、∠B=∠E=70°と2組の角がそれぞれ等しいので相似といえる。",
       "difficulty": 1,
       "tags": ["相似条件", "角"]
     },
@@ -87,7 +87,7 @@
       "id": "souji-007",
       "subunit": "三角形の相似条件",
       "type": "choice",
-      "question": "△ABCでAB＝6cm、BC＝8cm、CA＝10cm、△DEFでDE＝9cm、EF＝12cm、FD＝15cmのとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
+      "question": "△ABCでAB=6cm、BC=8cm、CA=10cm、△DEFでDE=9cm、EF=12cm、FD=15cmのとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
       "choices": [
         "3組の辺の比がすべて等しい",
         "2組の角がそれぞれ等しい",
@@ -95,7 +95,7 @@
         "3組の辺がそれぞれ等しい"
       ],
       "answer": "3組の辺の比がすべて等しい",
-      "explanation": "AB:DE＝6:9＝2:3、BC:EF＝8:12＝2:3、CA:FD＝10:15＝2:3。3組の辺の比がすべて等しい。",
+      "explanation": "AB:DE=6:9=2:3、BC:EF=8:12=2:3、CA:FD=10:15=2:3。3組の辺の比がすべて等しい。",
       "difficulty": 2,
       "tags": ["相似条件", "辺の比"]
     },
@@ -103,7 +103,7 @@
       "id": "souji-008",
       "subunit": "三角形の相似条件",
       "type": "choice",
-      "question": "△ABCと△DEFで、AB＝4cm、BC＝6cm、DE＝6cm、EF＝9cm、∠B＝∠Eのとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
+      "question": "△ABCと△DEFで、AB=4cm、BC=6cm、DE=6cm、EF=9cm、∠B=∠Eのとき、△ABC∽△DEFといえます。このとき使った相似条件はどれですか。",
       "choices": [
         "2組の辺の比とその間の角がそれぞれ等しい",
         "3組の辺の比がすべて等しい",
@@ -111,7 +111,7 @@
         "2組の辺の比が等しい"
       ],
       "answer": "2組の辺の比とその間の角がそれぞれ等しい",
-      "explanation": "AB:DE＝4:6＝2:3、BC:EF＝6:9＝2:3で、その間の角∠B＝∠E。よって2組の辺の比とその間の角がそれぞれ等しい。",
+      "explanation": "AB:DE=4:6=2:3、BC:EF=6:9=2:3で、その間の角∠B=∠E。よって2組の辺の比とその間の角がそれぞれ等しい。",
       "difficulty": 2,
       "tags": ["相似条件", "辺の比", "角"]
     },
@@ -119,7 +119,7 @@
       "id": "souji-009",
       "subunit": "相似の証明の考え方",
       "type": "choice",
-      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、∠ADE＝∠ACBが成り立っています。△ADE∽△ACBを証明するときに使う相似条件はどれですか。",
+      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、∠ADE=∠ACBが成り立っています。△ADE∽△ACBを証明するときに使う相似条件はどれですか。",
       "choices": [
         "2組の角がそれぞれ等しい",
         "3組の辺の比がすべて等しい",
@@ -127,7 +127,7 @@
         "3組の辺がそれぞれ等しい"
       ],
       "answer": "2組の角がそれぞれ等しい",
-      "explanation": "∠Aは共通、∠ADE＝∠ACB(仮定)。2組の角がそれぞれ等しいので△ADE∽△ACB。",
+      "explanation": "∠Aは共通、∠ADE=∠ACB(仮定)。2組の角がそれぞれ等しいので△ADE∽△ACB。",
       "difficulty": 2,
       "tags": ["証明", "相似条件", "共通な角"]
     },
@@ -135,7 +135,7 @@
       "id": "souji-010",
       "subunit": "相似の証明の考え方",
       "type": "choice",
-      "question": "線分ACと線分BDが点Oで交わっていて、AB∥DCです。△OAB∽△OCDを証明するとき、∠OAB＝∠OCDがいえる根拠として正しいものはどれですか。",
+      "question": "線分ACと線分BDが点Oで交わっていて、AB∥DCです。△OAB∽△OCDを証明するとき、∠OAB=∠OCDがいえる根拠として正しいものはどれですか。",
       "choices": [
         "平行線の錯角は等しい",
         "平行線の同位角は等しい",
@@ -143,7 +143,7 @@
         "二等辺三角形の底角は等しい"
       ],
       "answer": "平行線の錯角は等しい",
-      "explanation": "AB∥DCで、直線ACが2つの平行線と交わるので、錯角より∠OAB＝∠OCD。",
+      "explanation": "AB∥DCで、直線ACが2つの平行線と交わるので、錯角より∠OAB=∠OCD。",
       "difficulty": 2,
       "tags": ["証明", "平行線", "錯角"]
     },
@@ -151,10 +151,10 @@
       "id": "souji-011",
       "subunit": "相似の証明の考え方",
       "type": "choice",
-      "question": "∠A＝90°の直角三角形ABCで、頂点Aから辺BCに垂線をひき、BCとの交点をDとします。△ABCと相似な三角形を、対応する頂点の順に正しく書いたものはどれですか。",
+      "question": "∠A=90°の直角三角形ABCで、頂点Aから辺BCに垂線をひき、BCとの交点をDとします。△ABCと相似な三角形を、対応する頂点の順に正しく書いたものはどれですか。",
       "choices": ["△DBA", "△BDA", "△DAB", "△ABD"],
       "answer": "△DBA",
-      "explanation": "∠BAC＝∠BDA＝90°、∠Bは共通なので、A↔D、B↔B、C↔Aが対応する。よって△ABC∽△DBA。",
+      "explanation": "∠BAC=∠BDA=90°、∠Bは共通なので、A↔D、B↔B、C↔Aが対応する。よって△ABC∽△DBA。",
       "difficulty": 2,
       "tags": ["証明", "直角三角形", "対応"]
     },
@@ -162,10 +162,10 @@
       "id": "souji-012",
       "subunit": "相似の証明の考え方",
       "type": "numeric",
-      "question": "△ABCで、AB＝8cm、AC＝6cm、BC＝10cmです。辺AB上にAD＝3cmとなる点D、辺AC上にAE＝4cmとなる点Eをとると、△ADE∽△ACBとなります。線分DEの長さは何cmですか。",
+      "question": "△ABCで、AB=8cm、AC=6cm、BC=10cmです。辺AB上にAD=3cmとなる点D、辺AC上にAE=4cmとなる点Eをとると、△ADE∽△ACBとなります。線分DEの長さは何cmですか。",
       "choices": null,
       "answer": "5",
-      "explanation": "AD:AC＝3:6＝1:2、AE:AB＝4:8＝1:2、∠Aは共通なので△ADE∽△ACB(相似比1:2)。DEはCBに対応するので、DE＝10×1÷2＝5cm。",
+      "explanation": "AD:AC=3:6=1:2、AE:AB=4:8=1:2、∠Aは共通なので△ADE∽△ACB(相似比1:2)。DEはCBに対応するので、DE=10×1÷2=5cm。",
       "difficulty": 2,
       "tags": ["証明", "相似比", "辺の長さ"]
     },
@@ -173,10 +173,10 @@
       "id": "souji-013",
       "subunit": "平行線と線分の比",
       "type": "numeric",
-      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD＝4cm、DB＝2cm、BC＝9cmのとき、線分DEの長さは何cmですか。",
+      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD=4cm、DB=2cm、BC=9cmのとき、線分DEの長さは何cmですか。",
       "choices": null,
       "answer": "6",
-      "explanation": "AB＝4＋2＝6cm。DE∥BCより△ADE∽△ABCで、AD:AB＝4:6＝2:3。DE＝9×2÷3＝6cm。",
+      "explanation": "AB=4+2=6cm。DE∥BCより△ADE∽△ABCで、AD:AB=4:6=2:3。DE=9×2÷3=6cm。",
       "difficulty": 2,
       "tags": ["平行線と線分の比", "辺の長さ"]
     },
@@ -184,10 +184,10 @@
       "id": "souji-014",
       "subunit": "平行線と線分の比",
       "type": "numeric",
-      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD＝6cm、DB＝2cm、AE＝9cmのとき、線分ECの長さは何cmですか。",
+      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD=6cm、DB=2cm、AE=9cmのとき、線分ECの長さは何cmですか。",
       "choices": null,
       "answer": "3",
-      "explanation": "DE∥BCより、AD:DB＝AE:EC。6:2＝9:ECより、EC＝9×2÷6＝3cm。",
+      "explanation": "DE∥BCより、AD:DB=AE:EC。6:2=9:ECより、EC=9×2÷6=3cm。",
       "difficulty": 2,
       "tags": ["平行線と線分の比", "辺の長さ"]
     },
@@ -195,10 +195,10 @@
       "id": "souji-015",
       "subunit": "平行線と線分の比",
       "type": "numeric",
-      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD:DB＝3:2、AC＝10cmのとき、線分AEの長さは何cmですか。",
+      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD:DB=3:2、AC=10cmのとき、線分AEの長さは何cmですか。",
       "choices": null,
       "answer": "6",
-      "explanation": "DE∥BCより、AE:EC＝AD:DB＝3:2。よってAE＝AC×3÷5＝10×3÷5＝6cm。",
+      "explanation": "DE∥BCより、AE:EC=AD:DB=3:2。よってAE=AC×3÷5=10×3÷5=6cm。",
       "difficulty": 2,
       "tags": ["平行線と線分の比", "辺の長さ"]
     },
@@ -206,10 +206,10 @@
       "id": "souji-016",
       "subunit": "平行線と線分の比",
       "type": "numeric",
-      "question": "3つの平行な直線l、m、nに2つの直線が交わっています。一方の直線とl、m、nとの交点を順にA、B、C、もう一方の直線との交点を順にD、E、Fとします。AB＝4cm、BC＝6cm、DE＝6cmのとき、線分EFの長さは何cmですか。",
+      "question": "3つの平行な直線l、m、nに2つの直線が交わっています。一方の直線とl、m、nとの交点を順にA、B、C、もう一方の直線との交点を順にD、E、Fとします。AB=4cm、BC=6cm、DE=6cmのとき、線分EFの長さは何cmですか。",
       "choices": null,
       "answer": "9",
-      "explanation": "平行線にはさまれた線分の比は等しいので、AB:BC＝DE:EF。4:6＝6:EFより、EF＝6×6÷4＝9cm。",
+      "explanation": "平行線にはさまれた線分の比は等しいので、AB:BC=DE:EF。4:6=6:EFより、EF=6×6÷4=9cm。",
       "difficulty": 2,
       "tags": ["平行線と線分の比", "3本の平行線"]
     },
@@ -217,10 +217,10 @@
       "id": "souji-017",
       "subunit": "平行線と線分の比",
       "type": "numeric",
-      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD＝10cm、AB＝15cm、DE＝8cmのとき、辺BCの長さは何cmですか。",
+      "question": "△ABCの辺AB上に点D、辺AC上に点Eがあり、DE∥BCです。AD=10cm、AB=15cm、DE=8cmのとき、辺BCの長さは何cmですか。",
       "choices": null,
       "answer": "12",
-      "explanation": "DE∥BCより△ADE∽△ABCで、AD:AB＝10:15＝2:3。DE:BC＝2:3より、BC＝8×3÷2＝12cm。",
+      "explanation": "DE∥BCより△ADE∽△ABCで、AD:AB=10:15=2:3。DE:BC=2:3より、BC=8×3÷2=12cm。",
       "difficulty": 2,
       "tags": ["平行線と線分の比", "辺の長さ"]
     },
@@ -230,12 +230,12 @@
       "type": "choice",
       "question": "△ABCの辺AB、辺ACの中点をそれぞれM、Nとします。中点連結定理で成り立つことがらとして正しいものはどれですか。",
       "choices": [
-        "MN∥BC、MN＝(1/2)BC",
-        "MN∥BC、MN＝(1/3)BC",
-        "MN⊥BC、MN＝(1/2)BC",
-        "MN∥BC、MN＝BC"
+        "MN∥BC、MN={{1}}/{{2}}BC",
+        "MN∥BC、MN={{1}}/{{3}}BC",
+        "MN⊥BC、MN={{1}}/{{2}}BC",
+        "MN∥BC、MN=BC"
       ],
-      "answer": "MN∥BC、MN＝(1/2)BC",
+      "answer": "MN∥BC、MN={{1}}/{{2}}BC",
       "explanation": "2辺の中点を結ぶ線分は、残りの辺に平行で、長さはその半分になる。これが中点連結定理。",
       "difficulty": 2,
       "tags": ["中点連結定理"]
@@ -244,10 +244,10 @@
       "id": "souji-019",
       "subunit": "中点連結定理",
       "type": "numeric",
-      "question": "△ABCの辺AB、辺ACの中点をそれぞれM、Nとします。BC＝12cmのとき、線分MNの長さは何cmですか。",
+      "question": "△ABCの辺AB、辺ACの中点をそれぞれM、Nとします。BC=12cmのとき、線分MNの長さは何cmですか。",
       "choices": null,
       "answer": "6",
-      "explanation": "中点連結定理より、MN＝(1/2)BC＝12÷2＝6cm。",
+      "explanation": "中点連結定理より、MN={{1}}/{{2}}BC=12÷2=6cm。",
       "difficulty": 2,
       "tags": ["中点連結定理", "辺の長さ"]
     },
@@ -255,10 +255,10 @@
       "id": "souji-020",
       "subunit": "中点連結定理",
       "type": "numeric",
-      "question": "△ABCの辺AB、辺ACの中点をそれぞれM、Nとします。MN＝7cmのとき、辺BCの長さは何cmですか。",
+      "question": "△ABCの辺AB、辺ACの中点をそれぞれM、Nとします。MN=7cmのとき、辺BCの長さは何cmですか。",
       "choices": null,
       "answer": "14",
-      "explanation": "中点連結定理より、BC＝2MN＝7×2＝14cm。",
+      "explanation": "中点連結定理より、BC=2MN=7×2=14cm。",
       "difficulty": 2,
       "tags": ["中点連結定理", "辺の長さ"]
     },
@@ -266,10 +266,10 @@
       "id": "souji-021",
       "subunit": "中点連結定理",
       "type": "numeric",
-      "question": "四角形ABCDで、辺ABの中点をP、辺BCの中点をQとします。対角線AC＝16cmのとき、線分PQの長さは何cmですか。",
+      "question": "四角形ABCDで、辺ABの中点をP、辺BCの中点をQとします。対角線AC=16cmのとき、線分PQの長さは何cmですか。",
       "choices": null,
       "answer": "8",
-      "explanation": "△ABCに注目すると、PとQはそれぞれ辺BA、辺BCの中点。中点連結定理より、PQ＝(1/2)AC＝16÷2＝8cm。",
+      "explanation": "△ABCに注目すると、PとQはそれぞれ辺BA、辺BCの中点。中点連結定理より、PQ={{1}}/{{2}}AC=16÷2=8cm。",
       "difficulty": 3,
       "tags": ["中点連結定理", "四角形", "対角線"]
     },
@@ -280,7 +280,7 @@
       "question": "相似比が2:3である2つの相似な図形の面積比を求めなさい。",
       "choices": ["4:9", "2:3", "8:27", "4:6"],
       "answer": "4:9",
-      "explanation": "相似比がa:bのとき、面積比はa²:b²。2²:3²＝4:9。",
+      "explanation": "相似比がa:bのとき、面積比はa²:b²。2²:3²=4:9。",
       "difficulty": 2,
       "tags": ["面積比", "相似比"]
     },
@@ -291,7 +291,7 @@
       "question": "2つの相似な図形の面積比が9:25のとき、相似比を求めなさい。",
       "choices": ["3:5", "9:25", "27:125", "81:625"],
       "answer": "3:5",
-      "explanation": "面積比はa²:b²なので、9:25＝3²:5²。よって相似比は3:5。",
+      "explanation": "面積比はa²:b²なので、9:25=3²:5²。よって相似比は3:5。",
       "difficulty": 2,
       "tags": ["面積比", "相似比"]
     },
@@ -302,7 +302,7 @@
       "question": "相似比が3:4である2つの相似な立体の体積比を求めなさい。",
       "choices": ["27:64", "9:16", "3:4", "6:8"],
       "answer": "27:64",
-      "explanation": "相似比がa:bのとき、体積比はa³:b³。3³:4³＝27:64。",
+      "explanation": "相似比がa:bのとき、体積比はa³:b³。3³:4³=27:64。",
       "difficulty": 3,
       "tags": ["体積比", "相似比"]
     },
@@ -313,7 +313,7 @@
       "question": "相似比が2:3である2つの相似な図形があり、小さいほうの面積は20cm²です。大きいほうの面積を求めなさい。",
       "choices": ["45cm²", "30cm²", "40cm²", "90cm²"],
       "answer": "45cm²",
-      "explanation": "面積比は2²:3²＝4:9。20:x＝4:9より、x＝20×9÷4＝45cm²。",
+      "explanation": "面積比は2²:3²=4:9。20:x=4:9より、x=20×9÷4=45cm²。",
       "difficulty": 3,
       "tags": ["面積比", "相似比"]
     },
@@ -324,7 +324,7 @@
       "question": "相似比が1:2である2つの相似な立体があり、小さいほうの体積は5cm³です。大きいほうの体積を求めなさい。",
       "choices": ["40cm³", "10cm³", "20cm³", "80cm³"],
       "answer": "40cm³",
-      "explanation": "体積比は1³:2³＝1:8。よって大きいほうの体積は5×8＝40cm³。",
+      "explanation": "体積比は1³:2³=1:8。よって大きいほうの体積は5×8=40cm³。",
       "difficulty": 3,
       "tags": ["体積比", "相似比"]
     }

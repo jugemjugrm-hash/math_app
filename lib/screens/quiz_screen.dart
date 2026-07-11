@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/question.dart';
 import '../services/progress_repository.dart';
 import '../utils/answer_checker.dart';
+import '../widgets/math_text.dart';
 import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -113,9 +114,10 @@ class _QuizScreenState extends State<QuizScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(q.subunit, style: Theme.of(context).textTheme.labelLarge),
+            MathText(q.subunit, style: Theme.of(context).textTheme.labelLarge),
             const SizedBox(height: 8),
-            Text(q.question, style: Theme.of(context).textTheme.titleLarge),
+            MathText(q.question,
+                style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 24),
             if (q.type == 'numeric') _buildNumericInput(),
             if (q.type == 'choice') _buildChoices(q),
@@ -168,7 +170,7 @@ class _QuizScreenState extends State<QuizScreen> {
               alignment: Alignment.centerLeft,
             ),
             onPressed: _answered ? null : () => _submitChoice(choice),
-            child: Text(choice),
+            child: MathText(choice),
           ),
         );
       }).toList(),
@@ -188,7 +190,7 @@ class _QuizScreenState extends State<QuizScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text(
+          MathText(
             _isCorrect ? '正解！' : '不正解(正解: ${q.answer})',
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -196,7 +198,7 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
           ),
           const SizedBox(height: 8),
-          Text(q.explanation),
+          MathText(q.explanation),
           const SizedBox(height: 16),
           ElevatedButton(
             onPressed: _goNext,

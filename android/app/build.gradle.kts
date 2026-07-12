@@ -30,8 +30,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jugemjugrm.mathdrill"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        // google_mobile_ads requires a minimum SDK of 23.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

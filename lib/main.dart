@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+
+import 'services/ad_service.dart';
+import 'widgets/ad_banner.dart';
 import 'screens/unit_list_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await AdService.initialize();
   runApp(const MathApp());
 }
 
@@ -19,6 +24,18 @@ class MathApp extends StatelessWidget {
         // back to the platform's default Japanese font.
         fontFamily: 'STIXTwoText',
       ),
+      // A single banner pinned below every screen. Hidden while the keyboard
+      // is open so it never floats awkwardly above it during number entry.
+      builder: (context, child) {
+        final content = child ?? const SizedBox.shrink();
+        final keyboardOpen = MediaQuery.of(context).viewInsets.bottom > 0;
+        return Column(
+          children: [
+            Expanded(child: content),
+            if (!keyboardOpen) const SafeArea(top: false, child: AdBanner()),
+          ],
+        );
+      },
       home: const UnitListScreen(),
     );
   }

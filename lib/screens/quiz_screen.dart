@@ -3,6 +3,7 @@ import '../models/question.dart';
 import '../services/progress_repository.dart';
 import '../utils/answer_checker.dart';
 import '../widgets/math_text.dart';
+import '../widgets/scratch_pad.dart';
 import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -42,6 +43,11 @@ class _QuizScreenState extends State<QuizScreen> {
   bool _isCorrect = false;
   String? _selectedChoice;
   List<String>? _shuffledChoices;
+
+  /// Whether the scratch pad is open. Owned here (not by the pad) so the
+  /// choice persists across questions even though each question gets a fresh
+  /// blank canvas.
+  bool _scratchExpanded = true;
 
   Question get _current => widget.questions[_currentIndex];
 
@@ -116,26 +122,44 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     final q = _current;
+    final keyboardOpen = MediaQuery.of(context).viewInsets.bottom > 0;
     return Scaffold(
       appBar: AppBar(
         title: Text('${_currentIndex + 1} / ${widget.questions.length}'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            MathText(q.subunit, style: Theme.of(context).textTheme.labelLarge),
-            const SizedBox(height: 8),
-            MathText(q.question,
-                style: Theme.of(context).textTheme.titleLarge),
-            const SizedBox(height: 24),
-            if (q.type == 'numeric') _buildNumericInput(),
-            if (q.type == 'choice') _buildChoices(),
-            const SizedBox(height: 24),
-            if (_answered) _buildFeedback(q),
-          ],
-        ),
+      body: Column(
+        children: [
+          // Question and answer area scrolls independently, so long
+          // questions never collide with the pinned scratch pad below.
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  MathText(q.subunit,
+                      style: Theme.of(context).textTheme.labelLarge),
+                  const SizedBox(height: 8),
+                  MathText(q.question,
+                      style: Theme.of(context).textTheme.titleLarge),
+                  const SizedBox(height: 24),
+                  if (q.type == 'numeric') _buildNumericInput(),
+                  if (q.type == 'choice') _buildChoices(),
+                  const SizedBox(height: 24),
+                  if (_answered) _buildFeedback(q),
+                ],
+              ),
+            ),
+          ),
+          // A fresh blank scratch pad per question (keyed by index).
+          ScratchPad(
+            key: ValueKey(_currentIndex),
+            expanded: _scratchExpanded,
+            compact: keyboardOpen,
+            onToggle: () =>
+                setState(() => _scratchExpanded = !_scratchExpanded),
+          ),
+        ],
       ),
     );
   }

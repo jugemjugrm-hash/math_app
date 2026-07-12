@@ -1,0 +1,281 @@
+{
+  "unit": "Algebraic Expressions",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "moji-001",
+      "subunit": "Writing Algebraic Expressions",
+      "type": "choice",
+      "question": "Write a×5 using the rules for algebraic notation.",
+      "choices": ["5a", "a5", "5×a", "a+5"],
+      "answer": "5a",
+      "explanation": "In algebraic notation, the multiplication sign × is omitted, and the number is written in front of the variable. So a×5=5a.",
+      "difficulty": 1,
+      "tags": ["表し方"]
+    },
+    {
+      "id": "moji-002",
+      "subunit": "Writing Algebraic Expressions",
+      "type": "choice",
+      "question": "Write x×x×x in simplified form.",
+      "choices": ["3x", "x³", "x+3", "³x"],
+      "answer": "x³",
+      "explanation": "A product of the same variable is written using an exponent. x×x×x = x³.",
+      "difficulty": 2,
+      "tags": ["表し方", "累乗"]
+    },
+    {
+      "id": "moji-003",
+      "subunit": "Writing Algebraic Expressions",
+      "type": "choice",
+      "question": "Write a÷4 as a fraction.",
+      "choices": ["{{a}}/{{4}}", "{{4}}/{{a}}", "4a", "a-4"],
+      "answer": "{{a}}/{{4}}",
+      "explanation": "In algebraic notation, division is written as a fraction. a÷4 = {{a}}/{{4}}.",
+      "difficulty": 1,
+      "tags": ["表し方", "除法"]
+    },
+    {
+      "id": "moji-004",
+      "subunit": "Writing Algebraic Expressions",
+      "type": "choice",
+      "question": "Write (-1)×x in simplified form.",
+      "choices": ["-x", "x-1", "-1x", "1x"],
+      "answer": "-x",
+      "explanation": "When the coefficient is 1 or -1, the 1 is omitted. (-1)×x = -x.",
+      "difficulty": 2,
+      "tags": ["表し方", "係数の省略"]
+    },
+    {
+      "id": "moji-005",
+      "subunit": "Writing Algebraic Expressions",
+      "type": "choice",
+      "question": "Write x×y×(-2) in simplified form.",
+      "choices": ["-2xy", "2xy", "xy-2", "{{-2}}/{{xy}}"],
+      "answer": "-2xy",
+      "explanation": "Write the number first, then the variables in alphabetical order. x×y×(-2) = -2xy.",
+      "difficulty": 2,
+      "tags": ["表し方"]
+    },
+    {
+      "id": "moji-006",
+      "subunit": "Terms and Coefficients",
+      "type": "choice",
+      "question": "Identify the terms of 3x-5.",
+      "choices": ["3x and -5", "3x and 5", "x and -5", "3 and -5"],
+      "answer": "3x and -5",
+      "explanation": "3x-5 can be thought of as 3x+(-5), so the terms are 3x and -5.",
+      "difficulty": 1,
+      "tags": ["項", "係数"]
+    },
+    {
+      "id": "moji-007",
+      "subunit": "Terms and Coefficients",
+      "type": "choice",
+      "question": "What is the coefficient of x in 3x-5?",
+      "choices": ["3", "-5", "-3", "5"],
+      "answer": "3",
+      "explanation": "In the term 3x, the number 3 that multiplies the variable x is the coefficient.",
+      "difficulty": 1,
+      "tags": ["係数"]
+    },
+    {
+      "id": "moji-008",
+      "subunit": "Terms and Coefficients",
+      "type": "choice",
+      "question": "What is the coefficient of a in -2a+7?",
+      "choices": ["-2", "2", "7", "-7"],
+      "answer": "-2",
+      "explanation": "The coefficient of the term -2a is -2. Include the sign in your answer.",
+      "difficulty": 1,
+      "tags": ["係数"]
+    },
+    {
+      "id": "moji-009",
+      "subunit": "Terms and Coefficients",
+      "type": "choice",
+      "question": "How many terms does x-4 have?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
+      "explanation": "x-4 = x+(-4), so there are 2 terms: x and -4.",
+      "difficulty": 1,
+      "tags": ["項"]
+    },
+    {
+      "id": "moji-010",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of 2x+1 when x=3.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Substitute 3 for x. 2×3+1=7.",
+      "difficulty": 1,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-011",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of 3x+5 when x=-2.",
+      "choices": null,
+      "answer": "-1",
+      "explanation": "Substitute -2 for x. 3×(-2)+5=-6+5=-1.",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-012",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of -a+6 when a=4.",
+      "choices": null,
+      "answer": "2",
+      "explanation": "Substitute 4 for a. -4+6=2.",
+      "difficulty": 1,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-013",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of x² when x=-3.",
+      "choices": null,
+      "answer": "9",
+      "explanation": "Substitute -3 for x. (-3)² = (-3)×(-3) = 9.",
+      "difficulty": 2,
+      "tags": ["式の値", "累乗"]
+    },
+    {
+      "id": "moji-014",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of a+2b when a=2 and b=-3.",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "Substitute a=2 and b=-3. 2+2×(-3)=2-6=-4.",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-015",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "Find the value of 5-3x when x=-1.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "Substitute -1 for x. 5-3×(-1)=5+3=8.",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "moji-016",
+      "subunit": "Adding and Subtracting Linear Expressions",
+      "type": "choice",
+      "question": "Calculate (2x+3)+(4x-1).",
+      "choices": ["6x+2", "6x+4", "2x+2", "6x-2"],
+      "answer": "6x+2",
+      "explanation": "Combine the x terms and the constant terms. (2x+4x)+(3-1)=6x+2.",
+      "difficulty": 2,
+      "tags": ["加法"]
+    },
+    {
+      "id": "moji-017",
+      "subunit": "Adding and Subtracting Linear Expressions",
+      "type": "choice",
+      "question": "Calculate (5x-2)-(3x-6).",
+      "choices": ["2x+4", "2x-4", "8x+4", "2x-8"],
+      "answer": "2x+4",
+      "explanation": "Removing the parentheses changes the signs. 5x-2-3x+6=2x+4.",
+      "difficulty": 3,
+      "tags": ["減法"]
+    },
+    {
+      "id": "moji-018",
+      "subunit": "Adding and Subtracting Linear Expressions",
+      "type": "choice",
+      "question": "Calculate (-3x+4)+(x-7).",
+      "choices": ["-2x-3", "-2x+3", "-4x-3", "2x-3"],
+      "answer": "-2x-3",
+      "explanation": "Combine the x terms and the constant terms. (-3x+x)+(4-7)=-2x-3.",
+      "difficulty": 2,
+      "tags": ["加法"]
+    },
+    {
+      "id": "moji-019",
+      "subunit": "Adding and Subtracting Linear Expressions",
+      "type": "choice",
+      "question": "Calculate (6x-5)-(2x-5).",
+      "choices": ["4x", "4x-10", "8x", "4x-5"],
+      "answer": "4x",
+      "explanation": "Removing the parentheses gives 6x-5-2x+5=4x.",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "moji-020",
+      "subunit": "Multiplying and Dividing Linear Expressions by Numbers",
+      "type": "choice",
+      "question": "Calculate 3(2x-5).",
+      "choices": ["6x-15", "6x-5", "5x-15", "6x-8"],
+      "answer": "6x-15",
+      "explanation": "Use the distributive property. 3×2x-3×5=6x-15.",
+      "difficulty": 2,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "moji-021",
+      "subunit": "Multiplying and Dividing Linear Expressions by Numbers",
+      "type": "choice",
+      "question": "Calculate -2(x-4).",
+      "choices": ["-2x+8", "-2x-8", "-2x+4", "2x-8"],
+      "answer": "-2x+8",
+      "explanation": "Use the distributive property. -2×x+(-2)×(-4)=-2x+8.",
+      "difficulty": 2,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "moji-022",
+      "subunit": "Multiplying and Dividing Linear Expressions by Numbers",
+      "type": "choice",
+      "question": "Calculate (8x-12)÷4.",
+      "choices": ["2x-3", "2x-12", "8x-3", "2x-4"],
+      "answer": "2x-3",
+      "explanation": "Divide each term by 4. 8x÷4=2x, and -12÷4=-3.",
+      "difficulty": 2,
+      "tags": ["除法"]
+    },
+    {
+      "id": "moji-023",
+      "subunit": "Multiplying and Dividing Linear Expressions by Numbers",
+      "type": "choice",
+      "question": "Calculate (-15x+9)÷(-3).",
+      "choices": ["5x-3", "5x-9", "-5x+3", "5x+3"],
+      "answer": "5x-3",
+      "explanation": "Divide each term by -3. -15x÷(-3)=5x, and 9÷(-3)=-3.",
+      "difficulty": 3,
+      "tags": ["除法"]
+    },
+    {
+      "id": "moji-024",
+      "subunit": "Mixed Operations",
+      "type": "choice",
+      "question": "Calculate 2(x+3)-(x-5).",
+      "choices": ["x+11", "x+1", "3x+11", "x-11"],
+      "answer": "x+11",
+      "explanation": "Remove the parentheses and simplify. 2x+6-x+5=x+11.",
+      "difficulty": 3,
+      "tags": ["四則混合"]
+    },
+    {
+      "id": "moji-025",
+      "subunit": "Mixed Operations",
+      "type": "choice",
+      "question": "Calculate 4(2x-1)+3(x+2).",
+      "choices": ["11x+2", "11x-2", "7x+2", "8x+5"],
+      "answer": "11x+2",
+      "explanation": "Remove the parentheses and simplify. 8x-4+3x+6=11x+2.",
+      "difficulty": 3,
+      "tags": ["四則混合"]
+    }
+  ]
+}

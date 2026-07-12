@@ -1,0 +1,280 @@
+{
+  "unit": "Probability (Number of Cases)",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "kakuritsu2-001",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When one die is thrown once, how many possible outcomes are there in all?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "There are 6 outcomes, from 1 to 6.",
+      "difficulty": 1,
+      "tags": ["場合の数", "さいころ"]
+    },
+    {
+      "id": "kakuritsu2-002",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When one 100-yen coin and one 10-yen coin are tossed at the same time, how many possible ways can they land heads or tails in all?",
+      "choices": null,
+      "answer": "4",
+      "explanation": "Each coin can land heads or tails, 2 ways each, so 2×2=4 ways (heads-heads, heads-tails, tails-heads, tails-tails).",
+      "difficulty": 1,
+      "tags": ["場合の数", "硬貨"]
+    },
+    {
+      "id": "kakuritsu2-003",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When a large die and a small die are thrown at the same time, how many possible outcomes are there in all?",
+      "choices": null,
+      "answer": "36",
+      "explanation": "For each of the 6 outcomes of the large die, the small die has 6 outcomes. 6×6=36 ways.",
+      "difficulty": 1,
+      "tags": ["場合の数", "さいころ2個"]
+    },
+    {
+      "id": "kakuritsu2-004",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When the three people A, B, and C line up in a row, how many different arrangements are there in all?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "3 choices for the first position × 2 for the second × 1 for the third = 6 ways.",
+      "difficulty": 2,
+      "tags": ["場合の数", "並べ方"]
+    },
+    {
+      "id": "kakuritsu2-005",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When two of the three cards 1, 2, and 3 are arranged to form a two-digit integer, how many integers can be made in all?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "3 choices for the tens place × 2 for the ones place = 6 integers (12, 13, 21, 23, 31, 32).",
+      "difficulty": 2,
+      "tags": ["場合の数", "カード"]
+    },
+    {
+      "id": "kakuritsu2-006",
+      "subunit": "Number of Cases",
+      "type": "numeric",
+      "question": "When 2 teams are chosen from the 4 teams A, B, C, and D, how many ways are there to choose in all (order does not matter)?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "AB, AC, AD, BC, BD, CD — 6 ways. In a combination, order is not distinguished.",
+      "difficulty": 2,
+      "tags": ["場合の数", "組み合わせ"]
+    },
+    {
+      "id": "kakuritsu2-007",
+      "subunit": "Equally Likely",
+      "type": "choice",
+      "question": "Which of the following correctly describes the meaning of \"equally likely\"?",
+      "choices": [
+        "Every outcome can be expected to occur to the same degree",
+        "The same outcome happens over and over",
+        "The outcome turns out as predicted",
+        "The probability is always {{1}}/{{2}}"
+      ],
+      "answer": "Every outcome can be expected to occur to the same degree",
+      "explanation": "It means that, like each face of a fairly made die, every case can be expected to occur to the same degree.",
+      "difficulty": 1,
+      "tags": ["同様に確からしい", "用語"]
+    },
+    {
+      "id": "kakuritsu2-008",
+      "subunit": "Finding Probability",
+      "type": "choice",
+      "question": "When all possible cases number n and are equally likely, and event A occurs in a of those cases, which expression represents the probability that A occurs?",
+      "choices": ["{{a}}/{{n}}", "{{n}}/{{a}}", "a×n", "n-a"],
+      "answer": "{{a}}/{{n}}",
+      "explanation": "Probability = (number of cases in which the event occurs) ÷ (total number of cases) = {{a}}/{{n}}.",
+      "difficulty": 1,
+      "tags": ["確率の定義"]
+    },
+    {
+      "id": "kakuritsu2-009",
+      "subunit": "Finding Probability",
+      "type": "choice",
+      "question": "When one die is thrown, find the probability of rolling a 3.",
+      "choices": ["{{1}}/{{6}}", "{{1}}/{{3}}", "{{1}}/{{2}}", "{{3}}/{{6}}"],
+      "answer": "{{1}}/{{6}}",
+      "explanation": "Out of 6 outcomes in all, rolling a 3 is 1 outcome. The probability is {{1}}/{{6}}.",
+      "difficulty": 1,
+      "tags": ["確率", "さいころ"]
+    },
+    {
+      "id": "kakuritsu2-010",
+      "subunit": "Finding Probability",
+      "type": "choice",
+      "question": "When one die is thrown, find the probability of rolling an even number.",
+      "choices": ["{{1}}/{{2}}", "{{1}}/{{3}}", "{{1}}/{{6}}", "{{2}}/{{3}}"],
+      "answer": "{{1}}/{{2}}",
+      "explanation": "Even numbers are 2, 4, and 6 — 3 outcomes. {{3}}/{{6}}={{1}}/{{2}}.",
+      "difficulty": 1,
+      "tags": ["確率", "さいころ"]
+    },
+    {
+      "id": "kakuritsu2-011",
+      "subunit": "Finding Probability",
+      "type": "choice",
+      "question": "When one die is thrown, find the probability of rolling a 5 or higher.",
+      "choices": ["{{1}}/{{3}}", "{{1}}/{{2}}", "{{1}}/{{6}}", "{{2}}/{{3}}"],
+      "answer": "{{1}}/{{3}}",
+      "explanation": "5 or higher is 5 and 6 — 2 outcomes. {{2}}/{{6}}={{1}}/{{3}}.",
+      "difficulty": 2,
+      "tags": ["確率", "さいころ"]
+    },
+    {
+      "id": "kakuritsu2-012",
+      "subunit": "Finding Probability",
+      "type": "choice",
+      "question": "Which of the following is true about the value of a probability?",
+      "choices": [
+        "It is between 0 and 1, inclusive",
+        "It is always greater than 0",
+        "It can be greater than 1",
+        "It can be negative"
+      ],
+      "answer": "It is between 0 and 1, inclusive",
+      "explanation": "The probability of an event that never occurs is 0, and the probability of an event that always occurs is 1, so a probability p satisfies 0≦p≦1.",
+      "difficulty": 2,
+      "tags": ["確率の性質"]
+    },
+    {
+      "id": "kakuritsu2-013",
+      "subunit": "Coin Probability",
+      "type": "choice",
+      "question": "When two coins are tossed at the same time, find the probability that both come up heads.",
+      "choices": ["{{1}}/{{4}}", "{{1}}/{{2}}", "{{1}}/{{3}}", "{{2}}/{{4}}"],
+      "answer": "{{1}}/{{4}}",
+      "explanation": "There are 4 outcomes (heads-heads, heads-tails, tails-heads, tails-tails), and both heads is 1 outcome. {{1}}/{{4}}.",
+      "difficulty": 2,
+      "tags": ["確率", "硬貨"]
+    },
+    {
+      "id": "kakuritsu2-014",
+      "subunit": "Coin Probability",
+      "type": "choice",
+      "question": "When two coins are tossed at the same time, find the probability that one comes up heads and one comes up tails.",
+      "choices": ["{{1}}/{{2}}", "{{1}}/{{4}}", "{{1}}/{{3}}", "{{3}}/{{4}}"],
+      "answer": "{{1}}/{{2}}",
+      "explanation": "Heads-tails and tails-heads — 2 outcomes. {{2}}/{{4}}={{1}}/{{2}}.",
+      "difficulty": 2,
+      "tags": ["確率", "硬貨"]
+    },
+    {
+      "id": "kakuritsu2-015",
+      "subunit": "Coin Probability",
+      "type": "choice",
+      "question": "When three coins are tossed at the same time, find the probability that all three come up tails.",
+      "choices": ["{{1}}/{{8}}", "{{1}}/{{3}}", "{{1}}/{{6}}", "{{1}}/{{4}}"],
+      "answer": "{{1}}/{{8}}",
+      "explanation": "There are 2×2×2=8 outcomes, and all three tails is 1 outcome. {{1}}/{{8}}.",
+      "difficulty": 2,
+      "tags": ["確率", "硬貨3枚"]
+    },
+    {
+      "id": "kakuritsu2-016",
+      "subunit": "Two-Dice Probability",
+      "type": "choice",
+      "question": "When a large die and a small die are thrown at the same time, find the probability that the sum of the numbers rolled is 7.",
+      "choices": ["{{1}}/{{6}}", "{{1}}/{{12}}", "{{1}}/{{9}}", "{{7}}/{{36}}"],
+      "answer": "{{1}}/{{6}}",
+      "explanation": "The sum is 7 in the 6 cases (1,6)(2,5)(3,4)(4,3)(5,2)(6,1). {{6}}/{{36}}={{1}}/{{6}}.",
+      "difficulty": 3,
+      "tags": ["確率", "さいころ2個"]
+    },
+    {
+      "id": "kakuritsu2-017",
+      "subunit": "Two-Dice Probability",
+      "type": "choice",
+      "question": "When a large die and a small die are thrown at the same time, find the probability that both show the same number.",
+      "choices": ["{{1}}/{{6}}", "{{1}}/{{36}}", "{{1}}/{{12}}", "{{1}}/{{2}}"],
+      "answer": "{{1}}/{{6}}",
+      "explanation": "Doubles are the 6 cases (1,1) through (6,6). {{6}}/{{36}}={{1}}/{{6}}.",
+      "difficulty": 2,
+      "tags": ["確率", "さいころ2個"]
+    },
+    {
+      "id": "kakuritsu2-018",
+      "subunit": "Two-Dice Probability",
+      "type": "choice",
+      "question": "When a large die and a small die are thrown at the same time, find the probability that the sum of the numbers rolled is 4 or less.",
+      "choices": ["{{1}}/{{6}}", "{{1}}/{{9}}", "{{1}}/{{12}}", "{{5}}/{{36}}"],
+      "answer": "{{1}}/{{6}}",
+      "explanation": "The sum is 2 in 1 case, 3 in 2 cases, and 4 in 3 cases, for 6 cases in total. {{6}}/{{36}}={{1}}/{{6}}.",
+      "difficulty": 3,
+      "tags": ["確率", "さいころ2個"]
+    },
+    {
+      "id": "kakuritsu2-019",
+      "subunit": "Ball Probability",
+      "type": "choice",
+      "question": "When one ball is drawn from a bag containing 3 red balls and 2 white balls, find the probability of drawing a red ball.",
+      "choices": ["{{3}}/{{5}}", "{{2}}/{{5}}", "{{1}}/{{3}}", "{{1}}/{{2}}"],
+      "answer": "{{3}}/{{5}}",
+      "explanation": "Out of 5 balls in all, 3 are red. {{3}}/{{5}}.",
+      "difficulty": 1,
+      "tags": ["確率", "玉"]
+    },
+    {
+      "id": "kakuritsu2-020",
+      "subunit": "Ball Probability",
+      "type": "choice",
+      "question": "When one ball is drawn from a bag containing 2 red balls, 3 white balls, and 5 blue balls, find the probability of drawing a white ball.",
+      "choices": ["{{3}}/{{10}}", "{{1}}/{{3}}", "{{3}}/{{5}}", "{{1}}/{{5}}"],
+      "answer": "{{3}}/{{10}}",
+      "explanation": "Out of 10 balls in all, 3 are white. {{3}}/{{10}}.",
+      "difficulty": 2,
+      "tags": ["確率", "玉"]
+    },
+    {
+      "id": "kakuritsu2-021",
+      "subunit": "Lottery Probability",
+      "type": "choice",
+      "question": "When one ticket is drawn from a lottery of 5 tickets that includes 2 winning tickets, find the probability of winning.",
+      "choices": ["{{2}}/{{5}}", "{{1}}/{{5}}", "{{1}}/{{2}}", "{{2}}/{{3}}"],
+      "answer": "{{2}}/{{5}}",
+      "explanation": "Out of 5 tickets, 2 are winners. {{2}}/{{5}}.",
+      "difficulty": 1,
+      "tags": ["確率", "くじ"]
+    },
+    {
+      "id": "kakuritsu2-022",
+      "subunit": "Probability of Not Occurring",
+      "type": "choice",
+      "question": "When the probability that event A occurs is p, which expression represents the probability that A does not occur?",
+      "choices": ["1-p", "p-1", "{{1}}/{{p}}", "p"],
+      "answer": "1-p",
+      "explanation": "(Probability that A does not occur) = 1 - (probability that A occurs) = 1-p.",
+      "difficulty": 2,
+      "tags": ["余事象"]
+    },
+    {
+      "id": "kakuritsu2-023",
+      "subunit": "Probability of Not Occurring",
+      "type": "choice",
+      "question": "When one die is thrown, find the probability of not rolling a 1.",
+      "choices": ["{{5}}/{{6}}", "{{1}}/{{6}}", "{{2}}/{{3}}", "{{4}}/{{6}}"],
+      "answer": "{{5}}/{{6}}",
+      "explanation": "The probability of rolling a 1 is {{1}}/{{6}}. The probability of not rolling a 1 is 1-{{1}}/{{6}}={{5}}/{{6}}.",
+      "difficulty": 2,
+      "tags": ["余事象", "さいころ"]
+    },
+    {
+      "id": "kakuritsu2-024",
+      "subunit": "Probability of Not Occurring",
+      "type": "choice",
+      "question": "When two coins are tossed at the same time, find the probability that at least one comes up heads.",
+      "choices": ["{{3}}/{{4}}", "{{1}}/{{2}}", "{{1}}/{{4}}", "{{2}}/{{3}}"],
+      "answer": "{{3}}/{{4}}",
+      "explanation": "The opposite of \"at least one heads\" is \"both tails\", which has probability {{1}}/{{4}}. 1-{{1}}/{{4}}={{3}}/{{4}}.",
+      "difficulty": 3,
+      "tags": ["余事象", "少なくとも"]
+    }
+  ]
+}

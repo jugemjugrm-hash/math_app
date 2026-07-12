@@ -1,0 +1,246 @@
+{
+  "unit": "Comparing Data (Box Plots)",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "hakohige-001",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the second quartile (median) of the 7 data values 2, 4, 5, 7, 9, 11, 13.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "The middle of 7 values is the 4th from the smallest. So the answer is 7.",
+      "difficulty": 1,
+      "tags": ["四分位数", "中央値"]
+    },
+    {
+      "id": "hakohige-002",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the first quartile of the 7 data values 2, 4, 5, 7, 9, 11, 13.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "The first quartile is the median of the lower half 2, 4, 5, which is below the median (7). So the answer is 4.",
+      "difficulty": 2,
+      "tags": ["四分位数", "第1四分位数"]
+    },
+    {
+      "id": "hakohige-003",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the third quartile of the 7 data values 2, 4, 5, 7, 9, 11, 13.",
+      "choices": null,
+      "answer": "11",
+      "explanation": "The third quartile is the median of the upper half 9, 11, 13, which is above the median (7). So the answer is 11.",
+      "difficulty": 2,
+      "tags": ["四分位数", "第3四分位数"]
+    },
+    {
+      "id": "hakohige-004",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the second quartile (median) of the 8 data values 1, 3, 4, 6, 8, 9, 11, 14.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "The middle of 8 values is the average of the 4th and 5th values. (6+8)÷2=7.",
+      "difficulty": 2,
+      "tags": ["四分位数", "中央値"]
+    },
+    {
+      "id": "hakohige-005",
+      "subunit": "Quartiles",
+      "type": "choice",
+      "question": "Find the first quartile of the 8 data values 1, 3, 4, 6, 8, 9, 11, 14.",
+      "choices": ["3.5", "3", "4", "4.5"],
+      "answer": "3.5",
+      "explanation": "The first quartile is the median of the lower half 1, 3, 4, 6. The middle of 4 values is the average of the 2nd and 3rd values: (3+4)÷2=3.5.",
+      "difficulty": 3,
+      "tags": ["四分位数", "第1四分位数"]
+    },
+    {
+      "id": "hakohige-006",
+      "subunit": "Interquartile Range",
+      "type": "numeric",
+      "question": "For a data set, the first quartile is 5 and the third quartile is 12. Find the interquartile range.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Interquartile range = third quartile - first quartile = 12-5=7.",
+      "difficulty": 1,
+      "tags": ["四分位範囲"]
+    },
+    {
+      "id": "hakohige-007",
+      "subunit": "Interquartile Range",
+      "type": "numeric",
+      "question": "Find the interquartile range of the 7 data values 3, 5, 6, 8, 10, 12, 15.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "The first quartile is the median of the lower half 3, 5, 6, which is 5. The third quartile is the median of the upper half 10, 12, 15, which is 12. 12-5=7.",
+      "difficulty": 2,
+      "tags": ["四分位範囲"]
+    },
+    {
+      "id": "hakohige-008",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Which range does the \"box\" part of a box plot represent?",
+      "choices": [
+        "From the first quartile to the third quartile",
+        "From the minimum to the maximum",
+        "Around the mean",
+        "From the median to the maximum"
+      ],
+      "answer": "From the first quartile to the third quartile",
+      "explanation": "The box represents the first quartile through the third quartile (about the middle 50% of the data). The whiskers extend to the minimum and maximum.",
+      "difficulty": 1,
+      "tags": ["箱ひげ図", "読み取り"]
+    },
+    {
+      "id": "hakohige-009",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "In a box plot, what value does the vertical line drawn inside the box represent?",
+      "choices": ["Median", "Mean", "Mode", "Minimum"],
+      "answer": "Median",
+      "explanation": "The vertical line inside the box represents the median (second quartile). Note that it is not the mean.",
+      "difficulty": 1,
+      "tags": ["箱ひげ図", "中央値"]
+    },
+    {
+      "id": "hakohige-010",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Which value cannot be read from a box plot?",
+      "choices": ["Mean", "Median", "Maximum", "First quartile"],
+      "answer": "Mean",
+      "explanation": "A box plot shows five values (the five-number summary): the minimum, first quartile, median, third quartile, and maximum. However, the mean cannot be read from it.",
+      "difficulty": 2,
+      "tags": ["箱ひげ図", "五数要約"]
+    },
+    {
+      "id": "hakohige-011",
+      "subunit": "Reading Box Plots",
+      "type": "numeric",
+      "question": "In a box plot, the minimum is 4 and the maximum is 20. Find the range of this data.",
+      "choices": null,
+      "answer": "16",
+      "explanation": "Range = maximum - minimum = 20-4=16.",
+      "difficulty": 1,
+      "tags": ["箱ひげ図", "範囲"]
+    },
+    {
+      "id": "hakohige-012",
+      "subunit": "Reading Box Plots",
+      "type": "numeric",
+      "question": "In a box plot, the left edge of the box points to 6 and the right edge points to 14. Find the interquartile range.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "The left edge of the box is the first quartile and the right edge is the third quartile. 14-6=8.",
+      "difficulty": 2,
+      "tags": ["箱ひげ図", "四分位範囲"]
+    },
+    {
+      "id": "hakohige-013",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Out of all the data, about what percent falls inside the \"box\" of a box plot (from the first quartile to the third quartile)?",
+      "choices": ["About 50%", "About 25%", "About 75%", "About 100%"],
+      "answer": "About 50%",
+      "explanation": "The quartiles divide the data into four equal parts, so the box contains about the middle 50%.",
+      "difficulty": 2,
+      "tags": ["箱ひげ図", "割合"]
+    },
+    {
+      "id": "hakohige-014",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Comparing the box plots of Class A and Class B, the box for Class A is wider. What can be concluded from this?",
+      "choices": [
+        "Class A has a larger interquartile range",
+        "Class A has a larger mean",
+        "Class A has more students",
+        "Class A has a larger maximum"
+      ],
+      "answer": "Class A has a larger interquartile range",
+      "explanation": "The width of the box represents the interquartile range. The wider it is, the greater the spread of the data around the center.",
+      "difficulty": 2,
+      "tags": ["箱ひげ図", "比較"]
+    },
+    {
+      "id": "hakohige-015",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the second quartile (median) of the 9 data values 1, 2, 4, 5, 6, 8, 9, 11, 12.",
+      "choices": null,
+      "answer": "6",
+      "explanation": "The middle of 9 values is the 5th value. So the answer is 6.",
+      "difficulty": 1,
+      "tags": ["四分位数", "中央値"]
+    },
+    {
+      "id": "hakohige-016",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the first quartile of the 9 data values 1, 2, 4, 5, 6, 8, 9, 11, 12.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "This is the median of the lower half 1, 2, 4, 5, excluding the median (6). (2+4)÷2=3.",
+      "difficulty": 3,
+      "tags": ["四分位数", "第1四分位数"]
+    },
+    {
+      "id": "hakohige-017",
+      "subunit": "Quartiles",
+      "type": "numeric",
+      "question": "Find the third quartile of the 9 data values 1, 2, 4, 5, 6, 8, 9, 11, 12.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "This is the median of the upper half 8, 9, 11, 12, excluding the median (6). (9+11)÷2=10.",
+      "difficulty": 3,
+      "tags": ["四分位数", "第3四分位数"]
+    },
+    {
+      "id": "hakohige-018",
+      "subunit": "Interquartile Range",
+      "type": "numeric",
+      "question": "Find the interquartile range of the 9 data values 1, 2, 4, 5, 6, 8, 9, 11, 12.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "The third quartile is 10 and the first quartile is 3. 10-3=7.",
+      "difficulty": 3,
+      "tags": ["四分位範囲"]
+    },
+    {
+      "id": "hakohige-019",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Which of the following is a correct description of the interquartile range?",
+      "choices": [
+        "It is not easily affected by extreme values (outliers)",
+        "It is the most easily affected by outliers",
+        "It equals the number of data values",
+        "It is always larger than the range"
+      ],
+      "answer": "It is not easily affected by extreme values (outliers)",
+      "explanation": "The interquartile range uses only the middle 50% of the data, so it is not easily affected by extreme values at either end. The range, however, is strongly affected by outliers.",
+      "difficulty": 3,
+      "tags": ["四分位範囲", "外れ値"]
+    },
+    {
+      "id": "hakohige-020",
+      "subunit": "Reading Box Plots",
+      "type": "choice",
+      "question": "Which of the following is the most appropriate feature of a box plot compared with a histogram?",
+      "choices": [
+        "It makes it easy to line up and compare the distributions of several data sets",
+        "It shows the exact frequency of each class",
+        "The mean can be read from it",
+        "The number of data values can be determined"
+      ],
+      "answer": "It makes it easy to line up and compare the distributions of several data sets",
+      "explanation": "Because a box plot is compact, it is well suited to lining up the data of several groups and comparing the position and spread of their distributions.",
+      "difficulty": 2,
+      "tags": ["箱ひげ図", "特徴"]
+    }
+  ]
+}

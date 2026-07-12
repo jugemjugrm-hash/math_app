@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+
+import '../l10n/gen/app_localizations.dart';
 import '../models/unit.dart';
 import '../services/review_service.dart';
 import 'dashboard_screen.dart';
+import 'language_screen.dart';
 import 'quiz_screen.dart';
 import 'start_screen.dart';
 
@@ -29,9 +32,20 @@ class _UnitListScreenState extends State<UnitListScreen> {
     setState(() => _dueCount = count);
   }
 
+  String _localizedTitle(AppLocalizations l10n, Unit unit) {
+    final grade = switch (unit.grade) {
+      1 => l10n.gradeName1,
+      2 => l10n.gradeName2,
+      _ => l10n.gradeName3,
+    };
+    return l10n.unitTitleFormat(grade, unit.title);
+  }
+
   Future<void> _startTodayReview() async {
+    final languageCode = Localizations.localeOf(context).languageCode;
     setState(() => _loadingReview = true);
-    final review = await _reviewService.loadTodayReview();
+    final review =
+        await _reviewService.loadTodayReview(languageCode: languageCode);
     if (!mounted) return;
     setState(() => _loadingReview = false);
     if (review.isEmpty) {
@@ -58,19 +72,36 @@ class _UnitListScreenState extends State<UnitListScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+
     // Preserve declaration order of grades as they first appear.
     final grades = <int>[];
     for (final u in units) {
       if (!grades.contains(u.grade)) grades.add(u.grade);
     }
 
+    String gradeHeader(int grade) => switch (grade) {
+          1 => l10n.gradeName1,
+          2 => l10n.gradeName2,
+          _ => l10n.gradeName3,
+        };
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text('中学数学 ドリル'),
+        title: Text(l10n.appTitle),
         actions: [
           IconButton(
+            icon: const Icon(Icons.translate),
+            tooltip: l10n.languageTitle,
+            onPressed: () async {
+              await Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const LanguageScreen()),
+              );
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.insights),
-            tooltip: '成績',
+            tooltip: l10n.statsTooltip,
             onPressed: () async {
               await Navigator.of(context).push(
                 MaterialPageRoute(builder: (_) => const DashboardScreen()),
@@ -94,7 +125,7 @@ class _UnitListScreenState extends State<UnitListScreen> {
                     const SizedBox(width: 12),
                     Expanded(
                       child: Text(
-                        '今日の復習: $_dueCount問',
+                        l10n.todayReviewCount(_dueCount),
                         style: Theme.of(context).textTheme.titleMedium,
                       ),
                     ),
@@ -107,7 +138,7 @@ class _UnitListScreenState extends State<UnitListScreen> {
                               child:
                                   CircularProgressIndicator(strokeWidth: 2),
                             )
-                          : const Text('始める'),
+                          : Text(l10n.beginButton),
                     ),
                   ],
                 ),
@@ -117,7 +148,7 @@ class _UnitListScreenState extends State<UnitListScreen> {
             Padding(
               padding: const EdgeInsets.fromLTRB(4, 12, 4, 8),
               child: Text(
-                '中$grade',
+                gradeHeader(grade),
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
@@ -126,7 +157,7 @@ class _UnitListScreenState extends State<UnitListScreen> {
             for (final unit in units.where((u) => u.grade == grade))
               Card(
                 child: ListTile(
-                  title: Text(unit.title),
+                  title: Text(_localizedTitle(l10n, unit)),
                   subtitle: Text(unit.description),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () => _openUnit(unit),

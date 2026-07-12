@@ -1,0 +1,137 @@
+{
+  "@@locale": "ja",
+  "appTitle": "中学数学 ドリル",
+  "statsTooltip": "成績",
+  "todayReviewCount": "今日の復習: {count}問",
+  "@todayReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "beginButton": "始める",
+  "gradeName1": "中1",
+  "gradeName2": "中2",
+  "gradeName3": "中3",
+  "unitTitleFormat": "{grade}「{title}」",
+  "@unitTitleFormat": {
+    "placeholders": {
+      "grade": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "loadError": "問題データの読み込みに失敗しました: {error}",
+  "@loadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "resumeButton": "続きから ({current}/{total})",
+  "@resumeButton": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "restartButton": "最初から",
+  "randomTenButton": "ランダム10問",
+  "reviewDueButton": "復習する (今日の分 {count}問)",
+  "@reviewDueButton": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewWaitingLabel": "復習待ち {count}問(次の復習まで あと{days}日)",
+  "@reviewWaitingLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "answerHint": "答え",
+  "submitButton": "決定",
+  "correctLabel": "正解！",
+  "incorrectLabel": "不正解(正解: {answer})",
+  "@incorrectLabel": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "nextQuestionButton": "次の問題へ",
+  "seeResultsButton": "結果を見る",
+  "resultTitle": "結果",
+  "scoreSummary": "{score} / {total} 問正解",
+  "@scoreSummary": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "accuracySummary": "正答率 {percent}%",
+  "@accuracySummary": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "backToUnitsButton": "単元選択に戻る",
+  "overallSection": "全体",
+  "answeredStat": "解いた問題",
+  "accuracyStat": "正答率",
+  "reviewListStat": "復習リスト",
+  "weakPointsSection": "苦手ポイント",
+  "noRecords": "まだ学習記録がありません。単元を選んで始めましょう！",
+  "unitAnswerLine": "{answered}問解答 / 正解{correct}問",
+  "@unitAnswerLine": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "correct": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewPendingLine": "復習待ち{count}問",
+  "@reviewPendingLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weakCountLabel": "{count}問",
+  "@weakCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "languageTitle": "言語",
+  "systemDefault": "端末の設定に従う"
+}

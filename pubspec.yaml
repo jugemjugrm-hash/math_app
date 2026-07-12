@@ -31,6 +31,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Localized UI strings generated from lib/l10n/*.arb.
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -79,6 +84,9 @@ flutter_native_splash:
 # The following section is specific to Flutter packages.
 flutter:
 
+  # Generate AppLocalizations from lib/l10n/*.arb (see l10n.yaml).
+  generate: true
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -109,6 +117,23 @@ flutter:
     - assets/questions/grade3/enshukaku.json
     - assets/questions/grade3/sanheihou.json
     - assets/questions/grade3/hyouhon.json
+    # Translated question sets (one directory per language/grade). Missing
+    # files fall back to the Japanese originals at load time.
+    - assets/questions/en/grade1/
+    - assets/questions/en/grade2/
+    - assets/questions/en/grade3/
+    - assets/questions/de/grade1/
+    - assets/questions/de/grade2/
+    - assets/questions/de/grade3/
+    - assets/questions/pt/grade1/
+    - assets/questions/pt/grade2/
+    - assets/questions/pt/grade3/
+    - assets/questions/es/grade1/
+    - assets/questions/es/grade2/
+    - assets/questions/es/grade3/
+    - assets/questions/zh/grade1/
+    - assets/questions/zh/grade2/
+    - assets/questions/zh/grade3/
 
   # STIX Two Text (SIL OFL): serif math-style font for Latin letters and
   # digits. Japanese glyphs fall back to the platform default font.

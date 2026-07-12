@@ -1,0 +1,204 @@
+{
+  "unit": "Probability (Relative Frequency)",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "kakuritsu1-001",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "choice",
+      "question": "A bottle cap was tossed 1000 times, and it landed face up 400 times. Find the relative frequency of it landing face up.",
+      "choices": ["0.4", "0.6", "0.25", "4"],
+      "answer": "0.4",
+      "explanation": "Relative frequency = (number of occurrences) ÷ (total number of trials) = 400 ÷ 1000 = 0.4.",
+      "difficulty": 1,
+      "tags": ["相対度数", "王冠"]
+    },
+    {
+      "id": "kakuritsu1-002",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "numeric",
+      "question": "A die was rolled 120 times, and the relative frequency of rolling a 1 was 0.15. How many times was a 1 rolled?",
+      "choices": null,
+      "answer": "18",
+      "explanation": "Number of times = total number of trials × relative frequency = 120 × 0.15 = 18 times.",
+      "difficulty": 1,
+      "tags": ["相対度数", "回数を求める"]
+    },
+    {
+      "id": "kakuritsu1-003",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "choice",
+      "question": "A thumbtack was tossed 200 times, and it landed point up 130 times. Find the relative frequency of it landing point up.",
+      "choices": ["0.65", "0.35", "0.5", "1.54"],
+      "answer": "0.65",
+      "explanation": "Relative frequency = 130 ÷ 200 = 0.65.",
+      "difficulty": 1,
+      "tags": ["相対度数", "画びょう"]
+    },
+    {
+      "id": "kakuritsu1-004",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "choice",
+      "question": "A coin was tossed 500 times, and it landed heads up 285 times. Find the relative frequency of getting heads, rounded to two decimal places.",
+      "choices": ["0.57", "0.43", "0.55", "0.58"],
+      "answer": "0.57",
+      "explanation": "Relative frequency = 285 ÷ 500 = 0.57.",
+      "difficulty": 2,
+      "tags": ["相対度数", "コイン"]
+    },
+    {
+      "id": "kakuritsu1-005",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "numeric",
+      "question": "A lottery was drawn 400 times, and the relative frequency of drawing a winning ticket was 0.08. How many winning tickets were drawn?",
+      "choices": null,
+      "answer": "32",
+      "explanation": "Number of times = 400 × 0.08 = 32 times.",
+      "difficulty": 2,
+      "tags": ["相対度数", "回数を求める"]
+    },
+    {
+      "id": "kakuritsu1-006",
+      "subunit": "Repeated Trials and Relative Frequency",
+      "type": "choice",
+      "question": "A plastic bottle cap was tossed 300 times. It landed face up 90 times, on its side 150 times, and face down 60 times. Find the relative frequency of it landing on its side.",
+      "choices": ["0.5", "0.3", "0.2", "0.45"],
+      "answer": "0.5",
+      "explanation": "Relative frequency = 150 ÷ 300 = 0.5.",
+      "difficulty": 2,
+      "tags": ["相対度数", "ふた"]
+    },
+    {
+      "id": "kakuritsu1-007",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "choice",
+      "question": "When a trial is repeated many times, what is expected to happen to the relative frequency of an event? Choose the most appropriate answer.",
+      "choices": ["It approaches a certain fixed value", "It grows without limit", "It approaches 0", "It keeps changing randomly with no pattern"],
+      "answer": "It approaches a certain fixed value",
+      "explanation": "As the number of trials increases, the relative frequency approaches a certain fixed value. This value is regarded as the probability of the event.",
+      "difficulty": 1,
+      "tags": ["確率とみなす", "概念理解"]
+    },
+    {
+      "id": "kakuritsu1-008",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "choice",
+      "question": "A thumbtack was tossed many times to study the relative frequency. As the number of tosses increased, the relative frequency of it landing point up approached 0.62. About what is the probability that the thumbtack lands point up?",
+      "choices": ["0.62", "0.38", "0.5", "0.31"],
+      "answer": "0.62",
+      "explanation": "The value 0.62 that the relative frequency approached is regarded as the probability of landing point up.",
+      "difficulty": 2,
+      "tags": ["確率とみなす", "画びょう"]
+    },
+    {
+      "id": "kakuritsu1-009",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "choice",
+      "question": "A coin was tossed 50, 100, 500, and 1000 times, and the relative frequencies of getting heads were 0.52, 0.49, 0.505, and 0.501, respectively. About what is the probability of getting heads with this coin?",
+      "choices": ["0.5", "0.52", "0.49", "1"],
+      "answer": "0.5",
+      "explanation": "As the number of tosses increases, the relative frequency approaches 0.5, so the probability of getting heads can be regarded as about 0.5.",
+      "difficulty": 2,
+      "tags": ["確率とみなす", "コイン"]
+    },
+    {
+      "id": "kakuritsu1-010",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "choice",
+      "question": "When regarding relative frequency as probability, what is the appropriate way to think about the number of trials? Choose the best answer.",
+      "choices": ["The more trials, the better", "The fewer trials, the better", "The number of trials does not affect the result", "One trial is enough"],
+      "answer": "The more trials, the better",
+      "explanation": "The more trials there are, the closer the relative frequency gets to a fixed value, making it more reliable to regard as the probability.",
+      "difficulty": 2,
+      "tags": ["確率とみなす", "概念理解"]
+    },
+    {
+      "id": "kakuritsu1-011",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "numeric",
+      "question": "When 1000 units of a product were inspected, the relative frequency of defective units held steady at 0.02. If 5000 units of this product are made, about how many defective units can be expected?",
+      "choices": null,
+      "answer": "100",
+      "explanation": "Regarding the probability of a defective unit as 0.02, 5000 × 0.02 = 100 units.",
+      "difficulty": 2,
+      "tags": ["確率とみなす", "個数を予測"]
+    },
+    {
+      "id": "kakuritsu1-012",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "numeric",
+      "question": "A soccer player's probability of making a penalty kick can be regarded as 0.8. If this player takes 50 penalty kicks, about how many can be expected to go in?",
+      "choices": null,
+      "answer": "40",
+      "explanation": "We can expect about 50 × 0.8 = 40 successful kicks.",
+      "difficulty": 3,
+      "tags": ["確率とみなす", "回数を予測"]
+    },
+    {
+      "id": "kakuritsu1-013",
+      "subunit": "Viewing Relative Frequency as Probability",
+      "type": "numeric",
+      "question": "A basketball player's probability of making a free throw can be regarded as 0.75. If this player shoots 80 free throws, about how many can be expected to go in?",
+      "choices": null,
+      "answer": "60",
+      "explanation": "We can expect about 80 × 0.75 = 60 successful throws.",
+      "difficulty": 3,
+      "tags": ["確率とみなす", "回数を予測"]
+    },
+    {
+      "id": "kakuritsu1-014",
+      "subunit": "Comparing Likelihood",
+      "type": "choice",
+      "question": "Player A got 15 hits in 50 at bats, and Player B got 28 hits in 80 at bats. Which player has the greater likelihood (relative frequency) of getting a hit?",
+      "choices": ["Player A", "Player B", "They are the same", "They cannot be compared"],
+      "answer": "Player B",
+      "explanation": "A = 15 ÷ 50 = 0.3, B = 28 ÷ 80 = 0.35. Since 0.35 > 0.3, Player B is more likely to get a hit.",
+      "difficulty": 2,
+      "tags": ["起こりやすさの比較", "相対度数"]
+    },
+    {
+      "id": "kakuritsu1-015",
+      "subunit": "Comparing Likelihood",
+      "type": "choice",
+      "question": "Die A was rolled 200 times and a 1 came up 30 times. Die B was rolled 150 times and a 1 came up 27 times. Which die is more likely to roll a 1?",
+      "choices": ["A", "B", "They are the same", "They cannot be compared"],
+      "answer": "B",
+      "explanation": "A = 30 ÷ 200 = 0.15, B = 27 ÷ 150 = 0.18. Since 0.18 > 0.15, Die B is more likely to roll a 1.",
+      "difficulty": 2,
+      "tags": ["起こりやすさの比較", "さいころ"]
+    },
+    {
+      "id": "kakuritsu1-016",
+      "subunit": "Comparing Likelihood",
+      "type": "choice",
+      "question": "Player A made 32 out of 40 shots, and Player B made 20 out of 25 shots. Which player is more likely to make a shot?",
+      "choices": ["A", "B", "They are the same", "A, who took more shots"],
+      "answer": "They are the same",
+      "explanation": "A = 32 ÷ 40 = 0.8, B = 20 ÷ 25 = 0.8. Since the relative frequencies are equal, they are equally likely to make a shot.",
+      "difficulty": 3,
+      "tags": ["起こりやすさの比較", "相対度数"]
+    },
+    {
+      "id": "kakuritsu1-017",
+      "subunit": "Comparing Likelihood",
+      "type": "choice",
+      "question": "Lottery X was drawn 300 times with 45 winning tickets, and Lottery Y was drawn 500 times with 80 winning tickets. Which lottery is more likely to give a winning ticket?",
+      "choices": ["Lottery X", "Lottery Y", "They are the same", "They cannot be compared"],
+      "answer": "Lottery Y",
+      "explanation": "X = 45 ÷ 300 = 0.15, Y = 80 ÷ 500 = 0.16. Since 0.16 > 0.15, Lottery Y is more likely to give a winning ticket.",
+      "difficulty": 3,
+      "tags": ["起こりやすさの比較", "くじ"]
+    },
+    {
+      "id": "kakuritsu1-018",
+      "subunit": "Comparing Likelihood",
+      "type": "choice",
+      "question": "When comparing how likely events are, why do we compare using relative frequency instead of just the number of occurrences (frequency)? Choose the correct reason.",
+      "choices": ["Because frequencies alone cannot be compared when the numbers of trials are different", "Because frequencies are easier to calculate", "Because relative frequency is always a whole number", "Because more trials puts you at a disadvantage"],
+      "answer": "Because frequencies alone cannot be compared when the numbers of trials are different",
+      "explanation": "When the total numbers of trials differ, comparing frequencies alone is not enough. We compare using relative frequency, which is the proportion of the total.",
+      "difficulty": 3,
+      "tags": ["起こりやすさの比較", "概念理解"]
+    }
+  ]
+}

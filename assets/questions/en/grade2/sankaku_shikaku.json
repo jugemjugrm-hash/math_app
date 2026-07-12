@@ -1,0 +1,337 @@
+{
+  "unit": "Triangles and Quadrilaterals",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "sankaku-001",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "choice",
+      "question": "Which of the following is the correct definition of an isosceles triangle?",
+      "choices": [
+        "A triangle with two equal sides",
+        "A triangle with two equal angles",
+        "A triangle with three equal sides",
+        "A triangle with one right angle"
+      ],
+      "answer": "A triangle with two equal sides",
+      "explanation": "The definition of an isosceles triangle is 'a triangle with two equal sides.' The fact that the two base angles are equal is a property (theorem) derived from the definition.",
+      "difficulty": 1,
+      "tags": ["二等辺三角形", "定義"]
+    },
+    {
+      "id": "sankaku-002",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "numeric",
+      "question": "In isosceles triangle ABC with AB=AC, if the vertex angle ∠A=40°, what is the measure of the base angle ∠B, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "Since the base angles are equal, ∠B=∠C=(180°-40°)÷2=70°.",
+      "difficulty": 1,
+      "tags": ["二等辺三角形", "底角"]
+    },
+    {
+      "id": "sankaku-003",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "numeric",
+      "question": "In isosceles triangle ABC with AB=AC, if the base angle ∠B=65°, what is the measure of the vertex angle ∠A, in degrees?",
+      "choices": null,
+      "answer": "50",
+      "explanation": "∠B=∠C=65°. ∠A=180°-65°×2=50°.",
+      "difficulty": 1,
+      "tags": ["二等辺三角形", "頂角"]
+    },
+    {
+      "id": "sankaku-004",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "choice",
+      "question": "Which of the following is true about the bisector of the vertex angle of an isosceles triangle?",
+      "choices": [
+        "It perpendicularly bisects the base",
+        "It is parallel to the base",
+        "It bisects a base angle",
+        "It always intersects the hypotenuse"
+      ],
+      "answer": "It perpendicularly bisects the base",
+      "explanation": "The bisector of the vertex angle of an isosceles triangle perpendicularly bisects the base (it becomes the perpendicular bisector).",
+      "difficulty": 2,
+      "tags": ["二等辺三角形", "性質"]
+    },
+    {
+      "id": "sankaku-005",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "choice",
+      "question": "In △ABC, if ∠B=∠C, what can be said about this triangle?",
+      "choices": ["It is an isosceles triangle with AB=AC", "It is an isosceles triangle with AB=BC", "It is an equilateral triangle", "It is a right triangle"],
+      "answer": "It is an isosceles triangle with AB=AC",
+      "explanation": "In a triangle with two equal angles, the sides opposite those angles (the sides facing the equal angles) are equal, so it is an isosceles triangle. The side opposite ∠B is AC, and the side opposite ∠C is AB.",
+      "difficulty": 2,
+      "tags": ["二等辺三角形", "成り立つ条件"]
+    },
+    {
+      "id": "sankaku-006",
+      "subunit": "Equilateral triangles",
+      "type": "numeric",
+      "question": "What is the measure of one interior angle of an equilateral triangle, in degrees?",
+      "choices": null,
+      "answer": "60",
+      "explanation": "Since all three angles are equal, 180°÷3=60°.",
+      "difficulty": 1,
+      "tags": ["正三角形"]
+    },
+    {
+      "id": "sankaku-007",
+      "subunit": "Equilateral triangles",
+      "type": "choice",
+      "question": "Which of the following is the correct definition of an equilateral triangle?",
+      "choices": ["A triangle with three equal sides", "A triangle with three equal angles", "A triangle with two equal sides", "A triangle whose interior angles sum to 180°"],
+      "answer": "A triangle with three equal sides",
+      "explanation": "The definition of an equilateral triangle is 'a triangle with three equal sides.' The fact that all three angles are equal at 60° is a property.",
+      "difficulty": 2,
+      "tags": ["正三角形", "定義"]
+    },
+    {
+      "id": "sankaku-008",
+      "subunit": "Congruence conditions for right triangles",
+      "type": "choice",
+      "question": "In a right triangle, what is the side opposite the right angle (the longest side) called?",
+      "choices": ["Hypotenuse", "Base", "Opposite side", "Median"],
+      "answer": "Hypotenuse",
+      "explanation": "The side opposite the right angle in a right triangle is called the hypotenuse.",
+      "difficulty": 1,
+      "tags": ["直角三角形", "用語"]
+    },
+    {
+      "id": "sankaku-009",
+      "subunit": "Congruence conditions for right triangles",
+      "type": "choice",
+      "question": "One congruence condition for right triangles is 'the hypotenuse and one acute angle are respectively equal.' Which of the following is the other one?",
+      "choices": [
+        "The hypotenuse and one other side are respectively equal",
+        "The two acute angles are respectively equal",
+        "The three angles are respectively equal",
+        "The areas are equal"
+      ],
+      "answer": "The hypotenuse and one other side are respectively equal",
+      "explanation": "The two congruence conditions for right triangles are 'the hypotenuse and one acute angle' and 'the hypotenuse and one other side.'",
+      "difficulty": 2,
+      "tags": ["直角三角形", "合同条件"]
+    },
+    {
+      "id": "sankaku-010",
+      "subunit": "Congruence conditions for right triangles",
+      "type": "choice",
+      "question": "When two right triangles have equal hypotenuses and one pair of equal acute angles, what can be said about the two triangles?",
+      "choices": ["They are congruent", "They are similar but not necessarily congruent", "Only their areas are equal", "Nothing can be said"],
+      "answer": "They are congruent",
+      "explanation": "Since 'the hypotenuse and one acute angle are respectively equal' is a congruence condition for right triangles, they are congruent.",
+      "difficulty": 2,
+      "tags": ["直角三角形", "合同条件"]
+    },
+    {
+      "id": "sankaku-011",
+      "subunit": "Properties of parallelograms",
+      "type": "choice",
+      "question": "Which of the following is the correct definition of a parallelogram?",
+      "choices": [
+        "A quadrilateral in which both pairs of opposite sides are parallel",
+        "A quadrilateral in which both pairs of opposite sides are equal",
+        "A quadrilateral whose diagonals are equal",
+        "A quadrilateral in which all four angles are equal"
+      ],
+      "answer": "A quadrilateral in which both pairs of opposite sides are parallel",
+      "explanation": "The definition of a parallelogram is 'both pairs of opposite sides are parallel.' The fact that opposite sides are equal is a property.",
+      "difficulty": 1,
+      "tags": ["平行四辺形", "定義"]
+    },
+    {
+      "id": "sankaku-012",
+      "subunit": "Properties of parallelograms",
+      "type": "numeric",
+      "question": "In parallelogram ABCD, if AB=6 cm, what is the length of the opposite side CD, in cm? Answer with the number only.",
+      "choices": null,
+      "answer": "6",
+      "explanation": "Since opposite sides of a parallelogram are equal, CD=AB=6 cm.",
+      "difficulty": 1,
+      "tags": ["平行四辺形", "対辺"]
+    },
+    {
+      "id": "sankaku-013",
+      "subunit": "Properties of parallelograms",
+      "type": "numeric",
+      "question": "In parallelogram ABCD, if ∠A=110°, what is the measure of the opposite angle ∠C, in degrees?",
+      "choices": null,
+      "answer": "110",
+      "explanation": "Since opposite angles of a parallelogram are equal, ∠C=∠A=110°.",
+      "difficulty": 1,
+      "tags": ["平行四辺形", "対角"]
+    },
+    {
+      "id": "sankaku-014",
+      "subunit": "Properties of parallelograms",
+      "type": "numeric",
+      "question": "In parallelogram ABCD, if ∠A=110°, what is the measure of the adjacent angle ∠B, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "The sum of adjacent angles in a parallelogram is 180°. 180°-110°=70°.",
+      "difficulty": 2,
+      "tags": ["平行四辺形", "となりの角"]
+    },
+    {
+      "id": "sankaku-015",
+      "subunit": "Properties of parallelograms",
+      "type": "choice",
+      "question": "Which of the following is true about the diagonals of a parallelogram?",
+      "choices": [
+        "They intersect at their midpoints",
+        "They are equal in length",
+        "They intersect perpendicularly",
+        "They bisect the angles"
+      ],
+      "answer": "They intersect at their midpoints",
+      "explanation": "The diagonals of a parallelogram intersect at their midpoints. Being equal in length is a property of a rectangle, and intersecting perpendicularly is a property of a rhombus.",
+      "difficulty": 2,
+      "tags": ["平行四辺形", "対角線"]
+    },
+    {
+      "id": "sankaku-016",
+      "subunit": "Properties of parallelograms",
+      "type": "numeric",
+      "question": "Let O be the intersection of the diagonals of parallelogram ABCD. If AC=10 cm, what is the length of AO, in cm? Answer with the number only.",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Since the diagonals intersect at their midpoints, AO=10÷2=5 cm.",
+      "difficulty": 2,
+      "tags": ["平行四辺形", "対角線"]
+    },
+    {
+      "id": "sankaku-017",
+      "subunit": "Conditions for a quadrilateral to be a parallelogram",
+      "type": "choice",
+      "question": "Which of the following is NOT a valid condition for a quadrilateral to be a parallelogram?",
+      "choices": [
+        "One pair of opposite sides is parallel, and the other pair of opposite sides is equal",
+        "Both pairs of opposite sides are equal",
+        "The diagonals intersect at their midpoints",
+        "One pair of opposite sides is parallel and equal"
+      ],
+      "answer": "One pair of opposite sides is parallel, and the other pair of opposite sides is equal",
+      "explanation": "If the 'parallel pair' and the 'equal pair' are different pairs, there are counterexamples such as an isosceles trapezoid, so it is not necessarily a parallelogram.",
+      "difficulty": 3,
+      "tags": ["平行四辺形になる条件"]
+    },
+    {
+      "id": "sankaku-018",
+      "subunit": "Conditions for a quadrilateral to be a parallelogram",
+      "type": "choice",
+      "question": "In quadrilateral ABCD, it is known that AB∥DC and AB=DC. What can be said about this quadrilateral?",
+      "choices": ["It is a parallelogram", "It is a rectangle", "It is a rhombus", "It can only be said to be a trapezoid"],
+      "answer": "It is a parallelogram",
+      "explanation": "A quadrilateral with one pair of opposite sides that are parallel and equal in length is a parallelogram.",
+      "difficulty": 2,
+      "tags": ["平行四辺形になる条件"]
+    },
+    {
+      "id": "sankaku-019",
+      "subunit": "Special parallelograms",
+      "type": "choice",
+      "question": "Which of the following is the correct definition of a rectangle?",
+      "choices": [
+        "A quadrilateral in which all four angles are equal",
+        "A quadrilateral in which all four sides are equal",
+        "A quadrilateral whose diagonals are perpendicular",
+        "A quadrilateral in which both pairs of opposite sides are parallel"
+      ],
+      "answer": "A quadrilateral in which all four angles are equal",
+      "explanation": "The definition of a rectangle is 'a quadrilateral in which all four angles are equal (all right angles).' Having all four sides equal describes a rhombus.",
+      "difficulty": 2,
+      "tags": ["長方形", "定義"]
+    },
+    {
+      "id": "sankaku-020",
+      "subunit": "Special parallelograms",
+      "type": "choice",
+      "question": "Which of the following is true about the diagonals of a rhombus?",
+      "choices": [
+        "They intersect perpendicularly",
+        "They are equal in length",
+        "They do not intersect",
+        "There is only one"
+      ],
+      "answer": "They intersect perpendicularly",
+      "explanation": "The diagonals of a rhombus intersect perpendicularly. Being equal in length is a property of a rectangle.",
+      "difficulty": 2,
+      "tags": ["ひし形", "対角線"]
+    },
+    {
+      "id": "sankaku-021",
+      "subunit": "Special parallelograms",
+      "type": "choice",
+      "question": "Which parallelogram has diagonals that are equal in length and intersect perpendicularly?",
+      "choices": ["Square", "Rectangle", "Rhombus", "Trapezoid"],
+      "answer": "Square",
+      "explanation": "The figure that has both equal length (a property of a rectangle) and perpendicular intersection (a property of a rhombus) is the square.",
+      "difficulty": 3,
+      "tags": ["正方形", "対角線"]
+    },
+    {
+      "id": "sankaku-022",
+      "subunit": "Special parallelograms",
+      "type": "choice",
+      "question": "Which of the following is a correct explanation of the statement 'A square is a rhombus'?",
+      "choices": [
+        "Correct, because a square has four equal sides",
+        "Incorrect, because its angles are right angles",
+        "Incorrect, because its diagonals are equal",
+        "Correct, because its diagonals intersect"
+      ],
+      "answer": "Correct, because a square has four equal sides",
+      "explanation": "The definition of a rhombus is 'a quadrilateral with four equal sides.' Since a square has four equal sides, it is a special case of a rhombus.",
+      "difficulty": 3,
+      "tags": ["正方形", "ひし形", "包含関係"]
+    },
+    {
+      "id": "sankaku-023",
+      "subunit": "Special parallelograms",
+      "type": "numeric",
+      "question": "If the perimeter of a rhombus is 28 cm, what is the length of one side, in cm? Answer with the number only.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Since a rhombus has four equal sides, 28÷4=7 cm.",
+      "difficulty": 1,
+      "tags": ["ひし形", "辺の長さ"]
+    },
+    {
+      "id": "sankaku-024",
+      "subunit": "Properties and conditions of isosceles triangles",
+      "type": "numeric",
+      "question": "In isosceles triangle ABC with AB=AC, if the exterior angle at ∠A is 100°, what is the measure of the base angle ∠B, in degrees?",
+      "choices": null,
+      "answer": "50",
+      "explanation": "The exterior angle of 100° equals ∠B+∠C. Since ∠B=∠C, ∠B=100°÷2=50°.",
+      "difficulty": 3,
+      "tags": ["二等辺三角形", "外角"]
+    },
+    {
+      "id": "sankaku-025",
+      "subunit": "Properties of parallelograms",
+      "type": "numeric",
+      "question": "In parallelogram ABCD, if the perimeter is 30 cm and AB=7 cm, what is the length of BC, in cm? Answer with the number only.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "Since opposite sides are equal, AB+BC=30÷2=15. BC=15-7=8 cm.",
+      "difficulty": 3,
+      "tags": ["平行四辺形", "周の長さ"]
+    },
+    {
+      "id": "sankaku-026",
+      "subunit": "Special parallelograms",
+      "type": "choice",
+      "question": "If the condition '∠A=90°' is added to parallelogram ABCD, what kind of quadrilateral does it become?",
+      "choices": ["Rectangle", "Rhombus", "Square", "Trapezoid"],
+      "answer": "Rectangle",
+      "explanation": "When one angle of a parallelogram becomes a right angle, all four angles become right angles, making it a rectangle.",
+      "difficulty": 3,
+      "tags": ["長方形", "条件を加える"]
+    }
+  ]
+}

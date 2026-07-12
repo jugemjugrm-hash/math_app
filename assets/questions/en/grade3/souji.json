@@ -1,0 +1,332 @@
+{
+  "unit": "Similar Figures",
+  "grade": 3,
+  "questions": [
+    {
+      "id": "souji-001",
+      "subunit": "The Meaning of Similarity and the Ratio of Similarity",
+      "type": "choice",
+      "question": "For two similar figures, which of the following properties always holds true?",
+      "choices": [
+        "Corresponding angles are each equal, and the ratios of the lengths of all corresponding sides are equal",
+        "Corresponding sides are each equal in length",
+        "The ratios of the measures of corresponding angles are constant",
+        "The areas are always equal"
+      ],
+      "answer": "Corresponding angles are each equal, and the ratios of the lengths of all corresponding sides are equal",
+      "explanation": "In similar figures, corresponding angles are each equal, and the ratios of all corresponding sides are equal. Equal side lengths and equal areas occur only when the figures are congruent.",
+      "difficulty": 1,
+      "tags": ["相似", "相似の性質"]
+    },
+    {
+      "id": "souji-002",
+      "subunit": "The Meaning of Similarity and the Ratio of Similarity",
+      "type": "choice",
+      "question": "In △ABC∽△DEF, AB=4 cm and DE=8 cm. Find the ratio of similarity of △ABC to △DEF.",
+      "choices": ["1:2", "2:1", "1:4", "4:1"],
+      "answer": "1:2",
+      "explanation": "The ratio of similarity is the ratio of corresponding sides. AB:DE=4:8=1:2.",
+      "difficulty": 1,
+      "tags": ["相似", "相似比"]
+    },
+    {
+      "id": "souji-003",
+      "subunit": "The Meaning of Similarity and the Ratio of Similarity",
+      "type": "numeric",
+      "question": "In △ABC∽△DEF, the ratio of similarity is 2:3. When AB=6 cm, what is the length of the corresponding side DE, in cm?",
+      "choices": null,
+      "answer": "9",
+      "explanation": "Since AB:DE=2:3, we have 6:DE=2:3. DE=6×3÷2=9 cm.",
+      "difficulty": 1,
+      "tags": ["相似", "相似比", "辺の長さ"]
+    },
+    {
+      "id": "souji-004",
+      "subunit": "The Meaning of Similarity and the Ratio of Similarity",
+      "type": "numeric",
+      "question": "In quadrilateral ABCD∽quadrilateral EFGH, the ratio of similarity is 2:5. When AB=4 cm, what is the length of the corresponding side EF, in cm?",
+      "choices": null,
+      "answer": "10",
+      "explanation": "Since AB:EF=2:5, we have 4:EF=2:5. EF=4×5÷2=10 cm.",
+      "difficulty": 1,
+      "tags": ["相似", "相似比", "辺の長さ"]
+    },
+    {
+      "id": "souji-005",
+      "subunit": "Similarity Conditions for Triangles",
+      "type": "choice",
+      "question": "Which of the following is NOT a correct condition for two triangles to be similar?",
+      "choices": [
+        "The ratios of two pairs of sides are equal",
+        "The ratios of all three pairs of sides are equal",
+        "The ratios of two pairs of sides and their included angle are equal",
+        "Two pairs of angles are each equal"
+      ],
+      "answer": "The ratios of two pairs of sides are equal",
+      "explanation": "Equal ratios for two pairs of sides alone do not prove similarity. The included angle must also be equal.",
+      "difficulty": 1,
+      "tags": ["相似条件"]
+    },
+    {
+      "id": "souji-006",
+      "subunit": "Similarity Conditions for Triangles",
+      "type": "choice",
+      "question": "In △ABC, ∠A=60° and ∠B=70°; in △DEF, ∠D=60° and ∠E=70°. Then △ABC∽△DEF. Which similarity condition is used here?",
+      "choices": [
+        "Two pairs of angles are each equal",
+        "The ratios of all three pairs of sides are equal",
+        "The ratios of two pairs of sides and their included angle are equal",
+        "All three pairs of sides are each equal"
+      ],
+      "answer": "Two pairs of angles are each equal",
+      "explanation": "Since ∠A=∠D=60° and ∠B=∠E=70°, two pairs of angles are each equal, so the triangles are similar.",
+      "difficulty": 1,
+      "tags": ["相似条件", "角"]
+    },
+    {
+      "id": "souji-007",
+      "subunit": "Similarity Conditions for Triangles",
+      "type": "choice",
+      "question": "In △ABC, AB=6 cm, BC=8 cm, and CA=10 cm; in △DEF, DE=9 cm, EF=12 cm, and FD=15 cm. Then △ABC∽△DEF. Which similarity condition is used here?",
+      "choices": [
+        "The ratios of all three pairs of sides are equal",
+        "Two pairs of angles are each equal",
+        "The ratios of two pairs of sides and their included angle are equal",
+        "All three pairs of sides are each equal"
+      ],
+      "answer": "The ratios of all three pairs of sides are equal",
+      "explanation": "AB:DE=6:9=2:3, BC:EF=8:12=2:3, CA:FD=10:15=2:3. The ratios of all three pairs of sides are equal.",
+      "difficulty": 2,
+      "tags": ["相似条件", "辺の比"]
+    },
+    {
+      "id": "souji-008",
+      "subunit": "Similarity Conditions for Triangles",
+      "type": "choice",
+      "question": "In △ABC and △DEF, AB=4 cm, BC=6 cm, DE=6 cm, EF=9 cm, and ∠B=∠E. Then △ABC∽△DEF. Which similarity condition is used here?",
+      "choices": [
+        "The ratios of two pairs of sides and their included angle are equal",
+        "The ratios of all three pairs of sides are equal",
+        "Two pairs of angles are each equal",
+        "The ratios of two pairs of sides are equal"
+      ],
+      "answer": "The ratios of two pairs of sides and their included angle are equal",
+      "explanation": "AB:DE=4:6=2:3 and BC:EF=6:9=2:3, and the included angle ∠B=∠E. Therefore the ratios of two pairs of sides and their included angle are equal.",
+      "difficulty": 2,
+      "tags": ["相似条件", "辺の比", "角"]
+    },
+    {
+      "id": "souji-009",
+      "subunit": "Approaches to Proving Similarity",
+      "type": "choice",
+      "question": "In △ABC, point D is on side AB and point E is on side AC, and ∠ADE=∠ACB. Which similarity condition is used to prove △ADE∽△ACB?",
+      "choices": [
+        "Two pairs of angles are each equal",
+        "The ratios of all three pairs of sides are equal",
+        "The ratios of two pairs of sides and their included angle are equal",
+        "All three pairs of sides are each equal"
+      ],
+      "answer": "Two pairs of angles are each equal",
+      "explanation": "∠A is common, and ∠ADE=∠ACB (given). Since two pairs of angles are each equal, △ADE∽△ACB.",
+      "difficulty": 2,
+      "tags": ["証明", "相似条件", "共通な角"]
+    },
+    {
+      "id": "souji-010",
+      "subunit": "Approaches to Proving Similarity",
+      "type": "choice",
+      "question": "Segments AC and BD intersect at point O, and AB∥DC. When proving △OAB∽△OCD, which of the following correctly justifies that ∠OAB=∠OCD?",
+      "choices": [
+        "Alternate interior angles of parallel lines are equal",
+        "Corresponding angles of parallel lines are equal",
+        "Vertical angles are equal",
+        "The base angles of an isosceles triangle are equal"
+      ],
+      "answer": "Alternate interior angles of parallel lines are equal",
+      "explanation": "Since AB∥DC and line AC crosses the two parallel lines, ∠OAB=∠OCD by alternate interior angles.",
+      "difficulty": 2,
+      "tags": ["証明", "平行線", "錯角"]
+    },
+    {
+      "id": "souji-011",
+      "subunit": "Approaches to Proving Similarity",
+      "type": "choice",
+      "question": "In right triangle ABC with ∠A=90°, a perpendicular is drawn from vertex A to side BC, meeting BC at point D. Which of the following correctly names a triangle similar to △ABC, with the vertices written in corresponding order?",
+      "choices": ["△DBA", "△BDA", "△DAB", "△ABD"],
+      "answer": "△DBA",
+      "explanation": "Since ∠BAC=∠BDA=90° and ∠B is common, the correspondence is A↔D, B↔B, C↔A. Therefore △ABC∽△DBA.",
+      "difficulty": 2,
+      "tags": ["証明", "直角三角形", "対応"]
+    },
+    {
+      "id": "souji-012",
+      "subunit": "Approaches to Proving Similarity",
+      "type": "numeric",
+      "question": "In △ABC, AB=8 cm, AC=6 cm, and BC=10 cm. Take point D on side AB with AD=3 cm and point E on side AC with AE=4 cm; then △ADE∽△ACB. What is the length of segment DE, in cm?",
+      "choices": null,
+      "answer": "5",
+      "explanation": "AD:AC=3:6=1:2, AE:AB=4:8=1:2, and ∠A is common, so △ADE∽△ACB (ratio of similarity 1:2). Since DE corresponds to CB, DE=10×1÷2=5 cm.",
+      "difficulty": 2,
+      "tags": ["証明", "相似比", "辺の長さ"]
+    },
+    {
+      "id": "souji-013",
+      "subunit": "Parallel Lines and Segment Ratios",
+      "type": "numeric",
+      "question": "In △ABC, point D is on side AB and point E is on side AC, and DE∥BC. When AD=4 cm, DB=2 cm, and BC=9 cm, what is the length of segment DE, in cm?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "AB=4+2=6 cm. Since DE∥BC, △ADE∽△ABC, so AD:AB=4:6=2:3. DE=9×2÷3=6 cm.",
+      "difficulty": 2,
+      "tags": ["平行線と線分の比", "辺の長さ"]
+    },
+    {
+      "id": "souji-014",
+      "subunit": "Parallel Lines and Segment Ratios",
+      "type": "numeric",
+      "question": "In △ABC, point D is on side AB and point E is on side AC, and DE∥BC. When AD=6 cm, DB=2 cm, and AE=9 cm, what is the length of segment EC, in cm?",
+      "choices": null,
+      "answer": "3",
+      "explanation": "Since DE∥BC, AD:DB=AE:EC. From 6:2=9:EC, EC=9×2÷6=3 cm.",
+      "difficulty": 2,
+      "tags": ["平行線と線分の比", "辺の長さ"]
+    },
+    {
+      "id": "souji-015",
+      "subunit": "Parallel Lines and Segment Ratios",
+      "type": "numeric",
+      "question": "In △ABC, point D is on side AB and point E is on side AC, and DE∥BC. When AD:DB=3:2 and AC=10 cm, what is the length of segment AE, in cm?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "Since DE∥BC, AE:EC=AD:DB=3:2. Therefore AE=AC×3÷5=10×3÷5=6 cm.",
+      "difficulty": 2,
+      "tags": ["平行線と線分の比", "辺の長さ"]
+    },
+    {
+      "id": "souji-016",
+      "subunit": "Parallel Lines and Segment Ratios",
+      "type": "numeric",
+      "question": "Two lines cross three parallel lines l, m, and n. One line meets l, m, and n at points A, B, and C in order, and the other line meets them at points D, E, and F in order. When AB=4 cm, BC=6 cm, and DE=6 cm, what is the length of segment EF, in cm?",
+      "choices": null,
+      "answer": "9",
+      "explanation": "Segments cut off by parallel lines have equal ratios, so AB:BC=DE:EF. From 4:6=6:EF, EF=6×6÷4=9 cm.",
+      "difficulty": 2,
+      "tags": ["平行線と線分の比", "3本の平行線"]
+    },
+    {
+      "id": "souji-017",
+      "subunit": "Parallel Lines and Segment Ratios",
+      "type": "numeric",
+      "question": "In △ABC, point D is on side AB and point E is on side AC, and DE∥BC. When AD=10 cm, AB=15 cm, and DE=8 cm, what is the length of side BC, in cm?",
+      "choices": null,
+      "answer": "12",
+      "explanation": "Since DE∥BC, △ADE∽△ABC, so AD:AB=10:15=2:3. From DE:BC=2:3, BC=8×3÷2=12 cm.",
+      "difficulty": 2,
+      "tags": ["平行線と線分の比", "辺の長さ"]
+    },
+    {
+      "id": "souji-018",
+      "subunit": "The Midsegment Theorem",
+      "type": "choice",
+      "question": "In △ABC, let M and N be the midpoints of sides AB and AC, respectively. Which of the following holds true by the Midsegment Theorem?",
+      "choices": [
+        "MN∥BC, MN={{1}}/{{2}}BC",
+        "MN∥BC, MN={{1}}/{{3}}BC",
+        "MN⊥BC, MN={{1}}/{{2}}BC",
+        "MN∥BC, MN=BC"
+      ],
+      "answer": "MN∥BC, MN={{1}}/{{2}}BC",
+      "explanation": "The segment joining the midpoints of two sides is parallel to the remaining side and half its length. This is the Midsegment Theorem.",
+      "difficulty": 2,
+      "tags": ["中点連結定理"]
+    },
+    {
+      "id": "souji-019",
+      "subunit": "The Midsegment Theorem",
+      "type": "numeric",
+      "question": "In △ABC, let M and N be the midpoints of sides AB and AC, respectively. When BC=12 cm, what is the length of segment MN, in cm?",
+      "choices": null,
+      "answer": "6",
+      "explanation": "By the Midsegment Theorem, MN={{1}}/{{2}}BC=12÷2=6 cm.",
+      "difficulty": 2,
+      "tags": ["中点連結定理", "辺の長さ"]
+    },
+    {
+      "id": "souji-020",
+      "subunit": "The Midsegment Theorem",
+      "type": "numeric",
+      "question": "In △ABC, let M and N be the midpoints of sides AB and AC, respectively. When MN=7 cm, what is the length of side BC, in cm?",
+      "choices": null,
+      "answer": "14",
+      "explanation": "By the Midsegment Theorem, BC=2MN=7×2=14 cm.",
+      "difficulty": 2,
+      "tags": ["中点連結定理", "辺の長さ"]
+    },
+    {
+      "id": "souji-021",
+      "subunit": "The Midsegment Theorem",
+      "type": "numeric",
+      "question": "In quadrilateral ABCD, let P be the midpoint of side AB and Q the midpoint of side BC. When diagonal AC=16 cm, what is the length of segment PQ, in cm?",
+      "choices": null,
+      "answer": "8",
+      "explanation": "Looking at △ABC, P and Q are the midpoints of sides BA and BC, respectively. By the Midsegment Theorem, PQ={{1}}/{{2}}AC=16÷2=8 cm.",
+      "difficulty": 3,
+      "tags": ["中点連結定理", "四角形", "対角線"]
+    },
+    {
+      "id": "souji-022",
+      "subunit": "Area and Volume Ratios of Similar Figures",
+      "type": "choice",
+      "question": "Two similar figures have a ratio of similarity of 2:3. Find the ratio of their areas.",
+      "choices": ["4:9", "2:3", "8:27", "4:6"],
+      "answer": "4:9",
+      "explanation": "When the ratio of similarity is a:b, the ratio of areas is a²:b². 2²:3²=4:9.",
+      "difficulty": 2,
+      "tags": ["面積比", "相似比"]
+    },
+    {
+      "id": "souji-023",
+      "subunit": "Area and Volume Ratios of Similar Figures",
+      "type": "choice",
+      "question": "Two similar figures have a ratio of areas of 9:25. Find their ratio of similarity.",
+      "choices": ["3:5", "9:25", "27:125", "81:625"],
+      "answer": "3:5",
+      "explanation": "Since the ratio of areas is a²:b², 9:25=3²:5². Therefore the ratio of similarity is 3:5.",
+      "difficulty": 2,
+      "tags": ["面積比", "相似比"]
+    },
+    {
+      "id": "souji-024",
+      "subunit": "Area and Volume Ratios of Similar Figures",
+      "type": "choice",
+      "question": "Two similar solids have a ratio of similarity of 3:4. Find the ratio of their volumes.",
+      "choices": ["27:64", "9:16", "3:4", "6:8"],
+      "answer": "27:64",
+      "explanation": "When the ratio of similarity is a:b, the ratio of volumes is a³:b³. 3³:4³=27:64.",
+      "difficulty": 3,
+      "tags": ["体積比", "相似比"]
+    },
+    {
+      "id": "souji-025",
+      "subunit": "Area and Volume Ratios of Similar Figures",
+      "type": "choice",
+      "question": "Two similar figures have a ratio of similarity of 2:3, and the area of the smaller one is 20 cm². Find the area of the larger one.",
+      "choices": ["45cm²", "30cm²", "40cm²", "90cm²"],
+      "answer": "45cm²",
+      "explanation": "The ratio of areas is 2²:3²=4:9. From 20:x=4:9, x=20×9÷4=45 cm².",
+      "difficulty": 3,
+      "tags": ["面積比", "相似比"]
+    },
+    {
+      "id": "souji-026",
+      "subunit": "Area and Volume Ratios of Similar Figures",
+      "type": "choice",
+      "question": "Two similar solids have a ratio of similarity of 1:2, and the volume of the smaller one is 5 cm³. Find the volume of the larger one.",
+      "choices": ["40cm³", "10cm³", "20cm³", "80cm³"],
+      "answer": "40cm³",
+      "explanation": "The ratio of volumes is 1³:2³=1:8. Therefore the volume of the larger one is 5×8=40 cm³.",
+      "difficulty": 3,
+      "tags": ["体積比", "相似比"]
+    }
+  ]
+}

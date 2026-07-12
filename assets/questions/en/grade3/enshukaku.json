@@ -1,0 +1,310 @@
+{
+  "unit": "Inscribed Angles",
+  "grade": 3,
+  "questions": [
+    {
+      "id": "enshukaku-001",
+      "subunit": "The Inscribed Angle Theorem (half the central angle)",
+      "type": "numeric",
+      "question": "Points A, B, and P lie on circle O. When the central angle ∠AOB for arc AB is 80°, what is the measure of the inscribed angle ∠APB for arc AB, in degrees?",
+      "choices": null,
+      "answer": "40",
+      "explanation": "By the Inscribed Angle Theorem, an inscribed angle is half the central angle subtending the same arc. 80°÷2=40°",
+      "difficulty": 1,
+      "tags": ["円周角", "中心角", "円周角の定理"]
+    },
+    {
+      "id": "enshukaku-002",
+      "subunit": "The Inscribed Angle Theorem (half the central angle)",
+      "type": "choice",
+      "question": "Which of the following correctly states the Inscribed Angle Theorem?",
+      "choices": [
+        "The measure of an inscribed angle subtending an arc is half the measure of the central angle subtending that arc",
+        "The measure of an inscribed angle subtending an arc is twice the measure of the central angle subtending that arc",
+        "The measure of an inscribed angle subtending an arc is equal to the measure of the central angle subtending that arc",
+        "The measure of an inscribed angle subtending an arc is one third of the measure of the central angle subtending that arc"
+      ],
+      "answer": "The measure of an inscribed angle subtending an arc is half the measure of the central angle subtending that arc",
+      "explanation": "Inscribed Angle Theorem: an inscribed angle subtending an arc is half the central angle subtending that arc.",
+      "difficulty": 1,
+      "tags": ["円周角の定理", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-003",
+      "subunit": "The Inscribed Angle Theorem (half the central angle)",
+      "type": "numeric",
+      "question": "In circle O, when the inscribed angle for arc AB is 35°, what is the measure of the central angle ∠AOB for arc AB, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "The central angle is twice the inscribed angle. 35°×2=70°",
+      "difficulty": 1,
+      "tags": ["円周角", "中心角", "円周角の定理"]
+    },
+    {
+      "id": "enshukaku-004",
+      "subunit": "The Inscribed Angle Theorem (half the central angle)",
+      "type": "numeric",
+      "question": "Points A, B, and P lie on circle O. When the central angle ∠AOB for arc AB is 130°, what is the measure of the inscribed angle ∠APB for arc AB, in degrees?",
+      "choices": null,
+      "answer": "65",
+      "explanation": "An inscribed angle is half the central angle. 130°÷2=65°",
+      "difficulty": 1,
+      "tags": ["円周角", "中心角", "円周角の定理"]
+    },
+    {
+      "id": "enshukaku-005",
+      "subunit": "Inscribed angles on the same arc",
+      "type": "numeric",
+      "question": "Points A, B, P, and Q lie on circle O, with P and Q on the same side of line AB. When the inscribed angle ∠APB for arc AB is 50°, what is the measure of the inscribed angle ∠AQB for the same arc AB, in degrees?",
+      "choices": null,
+      "answer": "50",
+      "explanation": "All inscribed angles subtending the same arc are equal, so ∠AQB=∠APB=50°",
+      "difficulty": 1,
+      "tags": ["円周角", "同じ弧"]
+    },
+    {
+      "id": "enshukaku-006",
+      "subunit": "Inscribed angles on the same arc",
+      "type": "choice",
+      "question": "In a single circle, which of the following is true about inscribed angles subtending the same arc?",
+      "choices": [
+        "All inscribed angles subtending the same arc are equal",
+        "The measure of an inscribed angle subtending the same arc changes depending on the position of the point on the circle",
+        "The sum of two inscribed angles subtending the same arc is 180°",
+        "An inscribed angle subtending the same arc is equal to the central angle"
+      ],
+      "answer": "All inscribed angles subtending the same arc are equal",
+      "explanation": "Since every inscribed angle is half the central angle subtending the same arc, all inscribed angles subtending the same arc are equal.",
+      "difficulty": 1,
+      "tags": ["円周角", "同じ弧", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-007",
+      "subunit": "Inscribed angles on the same arc",
+      "type": "numeric",
+      "question": "In a single circle, arc AB and arc CD have equal lengths. When the inscribed angle for arc AB is 28°, what is the measure of the inscribed angle for arc CD, in degrees?",
+      "choices": null,
+      "answer": "28",
+      "explanation": "In a single circle, inscribed angles subtending arcs of equal length are equal. Therefore 28°",
+      "difficulty": 2,
+      "tags": ["円周角", "等しい弧"]
+    },
+    {
+      "id": "enshukaku-008",
+      "subunit": "Inscribed angles on the same arc",
+      "type": "numeric",
+      "question": "In a single circle, the length of arc AB is twice the length of arc CD. When the inscribed angle for arc CD is 25°, what is the measure of the inscribed angle for arc AB, in degrees?",
+      "choices": null,
+      "answer": "50",
+      "explanation": "In a single circle, the measure of an inscribed angle is proportional to the length of the arc. 25°×2=50°",
+      "difficulty": 2,
+      "tags": ["円周角", "弧の長さ", "比例"]
+    },
+    {
+      "id": "enshukaku-009",
+      "subunit": "The semicircular arc and the right angle",
+      "type": "numeric",
+      "question": "Segment AB is a diameter of circle O, and point P is a point on circle O different from A and B. What is the measure of ∠APB, in degrees?",
+      "choices": null,
+      "answer": "90",
+      "explanation": "The central angle for a semicircular arc is 180°, so the inscribed angle is half of that, 90°",
+      "difficulty": 1,
+      "tags": ["半円", "直径", "直角"]
+    },
+    {
+      "id": "enshukaku-010",
+      "subunit": "The semicircular arc and the right angle",
+      "type": "choice",
+      "question": "Which of the following is true about the inscribed angle subtending a semicircular arc?",
+      "choices": [
+        "The inscribed angle subtending a semicircular arc is 90°",
+        "The inscribed angle subtending a semicircular arc is 180°",
+        "The inscribed angle subtending a semicircular arc is 45°",
+        "The inscribed angle subtending a semicircular arc is equal to the central angle"
+      ],
+      "answer": "The inscribed angle subtending a semicircular arc is 90°",
+      "explanation": "The central angle subtending a semicircular arc is 180°, and the inscribed angle is half of that, so 90°",
+      "difficulty": 1,
+      "tags": ["半円", "直角", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-011",
+      "subunit": "The semicircular arc and the right angle",
+      "type": "numeric",
+      "question": "Segment AB is a diameter of circle O, and point P is a point on circle O. When ∠PAB=35°, what is the measure of ∠PBA, in degrees?",
+      "choices": null,
+      "answer": "55",
+      "explanation": "Since AB is a diameter, ∠APB=90°. By the sum of the interior angles of triangle APB, ∠PBA=180°-90°-35°=55°",
+      "difficulty": 2,
+      "tags": ["半円", "直径", "三角形の内角"]
+    },
+    {
+      "id": "enshukaku-012",
+      "subunit": "The semicircular arc and the right angle",
+      "type": "numeric",
+      "question": "Segment AB is a diameter of circle O, and point C is a point on circle O. When ∠CAB=54°, what is the measure of ∠ABC, in degrees?",
+      "choices": null,
+      "answer": "36",
+      "explanation": "Since AB is a diameter, ∠ACB=90°. By the sum of the interior angles of triangle ABC, ∠ABC=180°-90°-54°=36°",
+      "difficulty": 2,
+      "tags": ["半円", "直径", "三角形の内角"]
+    },
+    {
+      "id": "enshukaku-013",
+      "subunit": "The converse of the Inscribed Angle Theorem",
+      "type": "choice",
+      "question": "Which of the following correctly states the converse of the Inscribed Angle Theorem?",
+      "choices": [
+        "If points P and Q are on the same side of line AB and ∠APB=∠AQB, then the four points A, B, P, and Q lie on a single circle",
+        "If points P and Q are on the same side of line AB and ∠APB=∠AQB, then line AB and line PQ are parallel",
+        "If points P and Q are on the same side of line AB and ∠APB=∠AQB, then AP=AQ",
+        "If the four points A, B, P, and Q lie on a single circle, then the sum of ∠APB and ∠AQB is 180°"
+      ],
+      "answer": "If points P and Q are on the same side of line AB and ∠APB=∠AQB, then the four points A, B, P, and Q lie on a single circle",
+      "explanation": "Converse of the Inscribed Angle Theorem: for two points P and Q on the same side of line AB, if ∠APB=∠AQB, then the four points lie on the same circle.",
+      "difficulty": 2,
+      "tags": ["円周角の定理の逆", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-014",
+      "subunit": "The converse of the Inscribed Angle Theorem",
+      "type": "choice",
+      "question": "There are four points A, B, C, and D, with C and D on the same side of line AB. When ∠ACB=40° and ∠ADB=40°, which of the following is true about these four points?",
+      "choices": [
+        "The four points A, B, C, and D lie on a single circle",
+        "The four points A, B, C, and D do not lie on a single circle",
+        "Whether they lie on a circle depends on the length of segment CD",
+        "Whether they lie on a circle depends on the measure of ∠CAB"
+      ],
+      "answer": "The four points A, B, C, and D lie on a single circle",
+      "explanation": "Since C and D are on the same side of line AB and ∠ACB=∠ADB=40°, by the converse of the Inscribed Angle Theorem the four points lie on a single circle.",
+      "difficulty": 2,
+      "tags": ["円周角の定理の逆", "同一円周上"]
+    },
+    {
+      "id": "enshukaku-015",
+      "subunit": "The converse of the Inscribed Angle Theorem",
+      "type": "choice",
+      "question": "There are four points A, B, C, and D, with C and D on the same side of line AB. When ∠ACB=50° and ∠ADB=46°, which of the following is true about these four points?",
+      "choices": [
+        "The four points A, B, C, and D do not lie on a single circle",
+        "The four points A, B, C, and D lie on a single circle",
+        "Since ∠ACB+∠ADB=96°, they lie on a single circle",
+        "Whether they lie on a circle cannot be determined"
+      ],
+      "answer": "The four points A, B, C, and D do not lie on a single circle",
+      "explanation": "The points lie on the same circle only when the angles at the two points on the same side are equal. Since 50°≠46°, the four points do not lie on a single circle.",
+      "difficulty": 2,
+      "tags": ["円周角の定理の逆", "同一円周上"]
+    },
+    {
+      "id": "enshukaku-016",
+      "subunit": "The converse of the Inscribed Angle Theorem",
+      "type": "numeric",
+      "question": "The four points A, B, C, and D lie on a single circle, with C and D on the same side of line AB. When ∠ACB=64°, what is the measure of ∠ADB, in degrees?",
+      "choices": null,
+      "answer": "64",
+      "explanation": "If the four points lie on the same circle, then ∠ACB and ∠ADB are inscribed angles subtending the same arc AB, so they are equal. Therefore 64°",
+      "difficulty": 2,
+      "tags": ["円周角", "同一円周上", "同じ弧"]
+    },
+    {
+      "id": "enshukaku-017",
+      "subunit": "Cyclic quadrilaterals (advanced)",
+      "type": "numeric",
+      "question": "Quadrilateral ABCD is inscribed in a circle. When ∠A=95°, what is the measure of ∠C, in degrees?",
+      "choices": null,
+      "answer": "85",
+      "explanation": "In a cyclic quadrilateral, the sum of opposite angles is 180°. ∠C=180°-95°=85°",
+      "difficulty": 2,
+      "tags": ["内接四角形", "対角"]
+    },
+    {
+      "id": "enshukaku-018",
+      "subunit": "Cyclic quadrilaterals (advanced)",
+      "type": "choice",
+      "question": "Which of the following is a correct property of a cyclic quadrilateral?",
+      "choices": [
+        "The sum of opposite angles is 180°",
+        "The sum of opposite angles is 90°",
+        "Opposite angles are equal",
+        "The sum of adjacent angles is 180°"
+      ],
+      "answer": "The sum of opposite angles is 180°",
+      "explanation": "In a cyclic quadrilateral, the sum of opposite angles is 180°.",
+      "difficulty": 2,
+      "tags": ["内接四角形", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-019",
+      "subunit": "Cyclic quadrilaterals (advanced)",
+      "type": "numeric",
+      "question": "Quadrilateral ABCD is inscribed in a circle, and ∠BAD=105°. When point E is taken on the line extending side BC in the direction of C, what is the measure of ∠DCE, in degrees?",
+      "choices": null,
+      "answer": "105",
+      "explanation": "By the sum of opposite angles, ∠BCD=180°-105°=75°. Since ∠DCE is adjacent to ∠BCD, it is 180°-75°=105°. An exterior angle of a cyclic quadrilateral is equal to the interior angle opposite the adjacent interior angle.",
+      "difficulty": 3,
+      "tags": ["内接四角形", "外角"]
+    },
+    {
+      "id": "enshukaku-020",
+      "subunit": "Cyclic quadrilaterals (advanced)",
+      "type": "numeric",
+      "question": "Quadrilateral ABCD is inscribed in a circle, and the measure of ∠A is twice the measure of ∠C. What is the measure of ∠A, in degrees?",
+      "choices": null,
+      "answer": "120",
+      "explanation": "Since ∠A+∠C=180° and ∠A=2∠C, we get 3∠C=180°, so ∠C=60°. Therefore ∠A=120°",
+      "difficulty": 3,
+      "tags": ["内接四角形", "対角", "方程式"]
+    },
+    {
+      "id": "enshukaku-021",
+      "subunit": "Tangents to a circle and angles",
+      "type": "choice",
+      "question": "Which of the following is a correct property of a tangent to a circle?",
+      "choices": [
+        "A tangent to a circle is perpendicular to the radius drawn to the point of tangency",
+        "A tangent to a circle is parallel to the radius drawn to the point of tangency",
+        "A tangent to a circle always passes through the center of the circle",
+        "A tangent to a circle intersects the circle at two points"
+      ],
+      "answer": "A tangent to a circle is perpendicular to the radius drawn to the point of tangency",
+      "explanation": "A tangent to a circle is perpendicular to the radius drawn to the point of tangency. This is the fundamental property of a tangent.",
+      "difficulty": 2,
+      "tags": ["接線", "半径", "垂直", "定理の内容"]
+    },
+    {
+      "id": "enshukaku-022",
+      "subunit": "Tangents to a circle and angles",
+      "type": "numeric",
+      "question": "From point P outside circle O, two tangents are drawn to circle O, with points of tangency A and B. Since the two tangent segments drawn from a single external point are equal in length, PA=PB. When ∠APB=40°, what is the measure of ∠PAB, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "Since PA=PB, triangle PAB is isosceles. ∠PAB=(180°-40°)÷2=70°",
+      "difficulty": 2,
+      "tags": ["接線", "二等辺三角形"]
+    },
+    {
+      "id": "enshukaku-023",
+      "subunit": "Tangents to a circle and angles",
+      "type": "numeric",
+      "question": "From point P outside circle O, two tangents are drawn to circle O, with points of tangency A and B. When ∠APB=50°, what is the measure of the central angle ∠AOB, in degrees?",
+      "choices": null,
+      "answer": "130",
+      "explanation": "Since a tangent is perpendicular to the radius drawn to the point of tangency, ∠OAP=∠OBP=90°. Because the sum of the interior angles of quadrilateral OAPB is 360°, ∠AOB=360°-90°-90°-50°=130°",
+      "difficulty": 3,
+      "tags": ["接線", "中心角", "四角形の内角"]
+    },
+    {
+      "id": "enshukaku-024",
+      "subunit": "Tangents to a circle and angles",
+      "type": "numeric",
+      "question": "Let AT be the line tangent to circle O at point A on the circle, and draw chord AB. When the angle between the tangent and the chord, ∠TAB=65°, what is the measure of the inscribed angle subtending arc AB that lies inside ∠TAB, in degrees?",
+      "choices": null,
+      "answer": "65",
+      "explanation": "By the Tangent-Chord Angle theorem (inscribed angle in the alternate segment), the angle between a tangent and a chord equals the inscribed angle subtending the arc that lies inside that angle. Therefore 65°",
+      "difficulty": 3,
+      "tags": ["接線", "接弦定理", "円周角"]
+    }
+  ]
+}

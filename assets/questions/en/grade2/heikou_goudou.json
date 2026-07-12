@@ -1,0 +1,317 @@
+{
+  "unit": "Parallel Lines and Congruence",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "heikou-001",
+      "subunit": "Vertical, Corresponding, and Alternate Angles",
+      "type": "numeric",
+      "question": "Two lines intersect. When one of the angles formed is 65°, what is the measure of its vertical angle, in degrees?",
+      "choices": null,
+      "answer": "65",
+      "explanation": "Vertical angles are equal, so it is 65°.",
+      "difficulty": 1,
+      "tags": ["対頂角"]
+    },
+    {
+      "id": "heikou-002",
+      "subunit": "Vertical, Corresponding, and Alternate Angles",
+      "type": "numeric",
+      "question": "Two lines intersect at a point. When one of the angles formed is 110°, what is the measure of the angle next to it, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "Adjacent angles on a straight line add up to 180°. 180°-110°=70°.",
+      "difficulty": 1,
+      "tags": ["対頂角", "一直線の角"]
+    },
+    {
+      "id": "heikou-003",
+      "subunit": "Vertical, Corresponding, and Alternate Angles",
+      "type": "choice",
+      "question": "When a line crosses two lines, what do we call the angles that lie on the same side of the crossing line and in corresponding positions?",
+      "choices": ["Corresponding angles", "Alternate angles", "Vertical angles", "Supplementary angles"],
+      "answer": "Corresponding angles",
+      "explanation": "Angles in corresponding positions are corresponding angles. Angles in diagonally opposite positions are alternate angles.",
+      "difficulty": 1,
+      "tags": ["同位角", "用語"]
+    },
+    {
+      "id": "heikou-004",
+      "subunit": "Parallel Lines and Angles",
+      "type": "numeric",
+      "question": "A line crosses two parallel lines. When one of a pair of corresponding angles is 72°, what is the measure of the other corresponding angle, in degrees?",
+      "choices": null,
+      "answer": "72",
+      "explanation": "Corresponding angles on parallel lines are equal, so it is 72°.",
+      "difficulty": 1,
+      "tags": ["平行線", "同位角"]
+    },
+    {
+      "id": "heikou-005",
+      "subunit": "Parallel Lines and Angles",
+      "type": "numeric",
+      "question": "A line crosses two parallel lines. When one of a pair of alternate angles is 55°, what is the measure of the other alternate angle, in degrees?",
+      "choices": null,
+      "answer": "55",
+      "explanation": "Alternate angles on parallel lines are equal, so it is 55°.",
+      "difficulty": 1,
+      "tags": ["平行線", "錯角"]
+    },
+    {
+      "id": "heikou-006",
+      "subunit": "Parallel Lines and Angles",
+      "type": "numeric",
+      "question": "A line crosses two parallel lines ℓ and m. When the angle formed on the ℓ side is 120°, what is the measure of the co-interior angle (same-side interior angle) on the m side, in degrees?",
+      "choices": null,
+      "answer": "60",
+      "explanation": "For parallel lines, co-interior angles add up to 180°. 180°-120°=60°.",
+      "difficulty": 2,
+      "tags": ["平行線", "同側内角"]
+    },
+    {
+      "id": "heikou-007",
+      "subunit": "Parallel Lines and Angles",
+      "type": "choice",
+      "question": "When a line crosses two lines and the corresponding angles are equal, what can we say about the two lines?",
+      "choices": ["They are parallel", "They are perpendicular", "They must intersect", "Nothing can be said"],
+      "answer": "They are parallel",
+      "explanation": "If corresponding angles (or alternate angles) are equal, the two lines are parallel. This is the condition for lines to be parallel.",
+      "difficulty": 2,
+      "tags": ["平行線になる条件"]
+    },
+    {
+      "id": "heikou-008",
+      "subunit": "Interior and Exterior Angles of a Triangle",
+      "type": "numeric",
+      "question": "When two interior angles of a triangle are 50° and 60°, what is the measure of the remaining interior angle, in degrees?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "The interior angles of a triangle add up to 180°. 180°-50°-60°=70°.",
+      "difficulty": 1,
+      "tags": ["内角の和"]
+    },
+    {
+      "id": "heikou-009",
+      "subunit": "Interior and Exterior Angles of a Triangle",
+      "type": "numeric",
+      "question": "When two interior angles of a triangle are 45° and 75°, what is the measure of the exterior angle next to the remaining interior angle, in degrees?",
+      "choices": null,
+      "answer": "120",
+      "explanation": "An exterior angle equals the sum of the two non-adjacent interior angles. 45°+75°=120°.",
+      "difficulty": 2,
+      "tags": ["外角"]
+    },
+    {
+      "id": "heikou-010",
+      "subunit": "Interior and Exterior Angles of a Triangle",
+      "type": "numeric",
+      "question": "For a triangle, one exterior angle is 130°, and one of its non-adjacent interior angles is 55°. What is the measure of the other non-adjacent interior angle, in degrees?",
+      "choices": null,
+      "answer": "75",
+      "explanation": "Exterior angle = sum of the two non-adjacent interior angles. 130°-55°=75°.",
+      "difficulty": 2,
+      "tags": ["外角"]
+    },
+    {
+      "id": "heikou-011",
+      "subunit": "Interior and Exterior Angles of a Triangle",
+      "type": "choice",
+      "question": "What do we call a triangle whose three interior angles are all acute (less than 90°)?",
+      "choices": ["Acute triangle", "Right triangle", "Obtuse triangle", "Equilateral triangle"],
+      "answer": "Acute triangle",
+      "explanation": "If all angles are acute, it is an acute triangle. If one is a right angle, it is a right triangle; if one is obtuse, it is an obtuse triangle.",
+      "difficulty": 1,
+      "tags": ["三角形の分類"]
+    },
+    {
+      "id": "heikou-012",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "What is the sum of the interior angles of a pentagon, in degrees?",
+      "choices": null,
+      "answer": "540",
+      "explanation": "The sum of the interior angles of an n-gon is 180°×(n-2). 180°×3=540°.",
+      "difficulty": 1,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-013",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "What is the sum of the interior angles of an octagon, in degrees?",
+      "choices": null,
+      "answer": "1080",
+      "explanation": "180°×(8-2)=180°×6=1080°.",
+      "difficulty": 2,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-014",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "What is the sum of the exterior angles of a polygon, in degrees (the value is the same for any polygon)?",
+      "choices": null,
+      "answer": "360",
+      "explanation": "The sum of the exterior angles of a polygon is always 360°.",
+      "difficulty": 1,
+      "tags": ["多角形", "外角の和"]
+    },
+    {
+      "id": "heikou-015",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "What is the measure of one interior angle of a regular hexagon, in degrees?",
+      "choices": null,
+      "answer": "120",
+      "explanation": "The sum of the interior angles is 180°×4=720°. Since a regular hexagon has equal angles, 720°÷6=120°.",
+      "difficulty": 2,
+      "tags": ["正多角形", "内角"]
+    },
+    {
+      "id": "heikou-016",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "What is the measure of one exterior angle of a regular dodecagon (12-gon), in degrees?",
+      "choices": null,
+      "answer": "30",
+      "explanation": "The sum of the exterior angles is 360°. Since a regular dodecagon has equal angles, 360°÷12=30°.",
+      "difficulty": 2,
+      "tags": ["正多角形", "外角"]
+    },
+    {
+      "id": "heikou-017",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "A regular polygon has one exterior angle of 40°. How many sides does it have? Answer with the number only.",
+      "choices": null,
+      "answer": "9",
+      "explanation": "360°÷40°=9, so it is a regular nonagon (9-gon).",
+      "difficulty": 3,
+      "tags": ["正多角形", "外角"]
+    },
+    {
+      "id": "heikou-018",
+      "subunit": "Sum of the Interior and Exterior Angles of a Polygon",
+      "type": "numeric",
+      "question": "A polygon has interior angles that add up to 1440°. How many sides does it have? Answer with the number only.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "From 180°×(n-2)=1440°, we get n-2=8, so n=10. It is a decagon.",
+      "difficulty": 3,
+      "tags": ["多角形", "内角の和"]
+    },
+    {
+      "id": "heikou-019",
+      "subunit": "Congruence Conditions for Triangles",
+      "type": "choice",
+      "question": "Which of the following is NOT a valid congruence condition for triangles?",
+      "choices": [
+        "Three pairs of angles are respectively equal",
+        "Three pairs of sides are respectively equal",
+        "Two pairs of sides and the included angle are respectively equal",
+        "One pair of sides and the angles at both of its ends are respectively equal"
+      ],
+      "answer": "Three pairs of angles are respectively equal",
+      "explanation": "Even if three pairs of angles are equal, the triangles may be similar but different in size, so this is not a congruence condition.",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-020",
+      "subunit": "Congruence Conditions for Triangles",
+      "type": "choice",
+      "question": "In △ABC and △DEF, it is known that AB=DE, BC=EF, and ∠B=∠E. Which congruence condition do you use?",
+      "choices": [
+        "Two pairs of sides and the included angle are respectively equal",
+        "Three pairs of sides are respectively equal",
+        "One pair of sides and the angles at both of its ends are respectively equal",
+        "The hypotenuse and one other side are respectively equal"
+      ],
+      "answer": "Two pairs of sides and the included angle are respectively equal",
+      "explanation": "Since ∠B is the angle between AB and BC, the condition 'two pairs of sides and the included angle' can be used.",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-021",
+      "subunit": "Congruence Conditions for Triangles",
+      "type": "choice",
+      "question": "In △ABC and △DEF, it is known that BC=EF, ∠B=∠E, and ∠C=∠F. Which congruence condition do you use?",
+      "choices": [
+        "One pair of sides and the angles at both of its ends are respectively equal",
+        "Two pairs of sides and the included angle are respectively equal",
+        "Three pairs of sides are respectively equal",
+        "Two pairs of angles are respectively equal"
+      ],
+      "answer": "One pair of sides and the angles at both of its ends are respectively equal",
+      "explanation": "Since ∠B and ∠C are the angles at both ends of side BC, the condition 'one pair of sides and the angles at both of its ends' can be used.",
+      "difficulty": 2,
+      "tags": ["合同条件"]
+    },
+    {
+      "id": "heikou-022",
+      "subunit": "The Congruence Symbol and Corresponding Parts",
+      "type": "choice",
+      "question": "When △ABC≡△DEF, which angle corresponds to ∠A?",
+      "choices": ["∠D", "∠E", "∠F", "∠B"],
+      "answer": "∠D",
+      "explanation": "In the congruence statement, corresponding vertices are written in the same order. A↔D, B↔E, C↔F.",
+      "difficulty": 1,
+      "tags": ["合同", "対応"]
+    },
+    {
+      "id": "heikou-023",
+      "subunit": "The Congruence Symbol and Corresponding Parts",
+      "type": "choice",
+      "question": "When △ABC≡△DEF and AB=5cm, which side has a length of 5cm?",
+      "choices": ["Side DE", "Side EF", "Side DF", "Side BC"],
+      "answer": "Side DE",
+      "explanation": "Corresponding sides are equal. AB corresponds to DE (A↔D, B↔E).",
+      "difficulty": 2,
+      "tags": ["合同", "対応"]
+    },
+    {
+      "id": "heikou-024",
+      "subunit": "How Proofs Work",
+      "type": "choice",
+      "question": "In the statement 'If AB=CD, then AB+EF=CD+EF', what do we call the 'AB=CD' part?",
+      "choices": ["Hypothesis", "Conclusion", "Theorem", "Proof"],
+      "answer": "Hypothesis",
+      "explanation": "The part before 'then' is the hypothesis, and the part after it is the conclusion.",
+      "difficulty": 1,
+      "tags": ["証明", "仮定と結論"]
+    },
+    {
+      "id": "heikou-025",
+      "subunit": "How Proofs Work",
+      "type": "choice",
+      "question": "In a proof, which of the following is already accepted as true and can be used as a reason?",
+      "choices": [
+        "Vertical angles are equal",
+        "The statement you are trying to prove",
+        "A conjecture",
+        "An angle that happened to be equal when measured"
+      ],
+      "answer": "Vertical angles are equal",
+      "explanation": "A property already accepted as true (a theorem) can be used as a reason. The statement you are trying to prove itself, measurements, and conjectures cannot be used as reasons.",
+      "difficulty": 2,
+      "tags": ["証明", "根拠"]
+    },
+    {
+      "id": "heikou-026",
+      "subunit": "How Proofs Work",
+      "type": "choice",
+      "question": "After proving that two triangles are congruent, which is the reason used to conclude that corresponding angles are equal?",
+      "choices": [
+        "In congruent figures, corresponding angles are equal",
+        "The interior angles of a triangle add up to 180°",
+        "Vertical angles are equal",
+        "Alternate angles on parallel lines are equal"
+      ],
+      "answer": "In congruent figures, corresponding angles are equal",
+      "explanation": "We derive the conclusion using the property of congruent figures (corresponding sides and angles are equal).",
+      "difficulty": 3,
+      "tags": ["証明", "合同の性質"]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "unit": "Direct and Inverse Proportion",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "hirei-001",
+      "subunit": "Functions and Domains",
+      "type": "choice",
+      "question": "Which of the following shows y as a function of x?",
+      "choices": [
+        "The height y cm of a rectangle with area x cm²",
+        "The area y cm² of a square with side length x cm",
+        "The weight y kg of a person whose height is x cm",
+        "A number y whose absolute value is x"
+      ],
+      "answer": "The area y cm² of a square with side length x cm",
+      "explanation": "y is a function of x when each value of x determines exactly one value of y. The area of a square is determined by its side length alone.",
+      "difficulty": 1,
+      "tags": ["関数"]
+    },
+    {
+      "id": "hirei-002",
+      "subunit": "Functions and Domains",
+      "type": "choice",
+      "question": "Which inequality represents \"x is greater than -2 and less than or equal to 4\"?",
+      "choices": [
+        "-2<x≦4",
+        "-2≦x<4",
+        "-2≦x≦4",
+        "-2<x<4"
+      ],
+      "answer": "-2<x≦4",
+      "explanation": "\"Greater than\" uses < with no equal sign, and \"less than or equal to\" uses ≦ with an equal sign. So the answer is -2<x≦4.",
+      "difficulty": 1,
+      "tags": ["変域"]
+    },
+    {
+      "id": "hirei-003",
+      "subunit": "Functions and Domains",
+      "type": "numeric",
+      "question": "For the function y=3x, find the value of y when x=4.",
+      "choices": null,
+      "answer": "12",
+      "explanation": "y=3×4=12.",
+      "difficulty": 1,
+      "tags": ["関数", "代入"]
+    },
+    {
+      "id": "hirei-004",
+      "subunit": "Functions and Domains",
+      "type": "numeric",
+      "question": "For the function y=-3x, find the minimum value of y when the domain of x is -2≦x≦1.",
+      "choices": null,
+      "answer": "-3",
+      "explanation": "For y=-3x, y decreases as x increases. The minimum is y=-3 when x=1.",
+      "difficulty": 2,
+      "tags": ["変域", "最小値"]
+    },
+    {
+      "id": "hirei-005",
+      "subunit": "Functions and Domains",
+      "type": "choice",
+      "question": "For the function y=2x, find the range of y when the domain of x is -1≦x≦3.",
+      "choices": [
+        "-2≦y≦6",
+        "-1≦y≦3",
+        "0≦y≦6",
+        "-2≦y≦3"
+      ],
+      "answer": "-2≦y≦6",
+      "explanation": "When x=-1, y=-2; when x=3, y=6. So the range is -2≦y≦6.",
+      "difficulty": 2,
+      "tags": ["変域"]
+    },
+    {
+      "id": "hirei-006",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "choice",
+      "question": "y is directly proportional to x, and y=6 when x=2. Express y in terms of x.",
+      "choices": [
+        "y=3x",
+        "y=2x",
+        "y=6x",
+        "y=x+4"
+      ],
+      "answer": "y=3x",
+      "explanation": "a=y÷x=6÷2=3. So y=3x.",
+      "difficulty": 1,
+      "tags": ["比例", "式"]
+    },
+    {
+      "id": "hirei-007",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "choice",
+      "question": "y is directly proportional to x, and the constant of proportionality is -4. Express y in terms of x.",
+      "choices": [
+        "y=-4x",
+        "y=4x",
+        "y={{-4}}/{{x}}",
+        "y=x-4"
+      ],
+      "answer": "y=-4x",
+      "explanation": "The equation for direct proportion is y=ax. Since a=-4, y=-4x.",
+      "difficulty": 1,
+      "tags": ["比例", "式"]
+    },
+    {
+      "id": "hirei-008",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "numeric",
+      "question": "For the direct proportion y=5x, find the value of y when x=3.",
+      "choices": null,
+      "answer": "15",
+      "explanation": "y=5×3=15.",
+      "difficulty": 1,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-009",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "numeric",
+      "question": "y is directly proportional to x, and y=20 when x=4. Find the value of y when x=7.",
+      "choices": null,
+      "answer": "35",
+      "explanation": "a=20÷4=5, so y=5x. When x=7, y=5×7=35.",
+      "difficulty": 2,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-010",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "numeric",
+      "question": "y is directly proportional to x, and y=-12 when x=3. Find the value of y when x=-2.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "a=-12÷3=-4, so y=-4x. When x=-2, y=-4×(-2)=8.",
+      "difficulty": 2,
+      "tags": ["比例", "代入"]
+    },
+    {
+      "id": "hirei-011",
+      "subunit": "The Direct Proportion Equation y=ax",
+      "type": "choice",
+      "question": "y is directly proportional to x, and y=8 when x=-6. Find the constant of proportionality a.",
+      "choices": [
+        "{{-4}}/{{3}}",
+        "{{4}}/{{3}}",
+        "{{-3}}/{{4}}",
+        "{{3}}/{{4}}"
+      ],
+      "answer": "{{-4}}/{{3}}",
+      "explanation": "a=y÷x=8÷(-6)={{-4}}/{{3}}.",
+      "difficulty": 3,
+      "tags": ["比例", "比例定数"]
+    },
+    {
+      "id": "hirei-012",
+      "subunit": "Graphs of Direct Proportion",
+      "type": "choice",
+      "question": "Which of the following is true about the graph of the direct proportion y=2x?",
+      "choices": [
+        "A straight line through the origin that rises from left to right",
+        "A straight line through the origin that falls from left to right",
+        "A hyperbola",
+        "A straight line parallel to the y-axis"
+      ],
+      "answer": "A straight line through the origin that rises from left to right",
+      "explanation": "The graph of y=ax is a straight line through the origin. Since a=2>0, it rises from left to right.",
+      "difficulty": 1,
+      "tags": ["比例", "グラフ"]
+    },
+    {
+      "id": "hirei-013",
+      "subunit": "Graphs of Direct Proportion",
+      "type": "choice",
+      "question": "Which of the following is true about the graph of the direct proportion y=-3x?",
+      "choices": [
+        "A line that falls from left to right, where y decreases as x increases",
+        "A line that rises from left to right, where y increases as x increases",
+        "A hyperbola, where y decreases as x increases",
+        "A straight line that does not pass through the origin"
+      ],
+      "answer": "A line that falls from left to right, where y decreases as x increases",
+      "explanation": "Since a=-3<0, the graph is a line through the origin that falls from left to right. As x increases, y decreases.",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "増減"]
+    },
+    {
+      "id": "hirei-014",
+      "subunit": "Graphs of Direct Proportion",
+      "type": "choice",
+      "question": "Find the equation of the direct proportion graph that passes through the origin and the point (3, -6).",
+      "choices": [
+        "y=-2x",
+        "y=2x",
+        "y=-6x",
+        "y={{-2}}/{{x}}"
+      ],
+      "answer": "y=-2x",
+      "explanation": "a=y÷x=-6÷3=-2. So y=-2x.",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "式"]
+    },
+    {
+      "id": "hirei-015",
+      "subunit": "Graphs of Direct Proportion",
+      "type": "numeric",
+      "question": "The graph of the direct proportion y=4x passes through the point (a, 12). Find the value of a.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "From 12=4×a, we get a=12÷4=3.",
+      "difficulty": 2,
+      "tags": ["比例", "グラフ", "代入"]
+    },
+    {
+      "id": "hirei-016",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "choice",
+      "question": "y is inversely proportional to x, and y=4 when x=3. Express y in terms of x.",
+      "choices": [
+        "y={{12}}/{{x}}",
+        "y={{x}}/{{12}}",
+        "y=12x",
+        "y={{4}}/{{x}}"
+      ],
+      "answer": "y={{12}}/{{x}}",
+      "explanation": "The equation for inverse proportion is y={{a}}/{{x}}, and a=xy=3×4=12. So y={{12}}/{{x}}.",
+      "difficulty": 1,
+      "tags": ["反比例", "式"]
+    },
+    {
+      "id": "hirei-017",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "choice",
+      "question": "y is inversely proportional to x, and the constant of proportionality is -8. Express y in terms of x.",
+      "choices": [
+        "y={{-8}}/{{x}}",
+        "y={{8}}/{{x}}",
+        "y=-8x",
+        "y=8x"
+      ],
+      "answer": "y={{-8}}/{{x}}",
+      "explanation": "The equation for inverse proportion is y={{a}}/{{x}}. Since a=-8, y={{-8}}/{{x}}.",
+      "difficulty": 1,
+      "tags": ["反比例", "式"]
+    },
+    {
+      "id": "hirei-018",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "numeric",
+      "question": "y is inversely proportional to x, and y=9 when x=2. Find the value of y when x=3.",
+      "choices": null,
+      "answer": "6",
+      "explanation": "a=xy=2×9=18, so y={{18}}/{{x}}. When x=3, y=18÷3=6.",
+      "difficulty": 2,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-019",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "numeric",
+      "question": "y is inversely proportional to x, and y=-6 when x=4. Find the value of y when x=-3.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "a=xy=4×(-6)=-24, so y={{-24}}/{{x}}. When x=-3, y=-24÷(-3)=8.",
+      "difficulty": 2,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-020",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "numeric",
+      "question": "y is inversely proportional to x, and y=6 when x=5. Find the value of x when y=10.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "a=xy=5×6=30, so y={{30}}/{{x}}. When y=10, 10={{30}}/{{x}}, so x=30÷10=3.",
+      "difficulty": 3,
+      "tags": ["反比例", "代入"]
+    },
+    {
+      "id": "hirei-021",
+      "subunit": "The Inverse Proportion Equation y={{a}}/{{x}}",
+      "type": "choice",
+      "question": "y is inversely proportional to x, and y=4 when x=6. Find the constant of proportionality.",
+      "choices": [
+        "24",
+        "10",
+        "{{2}}/{{3}}",
+        "12"
+      ],
+      "answer": "24",
+      "explanation": "For an inverse proportion, the constant of proportionality is a=xy=6×4=24.",
+      "difficulty": 3,
+      "tags": ["反比例", "比例定数"]
+    },
+    {
+      "id": "hirei-022",
+      "subunit": "Graphs of Inverse Proportion",
+      "type": "choice",
+      "question": "Which of the following is true about the graph of the inverse proportion y={{6}}/{{x}}?",
+      "choices": [
+        "A hyperbola, where y decreases as x increases for x>0",
+        "A straight line through the origin that rises from left to right",
+        "A parabola",
+        "A straight line through the origin that falls from left to right"
+      ],
+      "answer": "A hyperbola, where y decreases as x increases for x>0",
+      "explanation": "The graph of an inverse proportion is a hyperbola. Since a=6>0, y decreases as x increases for x>0.",
+      "difficulty": 2,
+      "tags": ["反比例", "グラフ"]
+    },
+    {
+      "id": "hirei-023",
+      "subunit": "Graphs of Inverse Proportion",
+      "type": "choice",
+      "question": "Which point does the graph of the inverse proportion y={{-12}}/{{x}} pass through?",
+      "choices": [
+        "(3, -4)",
+        "(2, 6)",
+        "(4, 3)",
+        "(6, 2)"
+      ],
+      "answer": "(3, -4)",
+      "explanation": "When x=3, y=-12÷3=-4, so the graph passes through (3, -4). The other points do not satisfy the equation.",
+      "difficulty": 3,
+      "tags": ["反比例", "グラフ", "通る点"]
+    },
+    {
+      "id": "hirei-024",
+      "subunit": "Graphs of Inverse Proportion",
+      "type": "choice",
+      "question": "The graph of an inverse proportion passes through the point (2, 10). Find its equation.",
+      "choices": [
+        "y={{20}}/{{x}}",
+        "y={{5}}/{{x}}",
+        "y=20x",
+        "y={{x}}/{{20}}"
+      ],
+      "answer": "y={{20}}/{{x}}",
+      "explanation": "a=xy=2×10=20. So y={{20}}/{{x}}.",
+      "difficulty": 2,
+      "tags": ["反比例", "グラフ", "式"]
+    },
+    {
+      "id": "hirei-025",
+      "subunit": "Applications of Direct and Inverse Proportion",
+      "type": "numeric",
+      "question": "When you travel at a speed of 70 m per minute, the distance y m you cover in x minutes can be written as y=70x. Find how many meters you travel in 6 minutes.",
+      "choices": null,
+      "answer": "420",
+      "explanation": "y=70×6=420 (m).",
+      "difficulty": 2,
+      "tags": ["利用", "比例", "速さ"]
+    },
+    {
+      "id": "hirei-026",
+      "subunit": "Applications of Direct and Inverse Proportion",
+      "type": "numeric",
+      "question": "A rectangle has an area of 24 cm². Let its length be x cm and its width be y cm. Find the width in cm when the length is 6 cm.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "From xy=24, y={{24}}/{{x}}. When x=6, y=24÷6=4 (cm).",
+      "difficulty": 3,
+      "tags": ["利用", "反比例", "面積"]
+    },
+    {
+      "id": "hirei-027",
+      "subunit": "Applications of Direct and Inverse Proportion",
+      "type": "numeric",
+      "question": "Two gears mesh with each other. A gear with 20 teeth turns 15 times per minute. Find how many times per minute the meshing gear with 25 teeth turns.",
+      "choices": null,
+      "answer": "12",
+      "explanation": "The number of turns is inversely proportional to the number of teeth, and a=20×15=300. For the gear with 25 teeth, 300÷25=12 turns per minute.",
+      "difficulty": 3,
+      "tags": ["利用", "反比例", "歯車"]
+    }
+  ]
+}

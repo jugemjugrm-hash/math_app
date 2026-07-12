@@ -1,0 +1,292 @@
+{
+  "unit": "Data Distribution",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "data-001",
+      "subunit": "Frequency Distribution Tables and Histograms",
+      "type": "numeric",
+      "question": "The grip-strength records of a class were organized into a frequency distribution table. The frequencies of the classes, from the lowest class up, were 2, 4, 7, 5, and 2 students. How many students are in the class in total?",
+      "choices": null,
+      "answer": "20",
+      "explanation": "The total of the frequencies is the total number of students. 2+4+7+5+2=20 students.",
+      "difficulty": 1,
+      "tags": ["度数分布表", "度数の合計"]
+    },
+    {
+      "id": "data-002",
+      "subunit": "Frequency Distribution Tables and Histograms",
+      "type": "numeric",
+      "question": "Eight students scored 52, 68, 73, 81, 90, 64, 77, and 85 on a test. Find the number of students (the frequency) in the class of at least 70 and less than 80 points.",
+      "choices": null,
+      "answer": "2",
+      "explanation": "The scores that are at least 70 and less than 80 are 73 and 77, so the frequency is 2.",
+      "difficulty": 1,
+      "tags": ["度数", "階級に分ける"]
+    },
+    {
+      "id": "data-003",
+      "subunit": "Frequency Distribution Tables and Histograms",
+      "type": "numeric",
+      "question": "A frequency distribution table has a total frequency of 30. The frequency of just one class is unknown, and the frequencies of the other classes are 3, 6, 9, 5, and 4. Find the unknown frequency.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "The other frequencies total 3+6+9+5+4=27. 30-27=3.",
+      "difficulty": 2,
+      "tags": ["度数分布表", "度数の合計"]
+    },
+    {
+      "id": "data-004",
+      "subunit": "Frequency Distribution Tables and Histograms",
+      "type": "choice",
+      "question": "In a histogram (bar-style graph), which of the following does the width of each rectangle represent?",
+      "choices": ["The class width", "The frequency", "The relative frequency", "The class midpoint"],
+      "answer": "The class width",
+      "explanation": "In a histogram, the width of each bar represents the class width, and the height represents the frequency.",
+      "difficulty": 2,
+      "tags": ["ヒストグラム", "用語"]
+    },
+    {
+      "id": "data-005",
+      "subunit": "Classes and Class Midpoints",
+      "type": "numeric",
+      "question": "Find the class midpoint of the class 'at least 20 and less than 30'.",
+      "choices": null,
+      "answer": "25",
+      "explanation": "The class midpoint is the middle value of the class. (20+30)÷2=25.",
+      "difficulty": 1,
+      "tags": ["階級値"]
+    },
+    {
+      "id": "data-006",
+      "subunit": "Classes and Class Midpoints",
+      "type": "numeric",
+      "question": "The classes of a frequency distribution table are divided as 'at least 0 and less than 10', 'at least 10 and less than 20', 'at least 20 and less than 30', and so on. Find the class width of this frequency distribution table.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "The class width is the size of each interval. 10-0=10.",
+      "difficulty": 1,
+      "tags": ["階級の幅"]
+    },
+    {
+      "id": "data-007",
+      "subunit": "Classes and Class Midpoints",
+      "type": "choice",
+      "question": "Find the class midpoint of the class 'at least 15 and less than 20'.",
+      "choices": ["17.5", "17", "18", "20"],
+      "answer": "17.5",
+      "explanation": "Class midpoint = (15+20)÷2 = 35÷2 = 17.5.",
+      "difficulty": 2,
+      "tags": ["階級値"]
+    },
+    {
+      "id": "data-008",
+      "subunit": "Classes and Class Midpoints",
+      "type": "choice",
+      "question": "The classes are divided as 'at least 20 and less than 30', 'at least 30 and less than 40', 'at least 40 and less than 50', and 'at least 50 and less than 60'. Which class does the value 32 belong to?",
+      "choices": ["At least 20 and less than 30", "At least 30 and less than 40", "At least 40 and less than 50", "At least 50 and less than 60"],
+      "answer": "At least 30 and less than 40",
+      "explanation": "32 is at least 30 and less than 40, so it belongs to that class.",
+      "difficulty": 2,
+      "tags": ["階級", "階級に分ける"]
+    },
+    {
+      "id": "data-009",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "choice",
+      "question": "In a frequency distribution table with a total frequency of 20 students, one class has a frequency of 5 students. Find the relative frequency of this class.",
+      "choices": ["0.25", "0.2", "0.5", "0.4"],
+      "answer": "0.25",
+      "explanation": "Relative frequency = frequency of the class ÷ total frequency = 5÷20 = 0.25.",
+      "difficulty": 2,
+      "tags": ["相対度数"]
+    },
+    {
+      "id": "data-010",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "numeric",
+      "question": "A frequency distribution table has frequencies 3, 5, 8, and 4, in order from the lowest class up. Find the cumulative frequency through the third class from the bottom.",
+      "choices": null,
+      "answer": "16",
+      "explanation": "The cumulative frequency is the total of the frequencies starting from the first class. 3+5+8=16.",
+      "difficulty": 2,
+      "tags": ["累積度数"]
+    },
+    {
+      "id": "data-011",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "choice",
+      "question": "In a frequency distribution table with a total frequency of 25 students, one class has a frequency of 3 students. Find the relative frequency of this class.",
+      "choices": ["0.12", "0.15", "0.1", "0.3"],
+      "answer": "0.12",
+      "explanation": "Relative frequency = 3÷25 = 0.12.",
+      "difficulty": 2,
+      "tags": ["相対度数"]
+    },
+    {
+      "id": "data-012",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "choice",
+      "question": "A frequency distribution table has frequencies 6, 10, 14, and 10, in order from the lowest class up (the total frequency is 40). Find the cumulative relative frequency through the third class from the bottom.",
+      "choices": ["0.75", "0.7", "0.6", "0.8"],
+      "answer": "0.75",
+      "explanation": "The cumulative frequency through the third class is 6+10+14=30. Cumulative relative frequency = 30÷40 = 0.75.",
+      "difficulty": 3,
+      "tags": ["累積相対度数", "累積度数"]
+    },
+    {
+      "id": "data-013",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "numeric",
+      "question": "In a frequency distribution table with a total frequency of 20 students, one class has a relative frequency of 0.3. Find the frequency (number of students) of this class.",
+      "choices": null,
+      "answer": "6",
+      "explanation": "Frequency = total frequency × relative frequency = 20×0.3 = 6 students.",
+      "difficulty": 2,
+      "tags": ["相対度数", "度数を求める"]
+    },
+    {
+      "id": "data-014",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "Five students scored 6, 9, 10, 12, and 13 on a test. Find the mean of these five values.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "Sum = 6+9+10+12+13 = 50. Mean = 50÷5 = 10.",
+      "difficulty": 1,
+      "tags": ["平均値"]
+    },
+    {
+      "id": "data-015",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "Find the median of the five values 8, 3, 12, 7, and 15.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "In order from least to greatest: 3, 7, 8, 12, 15. The middle (third) value is 8.",
+      "difficulty": 1,
+      "tags": ["中央値"]
+    },
+    {
+      "id": "data-016",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "Find the mode of the six values 4, 6, 6, 9, 11, and 6.",
+      "choices": null,
+      "answer": "6",
+      "explanation": "The mode is the value that appears most often. 6 appears three times, more than any other value.",
+      "difficulty": 1,
+      "tags": ["最頻値"]
+    },
+    {
+      "id": "data-017",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "choice",
+      "question": "Find the mean of the four values 5, 7, 8, and 10.",
+      "choices": ["7.5", "7", "8", "7.2"],
+      "answer": "7.5",
+      "explanation": "Sum = 5+7+8+10 = 30. Mean = 30÷4 = 7.5.",
+      "difficulty": 2,
+      "tags": ["平均値"]
+    },
+    {
+      "id": "data-018",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "choice",
+      "question": "Find the median of the six values 4, 6, 7, 8, 10, and 13.",
+      "choices": ["7.5", "7", "8", "6.5"],
+      "answer": "7.5",
+      "explanation": "There are 6 values (an even number), so the median is the mean of the two middle values, 7 and 8. (7+8)÷2 = 7.5.",
+      "difficulty": 2,
+      "tags": ["中央値"]
+    },
+    {
+      "id": "data-019",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "In a frequency distribution table, the class midpoints and frequencies are (midpoint 5, frequency 2), (midpoint 15, frequency 3), (midpoint 25, frequency 4), and (midpoint 35, frequency 1). Find the mean from this frequency distribution table.",
+      "choices": null,
+      "answer": "19",
+      "explanation": "Sum of (class midpoint × frequency) = 5×2+15×3+25×4+35×1 = 10+45+100+35 = 190. The total frequency is 10. Mean = 190÷10 = 19.",
+      "difficulty": 2,
+      "tags": ["平均値", "度数分布表"]
+    },
+    {
+      "id": "data-020",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "In a frequency distribution table, the class 'at least 10 and less than 20' (midpoint 15) has a frequency of 3, 'at least 20 and less than 30' (midpoint 25) has a frequency of 7, 'at least 30 and less than 40' (midpoint 35) has a frequency of 5, and 'at least 40 and less than 50' (midpoint 45) has a frequency of 2. Find the mode of this distribution.",
+      "choices": null,
+      "answer": "25",
+      "explanation": "The largest frequency is 7, for the class 'at least 20 and less than 30'. For a frequency distribution table, the mode is the midpoint of that class, so it is 25.",
+      "difficulty": 3,
+      "tags": ["最頻値", "度数分布表"]
+    },
+    {
+      "id": "data-021",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "choice",
+      "question": "The data set is 2, 4, 4, 5, 30. Which measure of central tendency is affected most strongly by the extremely large value 30 mixed into the data?",
+      "choices": ["The mean", "The median", "The mode", "The frequency"],
+      "answer": "The mean",
+      "explanation": "The mean = (2+4+4+5+30)÷5 = 9, which is pulled up sharply. The median stays 4 and the mode stays 4, unchanged.",
+      "difficulty": 3,
+      "tags": ["代表値", "平均値"]
+    },
+    {
+      "id": "data-022",
+      "subunit": "Range",
+      "type": "numeric",
+      "question": "Find the range of the six values 12, 5, 8, 20, 15, and 3.",
+      "choices": null,
+      "answer": "17",
+      "explanation": "Range = maximum - minimum = 20-3 = 17.",
+      "difficulty": 1,
+      "tags": ["範囲"]
+    },
+    {
+      "id": "data-023",
+      "subunit": "Range",
+      "type": "numeric",
+      "question": "Find the range of the six values 45, 38, 52, 41, 60, and 33.",
+      "choices": null,
+      "answer": "27",
+      "explanation": "Range = maximum - minimum = 60-33 = 27.",
+      "difficulty": 2,
+      "tags": ["範囲"]
+    },
+    {
+      "id": "data-024",
+      "subunit": "Range",
+      "type": "choice",
+      "question": "What is the name for the difference found by subtracting the smallest value in a data set from the largest value?",
+      "choices": ["The range", "The median", "The mean", "The frequency"],
+      "answer": "The range",
+      "explanation": "The difference between the maximum value and the minimum value is called the range.",
+      "difficulty": 2,
+      "tags": ["範囲", "用語"]
+    },
+    {
+      "id": "data-025",
+      "subunit": "Measures of Central Tendency (Mean, Median, Mode)",
+      "type": "numeric",
+      "question": "The mean of five values is 7, and four of the values are 5, 6, 8, and 9. Find the remaining value.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Sum of the five values = mean × number of values = 7×5 = 35. The four known values total 5+6+8+9 = 28. Remaining value = 35-28 = 7.",
+      "difficulty": 3,
+      "tags": ["平均値", "逆算"]
+    },
+    {
+      "id": "data-026",
+      "subunit": "Relative Frequency and Cumulative Frequency",
+      "type": "choice",
+      "question": "In a frequency distribution table with a total frequency of 50 students, one class has a frequency of 7 students. Find the relative frequency of this class.",
+      "choices": ["0.14", "0.15", "0.13", "0.2"],
+      "answer": "0.14",
+      "explanation": "Relative frequency = 7÷50 = 0.14.",
+      "difficulty": 2,
+      "tags": ["相対度数"]
+    }
+  ]
+}

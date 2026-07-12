@@ -1,0 +1,292 @@
+{
+  "unit": "Systems of Equations",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "renritsu-001",
+      "subunit": "Systems of Equations and Their Solutions",
+      "type": "choice",
+      "question": "Which of the following (x, y) pairs is the solution of the system of equations x+y=5, x−y=3?",
+      "choices": ["x=4, y=1", "x=1, y=4", "x=4, y=-1", "x=3, y=2"],
+      "answer": "x=4, y=1",
+      "explanation": "Adding the two equations gives 2x=8, so x=4. Substituting into x+y=5 gives y=1. The pair that satisfies both equations is x=4, y=1.",
+      "difficulty": 1,
+      "tags": ["連立方程式", "解の意味"]
+    },
+    {
+      "id": "renritsu-002",
+      "subunit": "Systems of Equations and Their Solutions",
+      "type": "choice",
+      "question": "Solve the system of equations 3x+y=10, x+y=6.",
+      "choices": ["x=2, y=4", "x=4, y=2", "x=2, y=-4", "x=3, y=3"],
+      "answer": "x=2, y=4",
+      "explanation": "Subtracting the bottom equation from the top gives 2x=4, so x=2. From x+y=6, y=4.",
+      "difficulty": 1,
+      "tags": ["連立方程式", "解を求める"]
+    },
+    {
+      "id": "renritsu-003",
+      "subunit": "Systems of Equations and Their Solutions",
+      "type": "choice",
+      "question": "When x=3, y=-1 is the solution of the system of equations 2x+ay=4, bx−y=7, find the values of a and b.",
+      "choices": ["a=2, b=2", "a=2, b=-2", "a=10, b=2", "a=2, b=3"],
+      "answer": "a=2, b=2",
+      "explanation": "From 2·3+a·(−1)=4 we get 6−a=4, so a=2. From b·3−(−1)=7 we get 3b+1=7, so b=2.",
+      "difficulty": 2,
+      "tags": ["連立方程式", "係数決定"]
+    },
+    {
+      "id": "renritsu-004",
+      "subunit": "Elimination Method",
+      "type": "choice",
+      "question": "Solve the system of equations x+y=7, x−y=1 using the elimination method.",
+      "choices": ["x=4, y=3", "x=3, y=4", "x=4, y=-3", "x=5, y=2"],
+      "answer": "x=4, y=3",
+      "explanation": "Adding the two equations gives 2x=8, so x=4. From x+y=7, y=3.",
+      "difficulty": 1,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-005",
+      "subunit": "Elimination Method",
+      "type": "choice",
+      "question": "Solve the system of equations 2x+y=8, x+y=5.",
+      "choices": ["x=3, y=2", "x=2, y=3", "x=3, y=-2", "x=1, y=4"],
+      "answer": "x=3, y=2",
+      "explanation": "Subtracting the bottom equation from the top gives x=3. From x+y=5, y=2.",
+      "difficulty": 1,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-006",
+      "subunit": "Elimination Method",
+      "type": "choice",
+      "question": "Solve the system of equations 3x+2y=12, x−2y=4.",
+      "choices": ["x=4, y=0", "x=0, y=4", "x=4, y=1", "x=2, y=3"],
+      "answer": "x=4, y=0",
+      "explanation": "Adding the two equations gives 4x=16, so x=4. Substituting into x−2y=4 gives y=0.",
+      "difficulty": 2,
+      "tags": ["加減法"]
+    },
+    {
+      "id": "renritsu-007",
+      "subunit": "Elimination Method",
+      "type": "choice",
+      "question": "Solve the system of equations 2x+3y=7, 3x+2y=8.",
+      "choices": ["x=2, y=1", "x=1, y=2", "x=2, y=-1", "x=3, y=1"],
+      "answer": "x=2, y=1",
+      "explanation": "Multiplying the top by 3 gives 6x+9y=21, and the bottom by 2 gives 6x+4y=16. Subtracting gives 5y=5, so y=1 and x=2.",
+      "difficulty": 2,
+      "tags": ["加減法", "係数をそろえる"]
+    },
+    {
+      "id": "renritsu-008",
+      "subunit": "Elimination Method",
+      "type": "choice",
+      "question": "Solve the system of equations 4x+3y=−1, 3x−2y=12.",
+      "choices": ["x=2, y=-3", "x=-3, y=2", "x=2, y=3", "x=-2, y=3"],
+      "answer": "x=2, y=-3",
+      "explanation": "Multiplying the top by 2 gives 8x+6y=−2, and the bottom by 3 gives 9x−6y=36. Adding gives 17x=34, so x=2 and y=−3.",
+      "difficulty": 3,
+      "tags": ["加減法", "負の数"]
+    },
+    {
+      "id": "renritsu-009",
+      "subunit": "Substitution Method",
+      "type": "choice",
+      "question": "Solve the system of equations y=2x, x+y=9 using the substitution method.",
+      "choices": ["x=3, y=6", "x=6, y=3", "x=3, y=3", "x=2, y=4"],
+      "answer": "x=3, y=6",
+      "explanation": "Substituting y=2x into x+y=9 gives 3x=9, so x=3 and y=6.",
+      "difficulty": 1,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-010",
+      "subunit": "Substitution Method",
+      "type": "choice",
+      "question": "Solve the system of equations y=x+1, 2x+y=7.",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=1, y=2"],
+      "answer": "x=2, y=3",
+      "explanation": "Substituting y=x+1 into 2x+y=7 gives 3x+1=7, so x=2 and y=3.",
+      "difficulty": 1,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-011",
+      "subunit": "Substitution Method",
+      "type": "choice",
+      "question": "Solve the system of equations x=2y−3, 3x+y=5.",
+      "choices": ["x=1, y=2", "x=2, y=1", "x=-1, y=2", "x=1, y=-2"],
+      "answer": "x=1, y=2",
+      "explanation": "Substituting x=2y−3 into 3x+y=5 gives 6y−9+y=5, so 7y=14, y=2 and x=1.",
+      "difficulty": 2,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-012",
+      "subunit": "Substitution Method",
+      "type": "choice",
+      "question": "Solve the system of equations y=3x−4, 2x+3y=10.",
+      "choices": ["x=2, y=2", "x=2, y=-2", "x=1, y=-1", "x=3, y=5"],
+      "answer": "x=2, y=2",
+      "explanation": "Substituting y=3x−4 into 2x+3y=10 gives 2x+9x−12=10, so 11x=22, x=2 and y=2.",
+      "difficulty": 2,
+      "tags": ["代入法"]
+    },
+    {
+      "id": "renritsu-013",
+      "subunit": "Substitution Method",
+      "type": "choice",
+      "question": "Solve the system of equations x+2y=8, 3x−y=3 using the substitution method.",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=4, y=2"],
+      "answer": "x=2, y=3",
+      "explanation": "Letting x=8−2y, then 3(8−2y)−y=3 gives 24−7y=3, so y=3 and x=2.",
+      "difficulty": 3,
+      "tags": ["代入法", "式変形"]
+    },
+    {
+      "id": "renritsu-014",
+      "subunit": "Systems with Parentheses, Fractions, or Decimals",
+      "type": "choice",
+      "question": "Solve the system of equations 2(x+y)+x=7, 3x−y=1.",
+      "choices": ["x=1, y=2", "x=2, y=1", "x=1, y=-2", "x=-1, y=2"],
+      "answer": "x=1, y=2",
+      "explanation": "Expanding the parentheses gives 3x+2y=7. From its difference with 3x−y=1, 3y=6, so y=2 and x=1.",
+      "difficulty": 2,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "renritsu-015",
+      "subunit": "Systems with Parentheses, Fractions, or Decimals",
+      "type": "choice",
+      "question": "Solve the system of equations 0.2x+0.3y=1.3, x+y=5.",
+      "choices": ["x=2, y=3", "x=3, y=2", "x=2, y=-3", "x=4, y=1"],
+      "answer": "x=2, y=3",
+      "explanation": "Multiplying the top equation by 10 gives 2x+3y=13. Substituting x=5−y gives 10+y=13, so y=3 and x=2.",
+      "difficulty": 2,
+      "tags": ["小数"]
+    },
+    {
+      "id": "renritsu-016",
+      "subunit": "Systems with Parentheses, Fractions, or Decimals",
+      "type": "choice",
+      "question": "Solve the system of equations 0.3x−0.1y=0.7, x+y=1.",
+      "choices": ["x=2, y=-1", "x=-1, y=2", "x=2, y=1", "x=1, y=0"],
+      "answer": "x=2, y=-1",
+      "explanation": "Multiplying the top equation by 10 gives 3x−y=7. Adding x+y=1 gives 4x=8, so x=2 and y=−1.",
+      "difficulty": 2,
+      "tags": ["小数", "負の数"]
+    },
+    {
+      "id": "renritsu-017",
+      "subunit": "Systems with Parentheses, Fractions, or Decimals",
+      "type": "choice",
+      "question": "Solve the system of equations {{x}}/{{2}} + {{y}}/{{3}} = 4, x+y=9.",
+      "choices": ["x=6, y=3", "x=3, y=6", "x=6, y=-3", "x=5, y=4"],
+      "answer": "x=6, y=3",
+      "explanation": "Multiplying the top equation by 6 gives 3x+2y=24. Substituting x=9−y gives 27−y=24, so y=3 and x=6.",
+      "difficulty": 3,
+      "tags": ["分数"]
+    },
+    {
+      "id": "renritsu-018",
+      "subunit": "Systems with Parentheses, Fractions, or Decimals",
+      "type": "choice",
+      "question": "Solve the system of equations {{x}}/{{3}} − {{y}}/{{4}} = 1, x−y=1.",
+      "choices": ["x=9, y=8", "x=8, y=9", "x=9, y=-8", "x=3, y=2"],
+      "answer": "x=9, y=8",
+      "explanation": "Multiplying the top equation by 12 gives 4x−3y=12. Substituting x=y+1 gives 4y+4−3y=12, so y=8 and x=9.",
+      "difficulty": 3,
+      "tags": ["分数"]
+    },
+    {
+      "id": "renritsu-019",
+      "subunit": "The Form A=B=C",
+      "type": "choice",
+      "question": "Solve the system of equations x+y = 3x−y = 8.",
+      "choices": ["x=4, y=4", "x=4, y=-4", "x=2, y=6", "x=6, y=2"],
+      "answer": "x=4, y=4",
+      "explanation": "Split it into x+y=8 and 3x−y=8. Adding gives 4x=16, so x=4 and y=4.",
+      "difficulty": 2,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-020",
+      "subunit": "The Form A=B=C",
+      "type": "choice",
+      "question": "Solve the system of equations 2x+y = x+3y = 5.",
+      "choices": ["x=2, y=1", "x=1, y=2", "x=5, y=0", "x=2, y=-1"],
+      "answer": "x=2, y=1",
+      "explanation": "Split it into 2x+y=5 and x+3y=5. From their difference, x−2y=0, so x=2y; substituting gives y=1 and x=2.",
+      "difficulty": 2,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-021",
+      "subunit": "The Form A=B=C",
+      "type": "choice",
+      "question": "Solve the system of equations 2x−y = x+y = x−y+4.",
+      "choices": ["x=4, y=2", "x=2, y=4", "x=4, y=-2", "x=6, y=2"],
+      "answer": "x=4, y=2",
+      "explanation": "From 2x−y=x+y, x=2y. From x+y=x−y+4, 2y=4, so y=2 and x=4.",
+      "difficulty": 3,
+      "tags": ["A=B=C"]
+    },
+    {
+      "id": "renritsu-022",
+      "subunit": "Applications of Systems of Equations",
+      "type": "numeric",
+      "question": "You bought a total of 10 apples costing 120 yen each and oranges costing 80 yen each, and the total cost was 1080 yen. Find the number of apples bought.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Let the number of apples be x and the number of oranges be y. Then x+y=10 and 120x+80y=1080. Solving gives x=7 and y=3.",
+      "difficulty": 2,
+      "tags": ["利用", "個数と代金"]
+    },
+    {
+      "id": "renritsu-023",
+      "subunit": "Applications of Systems of Equations",
+      "type": "numeric",
+      "question": "With an admission fee of 500 yen per adult and 300 yen per child, a total of 8 people were admitted, and the total fee was 3000 yen. Find the number of adults.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "Let the number of adults be x and the number of children be y. Then x+y=8 and 500x+300y=3000. Solving gives x=3 and y=5.",
+      "difficulty": 2,
+      "tags": ["利用", "個数と代金"]
+    },
+    {
+      "id": "renritsu-024",
+      "subunit": "Applications of Systems of Equations",
+      "type": "numeric",
+      "question": "There is a two-digit integer. The sum of the tens digit and the ones digit is 12, and the number formed by swapping the tens and ones digits is 18 greater than the original number. Find the original integer.",
+      "choices": null,
+      "answer": "57",
+      "explanation": "Let the tens digit be x and the ones digit be y. Then x+y=12, and from 10y+x=(10x+y)+18 we get y−x=2. Solving gives x=5 and y=7, so 57.",
+      "difficulty": 3,
+      "tags": ["利用", "整数の位"]
+    },
+    {
+      "id": "renritsu-025",
+      "subunit": "Applications of Systems of Equations",
+      "type": "choice",
+      "question": "To travel the 20 km from point A to point B, you first walked at 4 km/h, then ran at 12 km/h partway through, taking 3 hours in total. Find the distance walked and the distance run.",
+      "choices": ["walked 8 km, ran 12 km", "walked 12 km, ran 8 km", "walked 6 km, ran 14 km", "walked 10 km, ran 10 km"],
+      "answer": "walked 8 km, ran 12 km",
+      "explanation": "Let the distance walked be x km and the distance run be y km. Then x+y=20 and {{x}}/{{4}}+{{y}}/{{12}}=3. Multiplying the latter by 12 gives 3x+y=36. From the difference, 2x=16, so x=8 and y=12.",
+      "difficulty": 3,
+      "tags": ["利用", "速さ"]
+    },
+    {
+      "id": "renritsu-026",
+      "subunit": "Applications of Systems of Equations",
+      "type": "numeric",
+      "question": "Last year, a certain middle school had 500 students in total, boys and girls combined. This year the number of boys increased by 5% and the number of girls decreased by 10%, so the total number of students was 5 fewer than last year. Find the number of boys last year.",
+      "choices": null,
+      "answer": "300",
+      "explanation": "Let last year's number of boys be x and number of girls be y. Then x+y=500 and 0.05x−0.10y=−5, that is, x−2y=−100. Solving gives x=300 and y=200.",
+      "difficulty": 3,
+      "tags": ["利用", "割合"]
+    }
+  ]
+}

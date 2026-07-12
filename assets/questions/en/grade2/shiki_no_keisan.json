@@ -1,0 +1,292 @@
+{
+  "unit": "Operations with Expressions",
+  "grade": 2,
+  "questions": [
+    {
+      "id": "shiki2-001",
+      "subunit": "Monomials, Polynomials, and Degree",
+      "type": "choice",
+      "question": "Which of the following is a monomial?",
+      "choices": ["-3ab", "x+2", "2x-y", "a²+1"],
+      "answer": "-3ab",
+      "explanation": "A monomial is an expression made up only of numbers and variables multiplied together. -3ab is a monomial. The others contain addition or subtraction, so they are polynomials.",
+      "difficulty": 1,
+      "tags": ["単項式"]
+    },
+    {
+      "id": "shiki2-002",
+      "subunit": "Monomials, Polynomials, and Degree",
+      "type": "choice",
+      "question": "Find the degree of the monomial -5x²y.",
+      "choices": ["3", "2", "5", "1"],
+      "answer": "3",
+      "explanation": "The degree is the number of variable factors multiplied together. x²y is x×x×y, which has 3 variable factors, so the degree is 3.",
+      "difficulty": 2,
+      "tags": ["次数"]
+    },
+    {
+      "id": "shiki2-003",
+      "subunit": "Monomials, Polynomials, and Degree",
+      "type": "choice",
+      "question": "What is the degree of the polynomial 2x²-3x+1?",
+      "choices": ["Degree 2", "Degree 1", "Degree 3", "Constant"],
+      "answer": "Degree 2",
+      "explanation": "The degree of a polynomial is the greatest degree among its terms. The term 2x² has degree 2, which is the greatest, so the polynomial has degree 2.",
+      "difficulty": 2,
+      "tags": ["次数", "多項式"]
+    },
+    {
+      "id": "shiki2-004",
+      "subunit": "Adding and Subtracting Polynomials",
+      "type": "choice",
+      "question": "Calculate (3x+2y)+(x-5y).",
+      "choices": ["4x-3y", "4x+3y", "2x-3y", "4x-7y"],
+      "answer": "4x-3y",
+      "explanation": "Combine like terms. 3x+x=4x and 2y-5y=-3y. So the answer is 4x-3y.",
+      "difficulty": 1,
+      "tags": ["加法", "同類項"]
+    },
+    {
+      "id": "shiki2-005",
+      "subunit": "Adding and Subtracting Polynomials",
+      "type": "choice",
+      "question": "Calculate (2a²-3a+1)+(a²+4a-6).",
+      "choices": ["3a²+a-5", "3a²-a-5", "3a²+a+5", "2a²+a-5"],
+      "answer": "3a²+a-5",
+      "explanation": "Combine like terms. 2a²+a²=3a², -3a+4a=a, and 1-6=-5. So the answer is 3a²+a-5.",
+      "difficulty": 2,
+      "tags": ["加法", "同類項"]
+    },
+    {
+      "id": "shiki2-006",
+      "subunit": "Adding and Subtracting Polynomials",
+      "type": "choice",
+      "question": "Calculate (5x-3y)-(2x-7y).",
+      "choices": ["3x+4y", "3x-4y", "7x+4y", "3x-10y"],
+      "answer": "3x+4y",
+      "explanation": "When you remove the parentheses, the signs change: 5x-3y-2x+7y=3x+4y.",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "shiki2-007",
+      "subunit": "Adding and Subtracting Polynomials",
+      "type": "choice",
+      "question": "Calculate (4a-2b)-(a+3b).",
+      "choices": ["3a-5b", "3a+b", "5a-5b", "3a+5b"],
+      "answer": "3a-5b",
+      "explanation": "Removing the parentheses gives 4a-2b-a-3b=3a-5b.",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "shiki2-008",
+      "subunit": "Multiplying and Dividing Polynomials by Numbers",
+      "type": "choice",
+      "question": "Calculate 3(2x-4y).",
+      "choices": ["6x-12y", "6x-4y", "5x-12y", "6x+12y"],
+      "answer": "6x-12y",
+      "explanation": "Use the distributive property to multiply each term by 3. 3×2x=6x and 3×(-4y)=-12y. So the answer is 6x-12y.",
+      "difficulty": 1,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "shiki2-009",
+      "subunit": "Multiplying and Dividing Polynomials by Numbers",
+      "type": "choice",
+      "question": "Calculate -2(3a-5b).",
+      "choices": ["-6a+10b", "-6a-10b", "-6a+5b", "6a+10b"],
+      "answer": "-6a+10b",
+      "explanation": "Multiply each term by -2. -2×3a=-6a and -2×(-5b)=10b. So the answer is -6a+10b.",
+      "difficulty": 2,
+      "tags": ["乗法", "分配法則"]
+    },
+    {
+      "id": "shiki2-010",
+      "subunit": "Multiplying and Dividing Polynomials by Numbers",
+      "type": "choice",
+      "question": "Calculate (8x-12y)÷4.",
+      "choices": ["2x-3y", "2x-12y", "2x-3", "4x-3y"],
+      "answer": "2x-3y",
+      "explanation": "Divide each term by 4. 8x÷4=2x and -12y÷4=-3y. So the answer is 2x-3y.",
+      "difficulty": 2,
+      "tags": ["除法"]
+    },
+    {
+      "id": "shiki2-011",
+      "subunit": "Multiplying and Dividing Polynomials by Numbers",
+      "type": "choice",
+      "question": "Calculate 2(3x-y)+3(x+2y).",
+      "choices": ["9x+4y", "9x-4y", "5x+4y", "9x+8y"],
+      "answer": "9x+4y",
+      "explanation": "Removing the parentheses gives 6x-2y+3x+6y. Combining like terms gives 9x+4y.",
+      "difficulty": 3,
+      "tags": ["分配法則", "同類項"]
+    },
+    {
+      "id": "shiki2-012",
+      "subunit": "Multiplying and Dividing Polynomials by Numbers",
+      "type": "choice",
+      "question": "Calculate 3(2a-b)-2(a-3b).",
+      "choices": ["4a+3b", "4a-3b", "4a+9b", "8a+3b"],
+      "answer": "4a+3b",
+      "explanation": "Removing the parentheses gives 6a-3b-2a+6b. Combining like terms gives 4a+3b.",
+      "difficulty": 3,
+      "tags": ["分配法則", "同類項"]
+    },
+    {
+      "id": "shiki2-013",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 3x × 4y.",
+      "choices": ["12xy", "7xy", "12x+y", "12xy²"],
+      "answer": "12xy",
+      "explanation": "Multiply the coefficients together and the variables together. 3×4=12 and x×y=xy. So the answer is 12xy.",
+      "difficulty": 1,
+      "tags": ["単項式の乗法"]
+    },
+    {
+      "id": "shiki2-014",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 2a × (-5a).",
+      "choices": ["-10a²", "-10a", "10a²", "-3a²"],
+      "answer": "-10a²",
+      "explanation": "2×(-5)=-10 and a×a=a². So the answer is -10a².",
+      "difficulty": 2,
+      "tags": ["単項式の乗法"]
+    },
+    {
+      "id": "shiki2-015",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate (-3x)².",
+      "choices": ["9x²", "-9x²", "6x²", "-6x²"],
+      "answer": "9x²",
+      "explanation": "(-3x)²=(-3x)×(-3x)=9x². A negative times a negative is positive.",
+      "difficulty": 2,
+      "tags": ["累乗"]
+    },
+    {
+      "id": "shiki2-016",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 2x × 3x².",
+      "choices": ["6x³", "6x²", "5x³", "6x"],
+      "answer": "6x³",
+      "explanation": "2×3=6 and x×x²=x³. So the answer is 6x³.",
+      "difficulty": 2,
+      "tags": ["単項式の乗法", "累乗"]
+    },
+    {
+      "id": "shiki2-017",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 12a² ÷ 3a.",
+      "choices": ["4a", "4a²", "4", "9a"],
+      "answer": "4a",
+      "explanation": "12a²÷3a=(12÷3)×(a²÷a)=4a.",
+      "difficulty": 2,
+      "tags": ["単項式の除法"]
+    },
+    {
+      "id": "shiki2-018",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 15x²y ÷ 5x.",
+      "choices": ["3xy", "3x", "3xy²", "10xy"],
+      "answer": "3xy",
+      "explanation": "15÷5=3, x²÷x=x, and y stays the same. So the answer is 3xy.",
+      "difficulty": 3,
+      "tags": ["単項式の除法"]
+    },
+    {
+      "id": "shiki2-019",
+      "subunit": "Multiplying and Dividing Monomials",
+      "type": "choice",
+      "question": "Calculate 6a²b ÷ 2a × 3b.",
+      "choices": ["9ab²", "9ab", "9a²b", "ab²"],
+      "answer": "9ab²",
+      "explanation": "Work from left to right. 6a²b÷2a=3ab, then 3ab×3b=9ab².",
+      "difficulty": 3,
+      "tags": ["乗除混合"]
+    },
+    {
+      "id": "shiki2-020",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "If x=3 and y=-2, find the value of 2x+3y.",
+      "choices": null,
+      "answer": "0",
+      "explanation": "2×3+3×(-2)=6-6=0.",
+      "difficulty": 1,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "shiki2-021",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "If a=-2, find the value of a²-3a.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "(-2)²-3×(-2)=4+6=10.",
+      "difficulty": 2,
+      "tags": ["式の値", "代入"]
+    },
+    {
+      "id": "shiki2-022",
+      "subunit": "Evaluating Expressions",
+      "type": "numeric",
+      "question": "If x=4, find the value of 3(2x-1)-2(x+3). It helps to simplify the expression first, then substitute.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "3(2x-1)-2(x+3)=6x-3-2x-6=4x-9. Substituting x=4 gives 4×4-9=7.",
+      "difficulty": 3,
+      "tags": ["式の値", "式を簡単にする"]
+    },
+    {
+      "id": "shiki2-023",
+      "subunit": "Explaining with Algebraic Expressions",
+      "type": "choice",
+      "question": "If three consecutive integers are written as n-1, n, n+1, which expression represents their sum?",
+      "choices": ["3n", "3n+1", "3n-1", "n³"],
+      "answer": "3n",
+      "explanation": "(n-1)+n+(n+1)=3n. This shows that the sum is a multiple of 3.",
+      "difficulty": 2,
+      "tags": ["文字式による説明"]
+    },
+    {
+      "id": "shiki2-024",
+      "subunit": "Explaining with Algebraic Expressions",
+      "type": "choice",
+      "question": "If m is an integer, which expression represents an even number?",
+      "choices": ["2m", "2m+1", "m+2", "m²"],
+      "answer": "2m",
+      "explanation": "An even number is a multiple of 2, so it can be written as 2×(an integer)=2m. 2m+1 represents an odd number.",
+      "difficulty": 2,
+      "tags": ["文字式による説明", "偶数奇数"]
+    },
+    {
+      "id": "shiki2-025",
+      "subunit": "Rearranging Equations",
+      "type": "choice",
+      "question": "Which equation shows L=2(a+b) solved for b?",
+      "choices": ["b={{L}}/{{2}}-a", "b=L-a", "b={{L}}/{{2}}+a", "b=2L-a"],
+      "answer": "b={{L}}/{{2}}-a",
+      "explanation": "Dividing both sides by 2 gives {{L}}/{{2}}=a+b. Moving a to the other side gives b={{L}}/{{2}}-a.",
+      "difficulty": 3,
+      "tags": ["等式の変形"]
+    },
+    {
+      "id": "shiki2-026",
+      "subunit": "Rearranging Equations",
+      "type": "choice",
+      "question": "Which equation shows 3x+2y=6 solved for y?",
+      "choices": ["y={{6-3x}}/{{2}}", "y=6-3x", "y={{6-3x}}/{{3}}", "y=3-3x"],
+      "answer": "y={{6-3x}}/{{2}}",
+      "explanation": "Moving 3x to the other side gives 2y=6-3x. Dividing both sides by 2 gives y={{6-3x}}/{{2}}.",
+      "difficulty": 3,
+      "tags": ["等式の変形"]
+    }
+  ]
+}

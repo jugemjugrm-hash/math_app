@@ -1,0 +1,292 @@
+{
+  "unit": "Plane Figures",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "heimen-001",
+      "subunit": "Lines and Angles (Naming Angles)",
+      "type": "choice",
+      "question": "What do you call the line that passes through two points A and B and extends endlessly from point A in the direction of point B?",
+      "choices": ["ray AB", "line AB", "segment AB", "arc AB"],
+      "answer": "ray AB",
+      "explanation": "A line that starts at one endpoint and extends endlessly in one direction is a ray. If it extends in both directions, it is a line; if it has two endpoints, it is a segment.",
+      "difficulty": 1,
+      "tags": ["直線と角", "用語"]
+    },
+    {
+      "id": "heimen-002",
+      "subunit": "Lines and Angles (Naming Angles)",
+      "type": "choice",
+      "question": "Which of the following correctly names the angle whose vertex is O and whose sides are OA and OB?",
+      "choices": ["∠AOB", "∠OAB", "∠BAO", "∠ABO"],
+      "answer": "∠AOB",
+      "explanation": "When naming an angle, the vertex letter goes in the middle. Since the vertex is O, the angle is ∠AOB (or ∠BOA).",
+      "difficulty": 1,
+      "tags": ["直線と角", "角の表し方"]
+    },
+    {
+      "id": "heimen-003",
+      "subunit": "Lines and Angles (Naming Angles)",
+      "type": "numeric",
+      "question": "Points A, O, and B lie on a straight line in that order, and ray OC is drawn from point O. If ∠AOC=110°, how many degrees is ∠BOC?",
+      "choices": null,
+      "answer": "70",
+      "explanation": "The angle along a straight line is 180°, so ∠BOC=180°−110°=70°.",
+      "difficulty": 1,
+      "tags": ["直線と角", "角度計算"]
+    },
+    {
+      "id": "heimen-004",
+      "subunit": "Lines and Angles (Naming Angles)",
+      "type": "numeric",
+      "question": "Rays OA, OB, and OC are drawn from point O, with OB inside ∠AOC. If ∠AOB=48° and ∠BOC=72°, how many degrees is ∠AOC?",
+      "choices": null,
+      "answer": "120",
+      "explanation": "Since OB is inside the angle, ∠AOC=∠AOB+∠BOC=48°+72°=120°.",
+      "difficulty": 2,
+      "tags": ["直線と角", "角度計算"]
+    },
+    {
+      "id": "heimen-005",
+      "subunit": "Lines and Angles (Naming Angles)",
+      "type": "numeric",
+      "question": "Ray OC is drawn inside ∠AOB=90° (a right angle), making ∠AOC=37°. How many degrees is ∠COB?",
+      "choices": null,
+      "answer": "53",
+      "explanation": "∠COB=∠AOB−∠AOC=90°−37°=53°.",
+      "difficulty": 2,
+      "tags": ["直線と角", "角度計算"]
+    },
+    {
+      "id": "heimen-006",
+      "subunit": "Perpendicular and Parallel Lines",
+      "type": "choice",
+      "question": "When two lines intersect to form a right angle, which word describes the relationship between the two lines?",
+      "choices": ["perpendicular", "parallel", "symmetric", "similar"],
+      "answer": "perpendicular",
+      "explanation": "Two lines that intersect at a right angle (90°) are perpendicular, written with the symbol ⊥.",
+      "difficulty": 1,
+      "tags": ["垂直と平行", "用語"]
+    },
+    {
+      "id": "heimen-007",
+      "subunit": "Perpendicular and Parallel Lines",
+      "type": "choice",
+      "question": "Two lines ℓ and m in the same plane never intersect, no matter how far they are extended. Which of the following expresses this relationship in symbols?",
+      "choices": ["ℓ∥m", "ℓ⊥m", "ℓ∠m", "ℓ△m"],
+      "answer": "ℓ∥m",
+      "explanation": "Two lines that never intersect are parallel, written with the symbol ∥. The symbol ⊥ means perpendicular.",
+      "difficulty": 1,
+      "tags": ["垂直と平行", "記号"]
+    },
+    {
+      "id": "heimen-008",
+      "subunit": "Perpendicular and Parallel Lines",
+      "type": "choice",
+      "question": "A perpendicular is drawn from point P to line ℓ, meeting it at point H. Which of the following correctly describes “the distance between point P and line ℓ”?",
+      "choices": ["the length of segment PH", "the length of line PH", "the length from point P to any point on line ℓ", "the line containing segment PH"],
+      "answer": "the length of segment PH",
+      "explanation": "The distance between a point and a line is the length of the perpendicular drawn from the point to the line, that is, the length of segment PH.",
+      "difficulty": 2,
+      "tags": ["垂直と平行", "距離"]
+    },
+    {
+      "id": "heimen-009",
+      "subunit": "Circles and Sectors",
+      "type": "choice",
+      "question": "What do you call a segment that passes through the center O of a circle and has both endpoints on the circle?",
+      "choices": ["diameter", "radius", "chord", "arc"],
+      "answer": "diameter",
+      "explanation": "A segment that passes through the center with both endpoints on the circle is a diameter. Its length is twice the radius.",
+      "difficulty": 1,
+      "tags": ["円", "用語"]
+    },
+    {
+      "id": "heimen-010",
+      "subunit": "Circles and Sectors",
+      "type": "choice",
+      "question": "What do you call a part of the circumference of a circle?",
+      "choices": ["arc", "chord", "radius", "diameter"],
+      "answer": "arc",
+      "explanation": "A part of the circumference is an arc. A segment connecting two points on a circle is called a chord.",
+      "difficulty": 1,
+      "tags": ["円", "用語"]
+    },
+    {
+      "id": "heimen-011",
+      "subunit": "Circles and Sectors",
+      "type": "choice",
+      "question": "In circle O, what do you call the figure enclosed by the two radii OA and OB and arc AB?",
+      "choices": ["sector", "chord", "semicircle", "central angle"],
+      "answer": "sector",
+      "explanation": "A figure enclosed by two radii and an arc is a sector. The angle formed by the two radii is called the central angle.",
+      "difficulty": 2,
+      "tags": ["おうぎ形", "用語"]
+    },
+    {
+      "id": "heimen-012",
+      "subunit": "Transformations (Translations, Rotations, Reflections, and Corresponding Points)",
+      "type": "choice",
+      "question": "What do you call the transformation that slides a figure a fixed distance in a fixed direction?",
+      "choices": ["translation", "rotation", "reflection", "point reflection"],
+      "answer": "translation",
+      "explanation": "A transformation that slides a figure a fixed distance in a fixed direction without turning it is a translation.",
+      "difficulty": 1,
+      "tags": ["図形の移動", "用語"]
+    },
+    {
+      "id": "heimen-013",
+      "subunit": "Transformations (Translations, Rotations, Reflections, and Corresponding Points)",
+      "type": "choice",
+      "question": "What do you call the transformation that turns a figure through a fixed angle about a single point?",
+      "choices": ["rotation", "translation", "reflection", "enlargement"],
+      "answer": "rotation",
+      "explanation": "A transformation that turns a figure through a fixed angle about one point (the center of rotation) is a rotation.",
+      "difficulty": 1,
+      "tags": ["図形の移動", "用語"]
+    },
+    {
+      "id": "heimen-014",
+      "subunit": "Transformations (Translations, Rotations, Reflections, and Corresponding Points)",
+      "type": "choice",
+      "question": "What do you call the transformation that flips a figure over a single line, as if folding along it?",
+      "choices": ["reflection", "translation", "rotation", "point reflection"],
+      "answer": "reflection",
+      "explanation": "A transformation that flips a figure over one line (the line of reflection) is a reflection.",
+      "difficulty": 2,
+      "tags": ["図形の移動", "用語"]
+    },
+    {
+      "id": "heimen-015",
+      "subunit": "Transformations (Translations, Rotations, Reflections, and Corresponding Points)",
+      "type": "choice",
+      "question": "In a translation, what can you say about the segments connecting corresponding points?",
+      "choices": ["They are all parallel and equal in length", "They are all perpendicular and equal in length", "They all intersect at one point", "They are equal in length but not parallel"],
+      "answer": "They are all parallel and equal in length",
+      "explanation": "In a translation, the segments connecting corresponding points are all parallel and equal in length.",
+      "difficulty": 2,
+      "tags": ["図形の移動", "性質"]
+    },
+    {
+      "id": "heimen-016",
+      "subunit": "Transformations (Translations, Rotations, Reflections, and Corresponding Points)",
+      "type": "choice",
+      "question": "In a reflection, what kind of line is the line of reflection with respect to the segment connecting two corresponding points?",
+      "choices": ["perpendicular bisector", "parallel line", "extension of the segment", "angle bisector"],
+      "answer": "perpendicular bisector",
+      "explanation": "In a reflection, the line of reflection is the perpendicular bisector of the segment connecting corresponding points.",
+      "difficulty": 3,
+      "tags": ["図形の移動", "性質"]
+    },
+    {
+      "id": "heimen-017",
+      "subunit": "Constructions (Perpendicular Bisectors, Angle Bisectors, and Perpendiculars: Properties and Steps)",
+      "type": "choice",
+      "question": "What property does every point on the perpendicular bisector of segment AB have with respect to points A and B?",
+      "choices": ["It is the same distance from points A and B", "It is closer to point A", "It is closer to point B", "The sum of its distances from the two points is constant"],
+      "answer": "It is the same distance from points A and B",
+      "explanation": "Every point on the perpendicular bisector is the same distance from the endpoints A and B. This property is used in constructions.",
+      "difficulty": 1,
+      "tags": ["作図", "性質"]
+    },
+    {
+      "id": "heimen-018",
+      "subunit": "Constructions (Perpendicular Bisectors, Angle Bisectors, and Perpendiculars: Properties and Steps)",
+      "type": "choice",
+      "question": "What property does every point on the bisector of an angle have with respect to the two sides that form the angle?",
+      "choices": ["It is the same distance from the two sides", "It is the same distance from the vertex", "It is closer to one of the sides", "The difference of its distances from the two sides is constant"],
+      "answer": "It is the same distance from the two sides",
+      "explanation": "Every point on an angle bisector is the same distance (measured along a perpendicular) from the two sides that form the angle.",
+      "difficulty": 2,
+      "tags": ["作図", "性質"]
+    },
+    {
+      "id": "heimen-019",
+      "subunit": "Constructions (Perpendicular Bisectors, Angle Bisectors, and Perpendiculars: Properties and Steps)",
+      "type": "choice",
+      "question": "When constructing the perpendicular bisector of segment AB, where do you place the compass point?",
+      "choices": ["On the two endpoints A and B of the segment", "Only on the midpoint of segment AB", "On one point not on segment AB", "Only on the intersection of segment AB and the axis"],
+      "answer": "On the two endpoints A and B of the segment",
+      "explanation": "With each endpoint A and B as a center, draw arcs of equal radius, find the two points where they intersect, and connect those points.",
+      "difficulty": 2,
+      "tags": ["作図", "手順"]
+    },
+    {
+      "id": "heimen-020",
+      "subunit": "Constructions (Perpendicular Bisectors, Angle Bisectors, and Perpendiculars: Properties and Steps)",
+      "type": "choice",
+      "question": "When constructing the perpendicular from a point P not on line ℓ to line ℓ, which property do you use directly?",
+      "choices": ["the property of perpendicular bisectors", "the property of angle bisectors", "the properties of parallel lines", "congruent triangles"],
+      "answer": "the property of perpendicular bisectors",
+      "explanation": "Draw an arc centered at P to mark two points on ℓ that are the same distance from P. Constructing the perpendicular bisector of the segment connecting those two points gives the line through P perpendicular to ℓ.",
+      "difficulty": 2,
+      "tags": ["作図", "垂線"]
+    },
+    {
+      "id": "heimen-021",
+      "subunit": "Constructions (Perpendicular Bisectors, Angle Bisectors, and Perpendiculars: Properties and Steps)",
+      "type": "choice",
+      "question": "To construct the center of the circle that passes through the three vertices of a triangle, which lines should you draw?",
+      "choices": ["the perpendicular bisector of each side", "the bisector of each angle", "the perpendicular from each vertex", "the median to each side"],
+      "answer": "the perpendicular bisector of each side",
+      "explanation": "The center is the point that is the same distance from all three vertices. Since every point on a perpendicular bisector is equidistant from the endpoints, the intersection of the perpendicular bisectors of two sides is the center.",
+      "difficulty": 3,
+      "tags": ["作図", "応用"]
+    },
+    {
+      "id": "heimen-022",
+      "subunit": "Arc Length, Area, and Central Angle of a Sector",
+      "type": "choice",
+      "question": "Find the arc length of a sector with radius 6 cm and central angle 60°.",
+      "choices": ["2π cm", "3π cm", "6π cm", "12π cm"],
+      "answer": "2π cm",
+      "explanation": "Arc length=2π×6×{{60}}/{{360}}=12π×{{1}}/{{6}}=2π cm.",
+      "difficulty": 2,
+      "tags": ["おうぎ形", "弧の長さ"]
+    },
+    {
+      "id": "heimen-023",
+      "subunit": "Arc Length, Area, and Central Angle of a Sector",
+      "type": "choice",
+      "question": "Find the area of a sector with radius 6 cm and central angle 60°.",
+      "choices": ["6π cm²", "12π cm²", "3π cm²", "36π cm²"],
+      "answer": "6π cm²",
+      "explanation": "Area=π×6²×{{60}}/{{360}}=36π×{{1}}/{{6}}=6π cm².",
+      "difficulty": 2,
+      "tags": ["おうぎ形", "面積"]
+    },
+    {
+      "id": "heimen-024",
+      "subunit": "Arc Length, Area, and Central Angle of a Sector",
+      "type": "choice",
+      "question": "Find the arc length of a sector with radius 9 cm and central angle 120°.",
+      "choices": ["6π cm", "3π cm", "9π cm", "12π cm"],
+      "answer": "6π cm",
+      "explanation": "Arc length=2π×9×{{120}}/{{360}}=18π×{{1}}/{{3}}=6π cm.",
+      "difficulty": 2,
+      "tags": ["おうぎ形", "弧の長さ"]
+    },
+    {
+      "id": "heimen-025",
+      "subunit": "Arc Length, Area, and Central Angle of a Sector",
+      "type": "numeric",
+      "question": "A sector has radius 5 cm and arc length 4π cm. How many degrees is its central angle?",
+      "choices": null,
+      "answer": "144",
+      "explanation": "The circumference is 2π×5=10π cm. Let the central angle be x°; then 4π=10π×{{x}}/{{360}}, so x=360×{{4}}/{{10}}=144°.",
+      "difficulty": 3,
+      "tags": ["おうぎ形", "中心角"]
+    },
+    {
+      "id": "heimen-026",
+      "subunit": "Arc Length, Area, and Central Angle of a Sector",
+      "type": "choice",
+      "question": "Find the area of a sector with radius 8 cm and central angle 135°.",
+      "choices": ["24π cm²", "12π cm²", "48π cm²", "6π cm²"],
+      "answer": "24π cm²",
+      "explanation": "Area=π×8²×{{135}}/{{360}}=64π×{{3}}/{{8}}=24π cm².",
+      "difficulty": 3,
+      "tags": ["おうぎ形", "面積"]
+    }
+  ]
+}

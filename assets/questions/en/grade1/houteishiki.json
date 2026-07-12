@@ -1,0 +1,319 @@
+{
+  "unit": "Equations",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "houteishiki-001",
+      "subunit": "Equations and Their Solutions",
+      "type": "choice",
+      "question": "Is x=2 a solution of the equation 3x-4=2?",
+      "choices": ["It is a solution", "It is not a solution"],
+      "answer": "It is a solution",
+      "explanation": "Substituting x=2 gives 3×2-4=2, so the left side equals the right side, which means it is a solution.",
+      "difficulty": 1,
+      "tags": ["解の判定"]
+    },
+    {
+      "id": "houteishiki-002",
+      "subunit": "Equations and Their Solutions",
+      "type": "choice",
+      "question": "Is x=3 a solution of the equation 2x+5=3x+4?",
+      "choices": ["It is a solution", "It is not a solution"],
+      "answer": "It is not a solution",
+      "explanation": "Substituting x=3 gives 2×3+5=11 on the left side and 3×3+4=13 on the right side. They are not equal, so it is not a solution.",
+      "difficulty": 2,
+      "tags": ["解の判定"]
+    },
+    {
+      "id": "houteishiki-003",
+      "subunit": "Equations and Their Solutions",
+      "type": "choice",
+      "question": "Which of the following is the solution of the equation 4x-3=9?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "3",
+      "explanation": "From 4x-3=9, we get 4x=12, so x=3. Substituting x=3 gives 4×3-3=9, which is true.",
+      "difficulty": 2,
+      "tags": ["解の判定"]
+    },
+    {
+      "id": "houteishiki-004",
+      "subunit": "Properties of Equality",
+      "type": "choice",
+      "question": "If you add 5 to both sides of the equation x-5=8, what do you get?",
+      "choices": ["x=13", "x=3", "x-10=13", "x=8"],
+      "answer": "x=13",
+      "explanation": "Adding the same number to both sides of an equation keeps the equality true. x-5+5=8+5, so x=13.",
+      "difficulty": 1,
+      "tags": ["等式の性質"]
+    },
+    {
+      "id": "houteishiki-005",
+      "subunit": "Properties of Equality",
+      "type": "choice",
+      "question": "If you divide both sides of the equation 3x=12 by 3, what do you get?",
+      "choices": ["x=4", "x=9", "x=36", "3x=4"],
+      "answer": "x=4",
+      "explanation": "Dividing both sides of an equation by the same number (other than 0) keeps the equality true. 3x÷3=12÷3, so x=4.",
+      "difficulty": 1,
+      "tags": ["等式の性質"]
+    },
+    {
+      "id": "houteishiki-006",
+      "subunit": "Properties of Equality",
+      "type": "choice",
+      "question": "Which of the following operations cannot be used when solving an equation?",
+      "choices": [
+        "Add the same number to both sides",
+        "Divide both sides by the same number (other than 0)",
+        "Multiply both sides by 0",
+        "Subtract the same number from both sides"
+      ],
+      "answer": "Multiply both sides by 0",
+      "explanation": "Multiplying both sides by 0 turns any equation into 0=0, so the information in the original equation is lost. That is why it cannot be used.",
+      "difficulty": 2,
+      "tags": ["等式の性質"]
+    },
+    {
+      "id": "houteishiki-007",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve x+7=12.",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Move the 7 to the right side, changing its sign. x=12-7=5.",
+      "difficulty": 1,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-008",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve x-6=-2.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "Move the -6 to the right side, changing its sign. x=-2+6=4.",
+      "difficulty": 1,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-009",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 3x=21.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Divide both sides by 3. x=21÷3=7.",
+      "difficulty": 1,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-010",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 2x+5=13.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "Move the 5 to get 2x=8. Divide both sides by 2 to get x=4.",
+      "difficulty": 2,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-011",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 5x-3=17.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "Move the -3 to get 5x=20. Divide both sides by 5 to get x=4.",
+      "difficulty": 2,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-012",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 4x+9=1.",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "Move the 9 to get 4x=-8. Divide both sides by 4 to get x=-2.",
+      "difficulty": 2,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-013",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve -2x=10.",
+      "choices": null,
+      "answer": "-5",
+      "explanation": "Divide both sides by -2. x=10÷(-2)=-5.",
+      "difficulty": 2,
+      "tags": ["移項"]
+    },
+    {
+      "id": "houteishiki-014",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 3x+4=x+10.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "Move the x terms to the left side and the constant terms to the right side. 3x-x=10-4, so 2x=6 and x=3.",
+      "difficulty": 2,
+      "tags": ["移項", "文字の移項"]
+    },
+    {
+      "id": "houteishiki-015",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 5x-2=2x+7.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "5x-2x=7+2, so 3x=9 and x=3.",
+      "difficulty": 2,
+      "tags": ["移項", "文字の移項"]
+    },
+    {
+      "id": "houteishiki-016",
+      "subunit": "Solving by Moving Terms",
+      "type": "numeric",
+      "question": "Solve 6x+1=3x-8.",
+      "choices": null,
+      "answer": "-3",
+      "explanation": "6x-3x=-8-1, so 3x=-9 and x=-3.",
+      "difficulty": 3,
+      "tags": ["移項", "文字の移項"]
+    },
+    {
+      "id": "houteishiki-017",
+      "subunit": "Equations with Parentheses",
+      "type": "numeric",
+      "question": "Solve 2(x+3)=10.",
+      "choices": null,
+      "answer": "2",
+      "explanation": "Removing the parentheses gives 2x+6=10. Move terms to get 2x=4, so x=2.",
+      "difficulty": 2,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "houteishiki-018",
+      "subunit": "Equations with Parentheses",
+      "type": "numeric",
+      "question": "Solve 3(x-2)=9.",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Removing the parentheses gives 3x-6=9. Move terms to get 3x=15, so x=5.",
+      "difficulty": 2,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "houteishiki-019",
+      "subunit": "Equations with Parentheses",
+      "type": "numeric",
+      "question": "Solve 4(x+1)=2x+10.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "Removing the parentheses gives 4x+4=2x+10. Move terms to get 2x=6, so x=3.",
+      "difficulty": 3,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "houteishiki-020",
+      "subunit": "Equations with Parentheses",
+      "type": "numeric",
+      "question": "Solve 2(2x-1)=3(x+1).",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Removing the parentheses gives 4x-2=3x+3. Move terms to get x=5.",
+      "difficulty": 3,
+      "tags": ["かっこ"]
+    },
+    {
+      "id": "houteishiki-021",
+      "subunit": "Equations with Decimals and Fractions",
+      "type": "numeric",
+      "question": "Solve 0.5x=6.",
+      "choices": null,
+      "answer": "12",
+      "explanation": "Multiply both sides by 2 to make the coefficient a whole number: x=12.",
+      "difficulty": 2,
+      "tags": ["小数"]
+    },
+    {
+      "id": "houteishiki-022",
+      "subunit": "Equations with Decimals and Fractions",
+      "type": "numeric",
+      "question": "Solve 0.2x+1=3.",
+      "choices": null,
+      "answer": "10",
+      "explanation": "Move the 1 to get 0.2x=2. Divide both sides by 0.2 to get x=10.",
+      "difficulty": 3,
+      "tags": ["小数"]
+    },
+    {
+      "id": "houteishiki-023",
+      "subunit": "Equations with Decimals and Fractions",
+      "type": "numeric",
+      "question": "Solve {{x}}/{{3}}=4.",
+      "choices": null,
+      "answer": "12",
+      "explanation": "Multiply both sides by 3 to get x=12.",
+      "difficulty": 2,
+      "tags": ["分数"]
+    },
+    {
+      "id": "houteishiki-024",
+      "subunit": "Equations with Decimals and Fractions",
+      "type": "numeric",
+      "question": "Solve {{x}}/{{2}}+3=7.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "Move the 3 to get {{x}}/{{2}}=4. Multiply both sides by 2 to get x=8.",
+      "difficulty": 3,
+      "tags": ["分数"]
+    },
+    {
+      "id": "houteishiki-025",
+      "subunit": "Proportions",
+      "type": "numeric",
+      "question": "Find the value of x that satisfies x:6=2:3.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "In a proportion, the product of the means equals the product of the extremes. 3x=6×2=12, so x=4.",
+      "difficulty": 2,
+      "tags": ["比例式"]
+    },
+    {
+      "id": "houteishiki-026",
+      "subunit": "Proportions",
+      "type": "numeric",
+      "question": "Find the value of x that satisfies 5:x=10:6.",
+      "choices": null,
+      "answer": "3",
+      "explanation": "The product of the means equals the product of the extremes. 10x=5×6=30, so x=3.",
+      "difficulty": 3,
+      "tags": ["比例式"]
+    },
+    {
+      "id": "houteishiki-027",
+      "subunit": "Applications of Equations",
+      "type": "numeric",
+      "question": "When 3 is added to a number x, the result is 10. Find x.",
+      "choices": null,
+      "answer": "7",
+      "explanation": "Written as an equation: x+3=10. Move the 3 to get x=7.",
+      "difficulty": 1,
+      "tags": ["文章題"]
+    },
+    {
+      "id": "houteishiki-028",
+      "subunit": "Applications of Equations",
+      "type": "numeric",
+      "question": "You buy x pencils that cost 120 yen each, and the total is 600 yen. Find x.",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Written as an equation: 120x=600. Divide both sides by 120 to get x=5.",
+      "difficulty": 2,
+      "tags": ["文章題"]
+    }
+  ]
+}

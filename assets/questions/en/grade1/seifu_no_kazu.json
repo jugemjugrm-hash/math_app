@@ -1,0 +1,341 @@
+{
+  "unit": "Positive and Negative Numbers",
+  "grade": 1,
+  "questions": [
+    {
+      "id": "seifu-001",
+      "subunit": "Signs, Absolute Value, and the Number Line",
+      "type": "choice",
+      "question": "What is the absolute value of -7?",
+      "choices": ["-7", "0", "7", "{{1}}/{{7}}"],
+      "answer": "7",
+      "explanation": "The absolute value of a number is its distance from 0 on the number line. -7 is 7 units from 0, so its absolute value is 7.",
+      "difficulty": 1,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-002",
+      "subunit": "Signs, Absolute Value, and the Number Line",
+      "type": "numeric",
+      "question": "Calculate |-12|.",
+      "choices": null,
+      "answer": "12",
+      "explanation": "The absolute value is the size of a number without its sign, so |-12| = 12.",
+      "difficulty": 1,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-003",
+      "subunit": "Signs, Absolute Value, and the Number Line",
+      "type": "choice",
+      "question": "If you list all the numbers whose absolute value is 5, which combination is correct?",
+      "choices": ["Only 5", "Only -5", "5 and -5", "No such number exists"],
+      "answer": "5 and -5",
+      "explanation": "There are two numbers that are 5 units from 0: 5 units in the positive direction (5) and 5 units in the negative direction (-5).",
+      "difficulty": 2,
+      "tags": ["絶対値"]
+    },
+    {
+      "id": "seifu-004",
+      "subunit": "Comparing Numbers",
+      "type": "choice",
+      "question": "Which of the following numbers is the smallest?",
+      "choices": ["-5", "-2", "0", "3"],
+      "answer": "-5",
+      "explanation": "For negative numbers, the greater the absolute value, the smaller the number. If you place -5, -2, 0, and 3 on a number line, -5 is farthest to the left (the smallest).",
+      "difficulty": 1,
+      "tags": ["大小比較"]
+    },
+    {
+      "id": "seifu-005",
+      "subunit": "Comparing Numbers",
+      "type": "choice",
+      "question": "Which is greater, -3 or -8?",
+      "choices": ["-3", "-8", "They are equal", "They cannot be compared"],
+      "answer": "-3",
+      "explanation": "For negative numbers, the smaller the absolute value, the greater the number. |-3|=3 and |-8|=8, and 3<8, so -3 is greater.",
+      "difficulty": 1,
+      "tags": ["大小比較"]
+    },
+    {
+      "id": "seifu-006",
+      "subunit": "Comparing Numbers",
+      "type": "numeric",
+      "question": "Find the number that is 2 greater than -4.",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "Adding 2 to -4 gives -4+2=-2.",
+      "difficulty": 2,
+      "tags": ["大小比較", "加法"]
+    },
+    {
+      "id": "seifu-007",
+      "subunit": "Addition",
+      "type": "numeric",
+      "question": "Calculate 3 + 5 as addition of signed numbers.",
+      "choices": null,
+      "answer": "8",
+      "explanation": "To add numbers with the same sign, add their absolute values and keep the common sign. 3+5=8, and the sign is +, so the answer is 8.",
+      "difficulty": 1,
+      "tags": ["加法", "同符号"]
+    },
+    {
+      "id": "seifu-008",
+      "subunit": "Addition",
+      "type": "numeric",
+      "question": "Calculate (-4) + (-6).",
+      "choices": null,
+      "answer": "-10",
+      "explanation": "To add numbers with the same sign, add their absolute values and keep the common sign. 4+6=10, and the sign is -, so the answer is -10.",
+      "difficulty": 1,
+      "tags": ["加法", "同符号"]
+    },
+    {
+      "id": "seifu-009",
+      "subunit": "Addition",
+      "type": "numeric",
+      "question": "Calculate (-3) + 5.",
+      "choices": null,
+      "answer": "2",
+      "explanation": "To add numbers with different signs, subtract the smaller absolute value from the larger, and use the sign of the number with the larger absolute value. 5-3=2, and 5 is larger with a + sign, so the answer is 2.",
+      "difficulty": 2,
+      "tags": ["加法", "異符号"]
+    },
+    {
+      "id": "seifu-010",
+      "subunit": "Addition",
+      "type": "numeric",
+      "question": "Calculate 4 + (-9).",
+      "choices": null,
+      "answer": "-5",
+      "explanation": "To add numbers with different signs, subtract the smaller absolute value from the larger, and use the sign of the number with the larger absolute value. 9-4=5, and 9 is larger with a - sign, so the answer is -5.",
+      "difficulty": 2,
+      "tags": ["加法", "異符号"]
+    },
+    {
+      "id": "seifu-011",
+      "subunit": "Subtraction",
+      "type": "numeric",
+      "question": "Calculate 8 - 3 by changing the sign of the number being subtracted and rewriting it as addition.",
+      "choices": null,
+      "answer": "5",
+      "explanation": "Change the sign of the number being subtracted and rewrite as addition. 8 - 3 = 8 + (-3) = 5.",
+      "difficulty": 1,
+      "tags": ["減法"]
+    },
+    {
+      "id": "seifu-012",
+      "subunit": "Subtraction",
+      "type": "numeric",
+      "question": "Calculate (-5) - 2.",
+      "choices": null,
+      "answer": "-7",
+      "explanation": "Change the sign of the number being subtracted and rewrite as addition. (-5) - 2 = (-5) + (-2) = -7.",
+      "difficulty": 2,
+      "tags": ["減法"]
+    },
+    {
+      "id": "seifu-013",
+      "subunit": "Subtraction",
+      "type": "numeric",
+      "question": "Calculate (-6) - (-9).",
+      "choices": null,
+      "answer": "3",
+      "explanation": "Change the sign of the number being subtracted and rewrite as addition. (-6) - (-9) = (-6) + 9 = 3.",
+      "difficulty": 2,
+      "tags": ["減法", "マイナスの引き算"]
+    },
+    {
+      "id": "seifu-014",
+      "subunit": "Mixed Addition and Subtraction",
+      "type": "numeric",
+      "question": "Calculate 3 - 8 + 5.",
+      "choices": null,
+      "answer": "0",
+      "explanation": "Work from left to right. 3-8=-5, then -5+5=0.",
+      "difficulty": 2,
+      "tags": ["加減混合"]
+    },
+    {
+      "id": "seifu-015",
+      "subunit": "Mixed Addition and Subtraction",
+      "type": "numeric",
+      "question": "Calculate -2 - 4 - (-7).",
+      "choices": null,
+      "answer": "1",
+      "explanation": "-(-7) can be rewritten as +7. -2-4+7 = -6+7 = 1.",
+      "difficulty": 3,
+      "tags": ["加減混合"]
+    },
+    {
+      "id": "seifu-016",
+      "subunit": "Multiplication",
+      "type": "numeric",
+      "question": "Calculate 4 × (-3).",
+      "choices": null,
+      "answer": "-12",
+      "explanation": "The product of numbers with different signs is negative. 4×3=12, so the answer is -12.",
+      "difficulty": 1,
+      "tags": ["乗法", "異符号"]
+    },
+    {
+      "id": "seifu-017",
+      "subunit": "Multiplication",
+      "type": "numeric",
+      "question": "Calculate (-5) × (-6).",
+      "choices": null,
+      "answer": "30",
+      "explanation": "The product of numbers with the same sign is positive. 5×6=30, so the answer is 30.",
+      "difficulty": 1,
+      "tags": ["乗法", "同符号"]
+    },
+    {
+      "id": "seifu-018",
+      "subunit": "Multiplication",
+      "type": "choice",
+      "question": "If you multiply 3 negative numbers together, what is the sign of the product?",
+      "choices": ["Always positive", "Always negative", "It becomes 0", "It depends on the numbers"],
+      "answer": "Always negative",
+      "explanation": "Multiplying an even number of negative numbers gives a positive product, and an odd number gives a negative product. Since 3 is odd, the product is always negative.",
+      "difficulty": 3,
+      "tags": ["乗法", "符号の規則"]
+    },
+    {
+      "id": "seifu-019",
+      "subunit": "Division",
+      "type": "numeric",
+      "question": "Calculate (-24) ÷ 6.",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "The quotient of numbers with different signs is negative. 24÷6=4, so the answer is -4.",
+      "difficulty": 1,
+      "tags": ["除法", "異符号"]
+    },
+    {
+      "id": "seifu-020",
+      "subunit": "Division",
+      "type": "numeric",
+      "question": "Calculate (-18) ÷ (-3).",
+      "choices": null,
+      "answer": "6",
+      "explanation": "The quotient of numbers with the same sign is positive. 18÷3=6, so the answer is 6.",
+      "difficulty": 1,
+      "tags": ["除法", "同符号"]
+    },
+    {
+      "id": "seifu-021",
+      "subunit": "Mixed Multiplication and Division",
+      "type": "numeric",
+      "question": "Calculate (-2) × (-3) × (-4).",
+      "choices": null,
+      "answer": "-24",
+      "explanation": "There are 3 negative numbers (an odd number), so the sign of the product is negative. 2×3×4=24, so the answer is -24.",
+      "difficulty": 2,
+      "tags": ["乗除混合"]
+    },
+    {
+      "id": "seifu-022",
+      "subunit": "Mixed Multiplication and Division",
+      "type": "numeric",
+      "question": "Calculate 12 ÷ (-4) × (-2).",
+      "choices": null,
+      "answer": "6",
+      "explanation": "Work from left to right. 12÷(-4)=-3, then -3×(-2)=6.",
+      "difficulty": 3,
+      "tags": ["乗除混合"]
+    },
+    {
+      "id": "seifu-023",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate (-3)².",
+      "choices": null,
+      "answer": "9",
+      "explanation": "(-3)² means (-3)×(-3). The product of numbers with the same sign is positive, and 3×3=9.",
+      "difficulty": 2,
+      "tags": ["累乗"]
+    },
+    {
+      "id": "seifu-024",
+      "subunit": "Order of Operations",
+      "type": "choice",
+      "question": "What is the value of -3²?",
+      "choices": ["9", "-9", "6", "-6"],
+      "answer": "-9",
+      "explanation": "-3² means -(3²), which is different from (-3)². 3²=9, so the answer is -9. Pay attention to whether there are parentheses.",
+      "difficulty": 3,
+      "tags": ["累乗", "ひっかけ"]
+    },
+    {
+      "id": "seifu-025",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate 2 + 3 × (-4).",
+      "choices": null,
+      "answer": "-10",
+      "explanation": "Do the multiplication first. 3×(-4)=-12, then 2+(-12)=-10.",
+      "difficulty": 2,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-026",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate (-6 + 2) × (-3).",
+      "choices": null,
+      "answer": "12",
+      "explanation": "Do the calculation inside the parentheses first. -6+2=-4, then (-4)×(-3)=12.",
+      "difficulty": 2,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-027",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate 18 ÷ (-3) - (-2) × 5.",
+      "choices": null,
+      "answer": "4",
+      "explanation": "Do the multiplication and division first. 18÷(-3)=-6 and (-2)×5=-10. Then -6-(-10) = -6+10 = 4.",
+      "difficulty": 3,
+      "tags": ["四則混合", "計算順序"]
+    },
+    {
+      "id": "seifu-028",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate (-2)³ + 4.",
+      "choices": null,
+      "answer": "-4",
+      "explanation": "(-2)³ = (-2)×(-2)×(-2) = -8. Then -8+4=-4.",
+      "difficulty": 3,
+      "tags": ["累乗", "四則混合"]
+    },
+    {
+      "id": "seifu-029",
+      "subunit": "Order of Operations",
+      "type": "choice",
+      "question": "Which of the following gives the correct order of operations?",
+      "choices": [
+        "Calculate everything from left to right",
+        "Parentheses, then exponents, then multiplication and division, then addition and subtraction",
+        "Addition and subtraction, then multiplication and division, then exponents, then parentheses",
+        "Always start with addition"
+      ],
+      "answer": "Parentheses, then exponents, then multiplication and division, then addition and subtraction",
+      "explanation": "In a mixed calculation, do what is inside parentheses first, then exponents, then multiplication and division, and finally addition and subtraction.",
+      "difficulty": 2,
+      "tags": ["計算順序", "ルール確認"]
+    },
+    {
+      "id": "seifu-030",
+      "subunit": "Order of Operations",
+      "type": "numeric",
+      "question": "Calculate -5 + (-3)² ÷ 3.",
+      "choices": null,
+      "answer": "-2",
+      "explanation": "Do the exponent first: (-3)²=9. Next, division: 9÷3=3. Finally, addition: -5+3=-2.",
+      "difficulty": 3,
+      "tags": ["累乗", "計算順序"]
+    }
+  ]
+}

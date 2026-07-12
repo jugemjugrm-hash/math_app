@@ -1,4 +1,4 @@
-package com.example.math_app
+package com.jugemjugrm.mathdrill
 
 import io.flutter.embedding.android.FlutterActivity
 

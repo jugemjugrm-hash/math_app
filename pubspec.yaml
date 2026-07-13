@@ -38,10 +38,10 @@ dependencies:
   # Persists quiz progress and the wrong-answer review list to local storage.
   shared_preferences: ^2.3.0
 
-  # AdMob banner ads (bottom anchored banner). Android only; guarded off on
-  # web/tests via AdService. Uses the 9.x line to match the current Flutter /
-  # Gradle 9 / AGP 9 toolchain (older 5.x used a build script removed in Gradle 9).
-  google_mobile_ads: ^9.0.0
+  # NOTE: Banner ads (google_mobile_ads) are intentionally NOT shipped in the
+  # first release so v1.0.0 stays a clean "no ads / collects no data" app. The
+  # ad integration is preserved on the `ads-integration` branch and will be
+  # brought back with real AdMob IDs in a later update.
 
 dev_dependencies:
   flutter_test:

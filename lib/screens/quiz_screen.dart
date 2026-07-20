@@ -191,6 +191,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Widget _buildChoices() {
     return Column(
+      // Choice buttons span the full width; the left-aligned label below
+      // depends on it.
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: (_shuffledChoices ?? const []).map((choice) {
         final isSelected = _selectedChoice == choice;
         Color? color;

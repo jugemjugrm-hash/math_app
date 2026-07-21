@@ -66,7 +66,7 @@ class _UnitListScreenState extends State<UnitListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('放課後の中学数学'),
+        title: const Text('中学数学 ドリル'),
         actions: [
           IconButton(
             icon: const Icon(Icons.insights),

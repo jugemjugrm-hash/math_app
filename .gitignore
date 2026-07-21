@@ -43,10 +43,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-/android/build/
-
-# Throwaway frames the screenshot tour writes while it verifies focus order.
-store/screenshots/_probe/
 
 # Claude Code local dev server config
 .claude/

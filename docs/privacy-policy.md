@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**アプリ名 / App:** 中学数学ドリル (Math Drill)
+**アプリ名 / App:** 放課後の中学数学 (After-School Math)
 **最終更新日 / Last updated:** 2026-07-12
 
 ---

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="中学数学ドリル"
+        android:label="放課後の中学数学"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
